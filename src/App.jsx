@@ -30,14 +30,12 @@ function App() {
     <div className="min-h-screen bg-slate-900 text-slate-100 font-sans p-6 md:p-12">
       <div className="max-w-5xl mx-auto">
         
-        {/* HEADER */}
         <header className="flex flex-col md:flex-row md:items-center md:justify-between pb-8 border-b border-slate-800 mb-8 gap-4">
           <div>
             <h1 className="text-3xl font-black text-amber-400 tracking-tight">MONO ANALYTICS</h1>
             <p className="text-slate-400 text-sm mt-1">Мультивалютний фінансовий дашборд</p>
           </div>
 
-          {/* ПУЛЬТ КЕРУВАННЯ ВАЛЮТОЮ */}
           <div className="flex bg-slate-800 p-1 rounded-xl border border-slate-700 self-start md:self-auto">
             {['UAH', 'USD', 'EUR'].map((curr) => (
               <button
@@ -55,18 +53,15 @@ function App() {
           </div>
         </header>
 
-        {/* LOADING STATE */}
         {loading && (
           <div className="text-center py-20 text-amber-400 font-bold animate-pulse">
             Завантаження аналітики з n8n...
           </div>
         )}
 
-        {/* MAIN DASHBOARD CONTENT */}
         {!loading && analytics && (
           <div className="space-y-8">
             
-            {/* GLOBAL STATS CARDS */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-slate-800 p-6 rounded-2xl border border-slate-750 shadow-lg">
                 <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Загальні витрати</p>
@@ -91,10 +86,8 @@ function App() {
               </div>
             </div>
 
-            {/* BREAKDOWN & ACCOUNTS LIST */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               
-              {/* СПИСОК КАТЕГОРІЙ */}
               <div className="bg-slate-800/60 p-6 rounded-2xl border border-slate-800">
                 <h3 className="text-lg font-bold mb-4 text-white">Витрати за категоріями</h3>
                 <div className="space-y-4">
@@ -104,7 +97,6 @@ function App() {
                         <span className="capitalize text-slate-300">{item.category}</span>
                         <span className="text-white">{item.amount_converted} {analytics.report_base_currency} ({item.percent}%)</span>
                       </div>
-                      {/* Кастомний прогрес-бар на Tailwind */}
                       <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden">
                         <div 
                           className="bg-amber-400 h-full rounded-full transition-all duration-500" 
@@ -116,7 +108,6 @@ function App() {
                 </div>
               </div>
 
-              {/* СПИСОК КАРТОК (BY ACCOUNT) */}
               <div className="bg-slate-800/60 p-6 rounded-2xl border border-slate-800">
                 <h3 className="text-lg font-bold mb-4 text-white">Аналітика по рахунках</h3>
                 <div className="space-y-3">
