@@ -14,9 +14,29 @@ import {
   createScopedAnalytics,
 } from "./utils/analyticsScope";
 
+const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+function getAppPath() {
+  const pathname = window.location.pathname;
+  const withoutBase =
+    basePath && pathname.startsWith(basePath)
+      ? pathname.slice(basePath.length)
+      : pathname;
+
+  return withoutBase || "/";
+}
+
+function getBrowserPath(appPath) {
+  if (!basePath) {
+    return appPath;
+  }
+
+  return appPath === "/" ? `${basePath}/` : `${basePath}${appPath}`;
+}
+
 export default function App() {
   const { data, error, loading } = useAnalytics();
-  const [path, setPath] = useState(() => window.location.pathname);
+  const [path, setPath] = useState(getAppPath);
   const [selectedAccountId, setSelectedAccountId] = useState(ALL_ACCOUNTS_ID);
   const activeData = useMemo(
     () => createScopedAnalytics(data, selectedAccountId),
@@ -27,12 +47,12 @@ export default function App() {
 
   const navigate = (nextPath) => {
     if (nextPath === path) return;
-    window.history.pushState({}, "", nextPath);
+    window.history.pushState({}, "", getBrowserPath(nextPath));
     setPath(nextPath);
   };
 
   useEffect(() => {
-    const handlePopState = () => setPath(window.location.pathname);
+    const handlePopState = () => setPath(getAppPath());
     window.addEventListener("popstate", handlePopState);
     return () => window.removeEventListener("popstate", handlePopState);
   }, []);
