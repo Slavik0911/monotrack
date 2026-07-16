@@ -1,0 +1,287 @@
+{
+  "salary": {
+    "label_uk": "Доходи",
+    "label_en": "Salary",
+    "group": "income"
+  },
+  "transfer": {
+    "label_uk": "Перекази",
+    "label_en": "Transfers",
+    "group": "transfer"
+  },
+  "cash": {
+    "label_uk": "Готівка",
+    "label_en": "Cash",
+    "group": "finance"
+  },
+  "investment": {
+    "label_uk": "Інвестиції",
+    "label_en": "Investments",
+    "group": "finance"
+  },
+  "crypto": {
+    "label_uk": "Криптовалюта",
+    "label_en": "Crypto",
+    "group": "finance"
+  },
+  "finance": {
+    "label_uk": "Фінанси",
+    "label_en": "Finance",
+    "group": "finance"
+  },
+  "bank_fee": {
+    "label_uk": "Комісії банку",
+    "label_en": "Bank fees",
+    "group": "finance"
+  },
+  "insurance": {
+    "label_uk": "Страхування",
+    "label_en": "Insurance",
+    "group": "finance"
+  },
+  "taxes": {
+    "label_uk": "Податки",
+    "label_en": "Taxes",
+    "group": "government"
+  },
+  "government": {
+    "label_uk": "Держпослуги",
+    "label_en": "Government",
+    "group": "government"
+  },
+  "charity": {
+    "label_uk": "Благодійність",
+    "label_en": "Charity",
+    "group": "lifestyle"
+  },
+  "supermarket": {
+    "label_uk": "Продукти",
+    "label_en": "Supermarket",
+    "group": "food"
+  },
+  "groceries": {
+    "label_uk": "Бакалія",
+    "label_en": "Groceries",
+    "group": "food"
+  },
+  "food": {
+    "label_uk": "Їжа",
+    "label_en": "Food",
+    "group": "food"
+  },
+  "restaurant": {
+    "label_uk": "Ресторани",
+    "label_en": "Restaurants",
+    "group": "food"
+  },
+  "fast_food": {
+    "label_uk": "Фастфуд",
+    "label_en": "Fast food",
+    "group": "food"
+  },
+  "coffee": {
+    "label_uk": "Кава",
+    "label_en": "Coffee",
+    "group": "food"
+  },
+  "bar": {
+    "label_uk": "Бари",
+    "label_en": "Bars",
+    "group": "food"
+  },
+  "delivery": {
+    "label_uk": "Доставка",
+    "label_en": "Delivery",
+    "group": "services"
+  },
+  "transport": {
+    "label_uk": "Транспорт",
+    "label_en": "Transport",
+    "group": "mobility"
+  },
+  "taxi": {
+    "label_uk": "Таксі",
+    "label_en": "Taxi",
+    "group": "mobility"
+  },
+  "fuel": {
+    "label_uk": "Пальне",
+    "label_en": "Fuel",
+    "group": "mobility"
+  },
+  "parking": {
+    "label_uk": "Паркування",
+    "label_en": "Parking",
+    "group": "mobility"
+  },
+  "auto": {
+    "label_uk": "Авто",
+    "label_en": "Auto",
+    "group": "mobility"
+  },
+  "repair": {
+    "label_uk": "Ремонт",
+    "label_en": "Repair",
+    "group": "services"
+  },
+  "clothing": {
+    "label_uk": "Одяг",
+    "label_en": "Clothing",
+    "group": "shopping"
+  },
+  "shoes": {
+    "label_uk": "Взуття",
+    "label_en": "Shoes",
+    "group": "shopping"
+  },
+  "jewelry": {
+    "label_uk": "Прикраси",
+    "label_en": "Jewelry",
+    "group": "shopping"
+  },
+  "shopping": {
+    "label_uk": "Покупки",
+    "label_en": "Shopping",
+    "group": "shopping"
+  },
+  "retail": {
+    "label_uk": "Товари",
+    "label_en": "Retail",
+    "group": "shopping"
+  },
+  "electronics": {
+    "label_uk": "Електроніка",
+    "label_en": "Electronics",
+    "group": "shopping"
+  },
+  "marketplaces": {
+    "label_uk": "Маркетплейси",
+    "label_en": "Marketplaces",
+    "group": "shopping"
+  },
+  "home": {
+    "label_uk": "Дім",
+    "label_en": "Home",
+    "group": "home"
+  },
+  "housing": {
+    "label_uk": "Житло",
+    "label_en": "Housing",
+    "group": "home"
+  },
+  "utilities": {
+    "label_uk": "Комунальні",
+    "label_en": "Utilities",
+    "group": "home"
+  },
+  "utility": {
+    "label_uk": "Комунальні",
+    "label_en": "Utilities",
+    "group": "home"
+  },
+  "telecom": {
+    "label_uk": "Зв'язок",
+    "label_en": "Telecom",
+    "group": "home"
+  },
+  "beauty": {
+    "label_uk": "Краса",
+    "label_en": "Beauty",
+    "group": "health"
+  },
+  "health": {
+    "label_uk": "Здоров'я",
+    "label_en": "Health",
+    "group": "health"
+  },
+  "pharmacy": {
+    "label_uk": "Аптека",
+    "label_en": "Pharmacy",
+    "group": "health"
+  },
+  "pets": {
+    "label_uk": "Тварини",
+    "label_en": "Pets",
+    "group": "lifestyle"
+  },
+  "kids": {
+    "label_uk": "Діти",
+    "label_en": "Kids",
+    "group": "family"
+  },
+  "education": {
+    "label_uk": "Освіта",
+    "label_en": "Education",
+    "group": "learning"
+  },
+  "books": {
+    "label_uk": "Книги",
+    "label_en": "Books",
+    "group": "learning"
+  },
+  "music": {
+    "label_uk": "Музика",
+    "label_en": "Music",
+    "group": "entertainment"
+  },
+  "gaming": {
+    "label_uk": "Ігри",
+    "label_en": "Gaming",
+    "group": "entertainment"
+  },
+  "streaming": {
+    "label_uk": "Стримінг",
+    "label_en": "Streaming",
+    "group": "entertainment"
+  },
+  "subscription": {
+    "label_uk": "Підписки",
+    "label_en": "Subscriptions",
+    "group": "entertainment"
+  },
+  "digital": {
+    "label_uk": "Цифрові сервіси",
+    "label_en": "Digital services",
+    "group": "digital"
+  },
+  "cloud": {
+    "label_uk": "Хмарні сервіси",
+    "label_en": "Cloud",
+    "group": "digital"
+  },
+  "entertainment": {
+    "label_uk": "Розваги",
+    "label_en": "Entertainment",
+    "group": "entertainment"
+  },
+  "sport": {
+    "label_uk": "Спорт",
+    "label_en": "Sport",
+    "group": "lifestyle"
+  },
+  "travel": {
+    "label_uk": "Подорожі",
+    "label_en": "Travel",
+    "group": "travel"
+  },
+  "hotel": {
+    "label_uk": "Готелі",
+    "label_en": "Hotels",
+    "group": "travel"
+  },
+  "flight": {
+    "label_uk": "Авіаквитки",
+    "label_en": "Flights",
+    "group": "travel"
+  },
+  "other": {
+    "label_uk": "Інше",
+    "label_en": "Other",
+    "group": "unknown"
+  },
+  "unknown": {
+    "label_uk": "Невідомо",
+    "label_en": "Unknown",
+    "group": "unknown"
+  }
+}

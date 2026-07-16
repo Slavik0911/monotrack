@@ -1,0 +1,7867 @@
+{
+  "version": 1,
+  "locale": "ua",
+  "generated_from": "Curated real-world merchant list with generated spelling aliases.",
+  "merchants": [
+    {
+      "name": "ATB",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "ATB",
+        "atb",
+        "atb online",
+        "atb store",
+        "atb shop",
+        "atb app",
+        "www atb",
+        "www.atb",
+        "atb.com",
+        "atb.ua"
+      ]
+    },
+    {
+      "name": "АТБ",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "АТБ",
+        "атб",
+        "атб online",
+        "атб store",
+        "атб shop",
+        "атб app",
+        "www атб",
+        "www.атб",
+        "атб.com",
+        "атб.ua"
+      ]
+    },
+    {
+      "name": "Silpo",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Silpo",
+        "silpo",
+        "silpo online",
+        "silpo store",
+        "silpo shop",
+        "silpo app",
+        "www silpo",
+        "www.silpo",
+        "silpo.com",
+        "silpo.ua"
+      ]
+    },
+    {
+      "name": "Сільпо",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Сільпо",
+        "сільпо",
+        "сільпо online",
+        "сільпо store",
+        "сільпо shop",
+        "сільпо app",
+        "www сільпо",
+        "www.сільпо",
+        "сільпо.com",
+        "сільпо.ua"
+      ]
+    },
+    {
+      "name": "Fora",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Fora",
+        "fora",
+        "fora online",
+        "fora store",
+        "fora shop",
+        "fora app",
+        "www fora",
+        "www.fora",
+        "fora.com",
+        "fora.ua"
+      ]
+    },
+    {
+      "name": "Фора",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Фора",
+        "фора",
+        "фора online",
+        "фора store",
+        "фора shop",
+        "фора app",
+        "www фора",
+        "www.фора",
+        "фора.com",
+        "фора.ua"
+      ]
+    },
+    {
+      "name": "NOVUS",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "NOVUS",
+        "novus",
+        "novus online",
+        "novus store",
+        "novus shop",
+        "novus app",
+        "www novus",
+        "www.novus",
+        "novus.com",
+        "novus.ua"
+      ]
+    },
+    {
+      "name": "VARUS",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "VARUS",
+        "varus",
+        "varus online",
+        "varus store",
+        "varus shop",
+        "varus app",
+        "www varus",
+        "www.varus",
+        "varus.com",
+        "varus.ua"
+      ]
+    },
+    {
+      "name": "Metro Cash & Carry",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Metro Cash & Carry",
+        "metro cash and carry",
+        "metrocashandcarry",
+        "metro cash & carry",
+        "metro-cash-and-carry",
+        "metro.cash.and.carry",
+        "metro cash and carry online",
+        "metro cash and carry store",
+        "metro cash and carry shop",
+        "metro cash and carry app",
+        "www metro cash and carry",
+        "www.metrocashandcarry",
+        "metrocashandcarry.com",
+        "metrocashandcarry.ua"
+      ]
+    },
+    {
+      "name": "Auchan",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Auchan",
+        "auchan",
+        "auchan online",
+        "auchan store",
+        "auchan shop",
+        "auchan app",
+        "www auchan",
+        "www.auchan",
+        "auchan.com",
+        "auchan.ua"
+      ]
+    },
+    {
+      "name": "Ашан",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Ашан",
+        "ашан",
+        "ашан online",
+        "ашан store",
+        "ашан shop",
+        "ашан app",
+        "www ашан",
+        "www.ашан",
+        "ашан.com",
+        "ашан.ua"
+      ]
+    },
+    {
+      "name": "Eco Market",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Eco Market",
+        "eco market",
+        "ecomarket",
+        "eco-market",
+        "eco.market",
+        "eco market online",
+        "eco market store",
+        "eco market shop",
+        "eco market app",
+        "www eco market",
+        "www.ecomarket",
+        "ecomarket.com",
+        "ecomarket.ua"
+      ]
+    },
+    {
+      "name": "Еко Маркет",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Еко Маркет",
+        "еко маркет",
+        "екомаркет",
+        "еко-маркет",
+        "еко.маркет",
+        "еко маркет online",
+        "еко маркет store",
+        "еко маркет shop",
+        "еко маркет app",
+        "www еко маркет",
+        "www.екомаркет",
+        "екомаркет.com",
+        "екомаркет.ua"
+      ]
+    },
+    {
+      "name": "Velmart",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Velmart",
+        "velmart",
+        "velmart online",
+        "velmart store",
+        "velmart shop",
+        "velmart app",
+        "www velmart",
+        "www.velmart",
+        "velmart.com",
+        "velmart.ua"
+      ]
+    },
+    {
+      "name": "Велмарт",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Велмарт",
+        "велмарт",
+        "велмарт online",
+        "велмарт store",
+        "велмарт shop",
+        "велмарт app",
+        "www велмарт",
+        "www.велмарт",
+        "велмарт.com",
+        "велмарт.ua"
+      ]
+    },
+    {
+      "name": "Tavria V",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Tavria V",
+        "tavria v",
+        "tavriav",
+        "tavria-v",
+        "tavria.v",
+        "tavria v online",
+        "tavria v store",
+        "tavria v shop",
+        "tavria v app",
+        "www tavria v",
+        "www.tavriav",
+        "tavriav.com",
+        "tavriav.ua"
+      ]
+    },
+    {
+      "name": "Таврія В",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Таврія В",
+        "таврія в",
+        "тавріяв",
+        "таврія-в",
+        "таврія.в",
+        "таврія в online",
+        "таврія в store",
+        "таврія в shop",
+        "таврія в app",
+        "www таврія в",
+        "www.тавріяв",
+        "тавріяв.com",
+        "тавріяв.ua"
+      ]
+    },
+    {
+      "name": "Thrash",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Thrash",
+        "thrash",
+        "thrash online",
+        "thrash store",
+        "thrash shop",
+        "thrash app",
+        "www thrash",
+        "www.thrash",
+        "thrash.com",
+        "thrash.ua"
+      ]
+    },
+    {
+      "name": "Trash!",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Trash!",
+        "trash",
+        "trash online",
+        "trash store",
+        "trash shop",
+        "trash app",
+        "www trash",
+        "www.trash",
+        "trash.com",
+        "trash.ua"
+      ]
+    },
+    {
+      "name": "МегаМаркет",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "МегаМаркет",
+        "мегамаркет",
+        "мегамаркет online",
+        "мегамаркет store",
+        "мегамаркет shop",
+        "мегамаркет app",
+        "www мегамаркет",
+        "www.мегамаркет",
+        "мегамаркет.com",
+        "мегамаркет.ua"
+      ]
+    },
+    {
+      "name": "Велика Кишеня",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Велика Кишеня",
+        "велика кишеня",
+        "великакишеня",
+        "велика-кишеня",
+        "велика.кишеня",
+        "велика кишеня online",
+        "велика кишеня store",
+        "велика кишеня shop",
+        "велика кишеня app",
+        "www велика кишеня",
+        "www.великакишеня",
+        "великакишеня.com",
+        "великакишеня.ua"
+      ]
+    },
+    {
+      "name": "Близенько",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Близенько",
+        "близенько",
+        "близенько online",
+        "близенько store",
+        "близенько shop",
+        "близенько app",
+        "www близенько",
+        "www.близенько",
+        "близенько.com",
+        "близенько.ua"
+      ]
+    },
+    {
+      "name": "Рукавичка",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Рукавичка",
+        "рукавичка",
+        "рукавичка online",
+        "рукавичка store",
+        "рукавичка shop",
+        "рукавичка app",
+        "www рукавичка",
+        "www.рукавичка",
+        "рукавичка.com",
+        "рукавичка.ua"
+      ]
+    },
+    {
+      "name": "Наш Край",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Наш Край",
+        "наш краи",
+        "нашкраи",
+        "наш-краи",
+        "наш.краи",
+        "наш краи online",
+        "наш краи store",
+        "наш краи shop",
+        "наш краи app",
+        "www наш краи",
+        "www.нашкраи",
+        "нашкраи.com",
+        "нашкраи.ua"
+      ]
+    },
+    {
+      "name": "Коло",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Коло",
+        "коло",
+        "коло online",
+        "коло store",
+        "коло shop",
+        "коло app",
+        "www коло",
+        "www.коло",
+        "коло.com",
+        "коло.ua"
+      ]
+    },
+    {
+      "name": "SPAR Ukraine",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "SPAR Ukraine",
+        "spar ukraine",
+        "sparukraine",
+        "spar-ukraine",
+        "spar.ukraine",
+        "spar ukraine online",
+        "spar ukraine store",
+        "spar ukraine shop",
+        "spar ukraine app",
+        "www spar ukraine",
+        "www.sparukraine",
+        "sparukraine.com",
+        "sparukraine.ua"
+      ]
+    },
+    {
+      "name": "Фуршет",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Фуршет",
+        "фуршет",
+        "фуршет online",
+        "фуршет store",
+        "фуршет shop",
+        "фуршет app",
+        "www фуршет",
+        "www.фуршет",
+        "фуршет.com",
+        "фуршет.ua"
+      ]
+    },
+    {
+      "name": "Winetime",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Winetime",
+        "winetime",
+        "winetime online",
+        "winetime store",
+        "winetime shop",
+        "winetime app",
+        "www winetime",
+        "www.winetime",
+        "winetime.com",
+        "winetime.ua"
+      ]
+    },
+    {
+      "name": "GoodWine",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "GoodWine",
+        "goodwine",
+        "goodwine online",
+        "goodwine store",
+        "goodwine shop",
+        "goodwine app",
+        "www goodwine",
+        "www.goodwine",
+        "goodwine.com",
+        "goodwine.ua"
+      ]
+    },
+    {
+      "name": "М'ясомаркет",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "М'ясомаркет",
+        "мясомаркет",
+        "мясомаркет online",
+        "мясомаркет store",
+        "мясомаркет shop",
+        "мясомаркет app",
+        "www мясомаркет",
+        "www.мясомаркет",
+        "мясомаркет.com",
+        "мясомаркет.ua"
+      ]
+    },
+    {
+      "name": "Молоко від фермера",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Молоко від фермера",
+        "молоко від фермера",
+        "молоковідфермера",
+        "молоко-від-фермера",
+        "молоко.від.фермера",
+        "молоко від фермера online",
+        "молоко від фермера store",
+        "молоко від фермера shop",
+        "молоко від фермера app",
+        "www молоко від фермера",
+        "www.молоковідфермера",
+        "молоковідфермера.com",
+        "молоковідфермера.ua"
+      ]
+    },
+    {
+      "name": "Делікатес маркет",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Делікатес маркет",
+        "делікатес маркет",
+        "делікатесмаркет",
+        "делікатес-маркет",
+        "делікатес.маркет",
+        "делікатес маркет online",
+        "делікатес маркет store",
+        "делікатес маркет shop",
+        "делікатес маркет app",
+        "www делікатес маркет",
+        "www.делікатесмаркет",
+        "делікатесмаркет.com",
+        "делікатесмаркет.ua"
+      ]
+    },
+    {
+      "name": "Le Silpo",
+      "category": "supermarket",
+      "subcategory": "groceries",
+      "country": "UA",
+      "aliases": [
+        "Le Silpo",
+        "le silpo",
+        "lesilpo",
+        "le-silpo",
+        "le.silpo",
+        "le silpo online",
+        "le silpo store",
+        "le silpo shop",
+        "le silpo app",
+        "www le silpo",
+        "www.lesilpo",
+        "lesilpo.com",
+        "lesilpo.ua"
+      ]
+    },
+    {
+      "name": "Rozetka",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Rozetka",
+        "rozetka",
+        "rozetka online",
+        "rozetka store",
+        "rozetka shop",
+        "rozetka app",
+        "www rozetka",
+        "www.rozetka",
+        "rozetka.com",
+        "rozetka.ua"
+      ]
+    },
+    {
+      "name": "Розетка",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Розетка",
+        "розетка",
+        "розетка online",
+        "розетка store",
+        "розетка shop",
+        "розетка app",
+        "www розетка",
+        "www.розетка",
+        "розетка.com",
+        "розетка.ua"
+      ]
+    },
+    {
+      "name": "Comfy",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Comfy",
+        "comfy",
+        "comfy online",
+        "comfy store",
+        "comfy shop",
+        "comfy app",
+        "www comfy",
+        "www.comfy",
+        "comfy.com",
+        "comfy.ua"
+      ]
+    },
+    {
+      "name": "Foxtrot",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Foxtrot",
+        "foxtrot",
+        "foxtrot online",
+        "foxtrot store",
+        "foxtrot shop",
+        "foxtrot app",
+        "www foxtrot",
+        "www.foxtrot",
+        "foxtrot.com",
+        "foxtrot.ua"
+      ]
+    },
+    {
+      "name": "Фокстрот",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Фокстрот",
+        "фокстрот",
+        "фокстрот online",
+        "фокстрот store",
+        "фокстрот shop",
+        "фокстрот app",
+        "www фокстрот",
+        "www.фокстрот",
+        "фокстрот.com",
+        "фокстрот.ua"
+      ]
+    },
+    {
+      "name": "Allo",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Allo",
+        "allo",
+        "allo online",
+        "allo store",
+        "allo shop",
+        "allo app",
+        "www allo",
+        "www.allo",
+        "allo.com",
+        "allo.ua"
+      ]
+    },
+    {
+      "name": "Алло",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Алло",
+        "алло",
+        "алло online",
+        "алло store",
+        "алло shop",
+        "алло app",
+        "www алло",
+        "www.алло",
+        "алло.com",
+        "алло.ua"
+      ]
+    },
+    {
+      "name": "MOYO",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "MOYO",
+        "moyo",
+        "moyo online",
+        "moyo store",
+        "moyo shop",
+        "moyo app",
+        "www moyo",
+        "www.moyo",
+        "moyo.com",
+        "moyo.ua"
+      ]
+    },
+    {
+      "name": "Citrus",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Citrus",
+        "citrus",
+        "citrus online",
+        "citrus store",
+        "citrus shop",
+        "citrus app",
+        "www citrus",
+        "www.citrus",
+        "citrus.com",
+        "citrus.ua"
+      ]
+    },
+    {
+      "name": "Цитрус",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Цитрус",
+        "цитрус",
+        "цитрус online",
+        "цитрус store",
+        "цитрус shop",
+        "цитрус app",
+        "www цитрус",
+        "www.цитрус",
+        "цитрус.com",
+        "цитрус.ua"
+      ]
+    },
+    {
+      "name": "Brain",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Brain",
+        "brain",
+        "brain online",
+        "brain store",
+        "brain shop",
+        "brain app",
+        "www brain",
+        "www.brain",
+        "brain.com",
+        "brain.ua"
+      ]
+    },
+    {
+      "name": "Eldorado",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Eldorado",
+        "eldorado",
+        "eldorado online",
+        "eldorado store",
+        "eldorado shop",
+        "eldorado app",
+        "www eldorado",
+        "www.eldorado",
+        "eldorado.com",
+        "eldorado.ua"
+      ]
+    },
+    {
+      "name": "Ельдорадо",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Ельдорадо",
+        "ельдорадо",
+        "ельдорадо online",
+        "ельдорадо store",
+        "ельдорадо shop",
+        "ельдорадо app",
+        "www ельдорадо",
+        "www.ельдорадо",
+        "ельдорадо.com",
+        "ельдорадо.ua"
+      ]
+    },
+    {
+      "name": "iStore",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "iStore",
+        "istore",
+        "istore online",
+        "istore store",
+        "istore shop",
+        "istore app",
+        "www istore",
+        "www.istore",
+        "istore.com",
+        "istore.ua"
+      ]
+    },
+    {
+      "name": "Ябко",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Ябко",
+        "ябко",
+        "ябко online",
+        "ябко store",
+        "ябко shop",
+        "ябко app",
+        "www ябко",
+        "www.ябко",
+        "ябко.com",
+        "ябко.ua"
+      ]
+    },
+    {
+      "name": "Stylus",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Stylus",
+        "stylus",
+        "stylus online",
+        "stylus store",
+        "stylus shop",
+        "stylus app",
+        "www stylus",
+        "www.stylus",
+        "stylus.com",
+        "stylus.ua"
+      ]
+    },
+    {
+      "name": "Telemart",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Telemart",
+        "telemart",
+        "telemart online",
+        "telemart store",
+        "telemart shop",
+        "telemart app",
+        "www telemart",
+        "www.telemart",
+        "telemart.com",
+        "telemart.ua"
+      ]
+    },
+    {
+      "name": "Touch",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Touch",
+        "touch",
+        "touch online",
+        "touch store",
+        "touch shop",
+        "touch app",
+        "www touch",
+        "www.touch",
+        "touch.com",
+        "touch.ua"
+      ]
+    },
+    {
+      "name": "KTC",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "KTC",
+        "ktc",
+        "ktc online",
+        "ktc store",
+        "ktc shop",
+        "ktc app",
+        "www ktc",
+        "www.ktc",
+        "ktc.com",
+        "ktc.ua"
+      ]
+    },
+    {
+      "name": "Ringoo",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Ringoo",
+        "ringoo",
+        "ringoo online",
+        "ringoo store",
+        "ringoo shop",
+        "ringoo app",
+        "www ringoo",
+        "www.ringoo",
+        "ringoo.com",
+        "ringoo.ua"
+      ]
+    },
+    {
+      "name": "Vodafone Store",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Vodafone Store",
+        "vodafone store",
+        "vodafonestore",
+        "vodafone-store",
+        "vodafone.store",
+        "vodafone store online",
+        "vodafone store store",
+        "vodafone store shop",
+        "vodafone store app",
+        "www vodafone store",
+        "www.vodafonestore",
+        "vodafonestore.com",
+        "vodafonestore.ua"
+      ]
+    },
+    {
+      "name": "Kyivstar Store",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Kyivstar Store",
+        "kyivstar store",
+        "kyivstarstore",
+        "kyivstar-store",
+        "kyivstar.store",
+        "kyivstar store online",
+        "kyivstar store store",
+        "kyivstar store shop",
+        "kyivstar store app",
+        "www kyivstar store",
+        "www.kyivstarstore",
+        "kyivstarstore.com",
+        "kyivstarstore.ua"
+      ]
+    },
+    {
+      "name": "Lifecell Store",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Lifecell Store",
+        "lifecell store",
+        "lifecellstore",
+        "lifecell-store",
+        "lifecell.store",
+        "lifecell store online",
+        "lifecell store store",
+        "lifecell store shop",
+        "lifecell store app",
+        "www lifecell store",
+        "www.lifecellstore",
+        "lifecellstore.com",
+        "lifecellstore.ua"
+      ]
+    },
+    {
+      "name": "Portativ",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Portativ",
+        "portativ",
+        "portativ online",
+        "portativ store",
+        "portativ shop",
+        "portativ app",
+        "www portativ",
+        "www.portativ",
+        "portativ.com",
+        "portativ.ua"
+      ]
+    },
+    {
+      "name": "MTA",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "MTA",
+        "mta",
+        "mta online",
+        "mta store",
+        "mta shop",
+        "mta app",
+        "www mta",
+        "www.mta",
+        "mta.com",
+        "mta.ua"
+      ]
+    },
+    {
+      "name": "EStore",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "EStore",
+        "estore",
+        "estore online",
+        "estore store",
+        "estore shop",
+        "estore app",
+        "www estore",
+        "www.estore",
+        "estore.com",
+        "estore.ua"
+      ]
+    },
+    {
+      "name": "ЖЖУК",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "ЖЖУК",
+        "жжук",
+        "жжук online",
+        "жжук store",
+        "жжук shop",
+        "жжук app",
+        "www жжук",
+        "www.жжук",
+        "жжук.com",
+        "жжук.ua"
+      ]
+    },
+    {
+      "name": "Tехно Їжак",
+      "category": "electronics",
+      "subcategory": "electronics",
+      "country": "UA",
+      "aliases": [
+        "Tехно Їжак",
+        "tехно іжак",
+        "tехноіжак",
+        "tехно-іжак",
+        "tехно.іжак",
+        "tехно іжак online",
+        "tехно іжак store",
+        "tехно іжак shop",
+        "tехно іжак app",
+        "www tехно іжак",
+        "www.tехноіжак",
+        "tехноіжак.com",
+        "tехноіжак.ua"
+      ]
+    },
+    {
+      "name": "OKKO",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "OKKO",
+        "okko",
+        "okko online",
+        "okko store",
+        "okko shop",
+        "okko app",
+        "www okko",
+        "www.okko",
+        "okko.com",
+        "okko.ua"
+      ]
+    },
+    {
+      "name": "WOG",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "WOG",
+        "wog",
+        "wog online",
+        "wog store",
+        "wog shop",
+        "wog app",
+        "www wog",
+        "www.wog",
+        "wog.com",
+        "wog.ua"
+      ]
+    },
+    {
+      "name": "SOCAR",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "SOCAR",
+        "socar",
+        "socar online",
+        "socar store",
+        "socar shop",
+        "socar app",
+        "www socar",
+        "www.socar",
+        "socar.com",
+        "socar.ua"
+      ]
+    },
+    {
+      "name": "Shell",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Shell",
+        "shell",
+        "shell online",
+        "shell store",
+        "shell shop",
+        "shell app",
+        "www shell",
+        "www.shell",
+        "shell.com",
+        "shell.ua"
+      ]
+    },
+    {
+      "name": "KLO",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "KLO",
+        "klo",
+        "klo online",
+        "klo store",
+        "klo shop",
+        "klo app",
+        "www klo",
+        "www.klo",
+        "klo.com",
+        "klo.ua"
+      ]
+    },
+    {
+      "name": "Ukrnafta",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Ukrnafta",
+        "ukrnafta",
+        "ukrnafta online",
+        "ukrnafta store",
+        "ukrnafta shop",
+        "ukrnafta app",
+        "www ukrnafta",
+        "www.ukrnafta",
+        "ukrnafta.com",
+        "ukrnafta.ua"
+      ]
+    },
+    {
+      "name": "Укрнафта",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Укрнафта",
+        "укрнафта",
+        "укрнафта online",
+        "укрнафта store",
+        "укрнафта shop",
+        "укрнафта app",
+        "www укрнафта",
+        "www.укрнафта",
+        "укрнафта.com",
+        "укрнафта.ua"
+      ]
+    },
+    {
+      "name": "BRSM",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "BRSM",
+        "brsm",
+        "brsm online",
+        "brsm store",
+        "brsm shop",
+        "brsm app",
+        "www brsm",
+        "www.brsm",
+        "brsm.com",
+        "brsm.ua"
+      ]
+    },
+    {
+      "name": "БРСМ",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "БРСМ",
+        "брсм",
+        "брсм online",
+        "брсм store",
+        "брсм shop",
+        "брсм app",
+        "www брсм",
+        "www.брсм",
+        "брсм.com",
+        "брсм.ua"
+      ]
+    },
+    {
+      "name": "Motto",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Motto",
+        "motto",
+        "motto online",
+        "motto store",
+        "motto shop",
+        "motto app",
+        "www motto",
+        "www.motto",
+        "motto.com",
+        "motto.ua"
+      ]
+    },
+    {
+      "name": "UPG",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "UPG",
+        "upg",
+        "upg online",
+        "upg store",
+        "upg shop",
+        "upg app",
+        "www upg",
+        "www.upg",
+        "upg.com",
+        "upg.ua"
+      ]
+    },
+    {
+      "name": "AMIC",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "AMIC",
+        "amic",
+        "amic online",
+        "amic store",
+        "amic shop",
+        "amic app",
+        "www amic",
+        "www.amic",
+        "amic.com",
+        "amic.ua"
+      ]
+    },
+    {
+      "name": "Avantage 7",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Avantage 7",
+        "avantage 7",
+        "avantage7",
+        "avantage-7",
+        "avantage.7",
+        "avantage 7 online",
+        "avantage 7 store",
+        "avantage 7 shop",
+        "avantage 7 app",
+        "www avantage 7",
+        "www.avantage7",
+        "avantage7.com",
+        "avantage7.ua"
+      ]
+    },
+    {
+      "name": "Glusco",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Glusco",
+        "glusco",
+        "glusco online",
+        "glusco store",
+        "glusco shop",
+        "glusco app",
+        "www glusco",
+        "www.glusco",
+        "glusco.com",
+        "glusco.ua"
+      ]
+    },
+    {
+      "name": "BVS",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "BVS",
+        "bvs",
+        "bvs online",
+        "bvs store",
+        "bvs shop",
+        "bvs app",
+        "www bvs",
+        "www.bvs",
+        "bvs.com",
+        "bvs.ua"
+      ]
+    },
+    {
+      "name": "Marshal",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Marshal",
+        "marshal",
+        "marshal online",
+        "marshal store",
+        "marshal shop",
+        "marshal app",
+        "www marshal",
+        "www.marshal",
+        "marshal.com",
+        "marshal.ua"
+      ]
+    },
+    {
+      "name": "ANP",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "ANP",
+        "anp",
+        "anp online",
+        "anp store",
+        "anp shop",
+        "anp app",
+        "www anp",
+        "www.anp",
+        "anp.com",
+        "anp.ua"
+      ]
+    },
+    {
+      "name": "Авіас",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Авіас",
+        "авіас",
+        "авіас online",
+        "авіас store",
+        "авіас shop",
+        "авіас app",
+        "www авіас",
+        "www.авіас",
+        "авіас.com",
+        "авіас.ua"
+      ]
+    },
+    {
+      "name": "Олас",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Олас",
+        "олас",
+        "олас online",
+        "олас store",
+        "олас shop",
+        "олас app",
+        "www олас",
+        "www.олас",
+        "олас.com",
+        "олас.ua"
+      ]
+    },
+    {
+      "name": "Chipo",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Chipo",
+        "chipo",
+        "chipo online",
+        "chipo store",
+        "chipo shop",
+        "chipo app",
+        "www chipo",
+        "www.chipo",
+        "chipo.com",
+        "chipo.ua"
+      ]
+    },
+    {
+      "name": "Luxwen",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Luxwen",
+        "luxwen",
+        "luxwen online",
+        "luxwen store",
+        "luxwen shop",
+        "luxwen app",
+        "www luxwen",
+        "www.luxwen",
+        "luxwen.com",
+        "luxwen.ua"
+      ]
+    },
+    {
+      "name": "Parallel",
+      "category": "fuel",
+      "subcategory": "fuel",
+      "country": "UA",
+      "aliases": [
+        "Parallel",
+        "parallel",
+        "parallel online",
+        "parallel store",
+        "parallel shop",
+        "parallel app",
+        "www parallel",
+        "www.parallel",
+        "parallel.com",
+        "parallel.ua"
+      ]
+    },
+    {
+      "name": "Puzata Hata",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Puzata Hata",
+        "puzata hata",
+        "puzatahata",
+        "puzata-hata",
+        "puzata.hata",
+        "puzata hata online",
+        "puzata hata store",
+        "puzata hata shop",
+        "puzata hata app",
+        "www puzata hata",
+        "www.puzatahata",
+        "puzatahata.com",
+        "puzatahata.ua"
+      ]
+    },
+    {
+      "name": "Пузата Хата",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Пузата Хата",
+        "пузата хата",
+        "пузатахата",
+        "пузата-хата",
+        "пузата.хата",
+        "пузата хата online",
+        "пузата хата store",
+        "пузата хата shop",
+        "пузата хата app",
+        "www пузата хата",
+        "www.пузатахата",
+        "пузатахата.com",
+        "пузатахата.ua"
+      ]
+    },
+    {
+      "name": "Mafia",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Mafia",
+        "mafia",
+        "mafia online",
+        "mafia store",
+        "mafia shop",
+        "mafia app",
+        "www mafia",
+        "www.mafia",
+        "mafia.com",
+        "mafia.ua"
+      ]
+    },
+    {
+      "name": "Celentano",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Celentano",
+        "celentano",
+        "celentano online",
+        "celentano store",
+        "celentano shop",
+        "celentano app",
+        "www celentano",
+        "www.celentano",
+        "celentano.com",
+        "celentano.ua"
+      ]
+    },
+    {
+      "name": "Salateira",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Salateira",
+        "salateira",
+        "salateira online",
+        "salateira store",
+        "salateira shop",
+        "salateira app",
+        "www salateira",
+        "www.salateira",
+        "salateira.com",
+        "salateira.ua"
+      ]
+    },
+    {
+      "name": "Casta",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Casta",
+        "casta",
+        "casta online",
+        "casta store",
+        "casta shop",
+        "casta app",
+        "www casta",
+        "www.casta",
+        "casta.com",
+        "casta.ua"
+      ]
+    },
+    {
+      "name": "Eurasia",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Eurasia",
+        "eurasia",
+        "eurasia online",
+        "eurasia store",
+        "eurasia shop",
+        "eurasia app",
+        "www eurasia",
+        "www.eurasia",
+        "eurasia.com",
+        "eurasia.ua"
+      ]
+    },
+    {
+      "name": "This is Pivbar",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "This is Pivbar",
+        "this is pivbar",
+        "thisispivbar",
+        "this-is-pivbar",
+        "this.is.pivbar",
+        "this is pivbar online",
+        "this is pivbar store",
+        "this is pivbar shop",
+        "this is pivbar app",
+        "www this is pivbar",
+        "www.thisispivbar",
+        "thisispivbar.com",
+        "thisispivbar.ua"
+      ]
+    },
+    {
+      "name": "Чорноморка",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Чорноморка",
+        "чорноморка",
+        "чорноморка online",
+        "чорноморка store",
+        "чорноморка shop",
+        "чорноморка app",
+        "www чорноморка",
+        "www.чорноморка",
+        "чорноморка.com",
+        "чорноморка.ua"
+      ]
+    },
+    {
+      "name": "Mister Cat",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Mister Cat",
+        "mister cat",
+        "mistercat",
+        "mister-cat",
+        "mister.cat",
+        "mister cat online",
+        "mister cat store",
+        "mister cat shop",
+        "mister cat app",
+        "www mister cat",
+        "www.mistercat",
+        "mistercat.com",
+        "mistercat.ua"
+      ]
+    },
+    {
+      "name": "Sushi Master",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Sushi Master",
+        "sushi master",
+        "sushimaster",
+        "sushi-master",
+        "sushi.master",
+        "sushi master online",
+        "sushi master store",
+        "sushi master shop",
+        "sushi master app",
+        "www sushi master",
+        "www.sushimaster",
+        "sushimaster.com",
+        "sushimaster.ua"
+      ]
+    },
+    {
+      "name": "Sushi Icons",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Sushi Icons",
+        "sushi icons",
+        "sushiicons",
+        "sushi-icons",
+        "sushi.icons",
+        "sushi icons online",
+        "sushi icons store",
+        "sushi icons shop",
+        "sushi icons app",
+        "www sushi icons",
+        "www.sushiicons",
+        "sushiicons.com",
+        "sushiicons.ua"
+      ]
+    },
+    {
+      "name": "ЯпонаХата",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "ЯпонаХата",
+        "японахата",
+        "японахата online",
+        "японахата store",
+        "японахата shop",
+        "японахата app",
+        "www японахата",
+        "www.японахата",
+        "японахата.com",
+        "японахата.ua"
+      ]
+    },
+    {
+      "name": "Євразія",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Євразія",
+        "євразія",
+        "євразія online",
+        "євразія store",
+        "євразія shop",
+        "євразія app",
+        "www євразія",
+        "www.євразія",
+        "євразія.com",
+        "євразія.ua"
+      ]
+    },
+    {
+      "name": "il Molino",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "il Molino",
+        "il molino",
+        "ilmolino",
+        "il-molino",
+        "il.molino",
+        "il molino online",
+        "il molino store",
+        "il molino shop",
+        "il molino app",
+        "www il molino",
+        "www.ilmolino",
+        "ilmolino.com",
+        "ilmolino.ua"
+      ]
+    },
+    {
+      "name": "Milk Bar",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Milk Bar",
+        "milk bar",
+        "milkbar",
+        "milk-bar",
+        "milk.bar",
+        "milk bar online",
+        "milk bar store",
+        "milk bar shop",
+        "milk bar app",
+        "www milk bar",
+        "www.milkbar",
+        "milkbar.com",
+        "milkbar.ua"
+      ]
+    },
+    {
+      "name": "BAO",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "BAO",
+        "bao",
+        "bao online",
+        "bao store",
+        "bao shop",
+        "bao app",
+        "www bao",
+        "www.bao",
+        "bao.com",
+        "bao.ua"
+      ]
+    },
+    {
+      "name": "Good Girl",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Good Girl",
+        "good girl",
+        "goodgirl",
+        "good-girl",
+        "good.girl",
+        "good girl online",
+        "good girl store",
+        "good girl shop",
+        "good girl app",
+        "www good girl",
+        "www.goodgirl",
+        "goodgirl.com",
+        "goodgirl.ua"
+      ]
+    },
+    {
+      "name": "Honey",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Honey",
+        "honey",
+        "honey online",
+        "honey store",
+        "honey shop",
+        "honey app",
+        "www honey",
+        "www.honey",
+        "honey.com",
+        "honey.ua"
+      ]
+    },
+    {
+      "name": "Nam",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Nam",
+        "nam",
+        "nam online",
+        "nam store",
+        "nam shop",
+        "nam app",
+        "www nam",
+        "www.nam",
+        "nam.com",
+        "nam.ua"
+      ]
+    },
+    {
+      "name": "Musafir",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Musafir",
+        "musafir",
+        "musafir online",
+        "musafir store",
+        "musafir shop",
+        "musafir app",
+        "www musafir",
+        "www.musafir",
+        "musafir.com",
+        "musafir.ua"
+      ]
+    },
+    {
+      "name": "Ramen vs Marketing",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Ramen vs Marketing",
+        "ramen vs marketing",
+        "ramenvsmarketing",
+        "ramen-vs-marketing",
+        "ramen.vs.marketing",
+        "ramen vs marketing online",
+        "ramen vs marketing store",
+        "ramen vs marketing shop",
+        "ramen vs marketing app",
+        "www ramen vs marketing",
+        "www.ramenvsmarketing",
+        "ramenvsmarketing.com",
+        "ramenvsmarketing.ua"
+      ]
+    },
+    {
+      "name": "Veterano Pizza",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Veterano Pizza",
+        "veterano pizza",
+        "veteranopizza",
+        "veterano-pizza",
+        "veterano.pizza",
+        "veterano pizza online",
+        "veterano pizza store",
+        "veterano pizza shop",
+        "veterano pizza app",
+        "www veterano pizza",
+        "www.veteranopizza",
+        "veteranopizza.com",
+        "veteranopizza.ua"
+      ]
+    },
+    {
+      "name": "Tarantino Family",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "Tarantino Family",
+        "tarantino family",
+        "tarantinofamily",
+        "tarantino-family",
+        "tarantino.family",
+        "tarantino family online",
+        "tarantino family store",
+        "tarantino family shop",
+        "tarantino family app",
+        "www tarantino family",
+        "www.tarantinofamily",
+        "tarantinofamily.com",
+        "tarantinofamily.ua"
+      ]
+    },
+    {
+      "name": "First Line Group",
+      "category": "restaurant",
+      "subcategory": "restaurant",
+      "country": "UA",
+      "aliases": [
+        "First Line Group",
+        "first line group",
+        "firstlinegroup",
+        "first-line-group",
+        "first.line.group",
+        "first line group online",
+        "first line group store",
+        "first line group shop",
+        "first line group app",
+        "www first line group",
+        "www.firstlinegroup",
+        "firstlinegroup.com",
+        "firstlinegroup.ua"
+      ]
+    },
+    {
+      "name": "McDonald's",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "McDonald's",
+        "mcdonalds",
+        "mcdonalds online",
+        "mcdonalds store",
+        "mcdonalds shop",
+        "mcdonalds app",
+        "www mcdonalds",
+        "www.mcdonalds",
+        "mcdonalds.com",
+        "mcdonalds.ua"
+      ]
+    },
+    {
+      "name": "KFC",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "KFC",
+        "kfc",
+        "kfc online",
+        "kfc store",
+        "kfc shop",
+        "kfc app",
+        "www kfc",
+        "www.kfc",
+        "kfc.com",
+        "kfc.ua"
+      ]
+    },
+    {
+      "name": "Burger King",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "Burger King",
+        "burger king",
+        "burgerking",
+        "burger-king",
+        "burger.king",
+        "burger king online",
+        "burger king store",
+        "burger king shop",
+        "burger king app",
+        "www burger king",
+        "www.burgerking",
+        "burgerking.com",
+        "burgerking.ua"
+      ]
+    },
+    {
+      "name": "Lviv Croissants",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "Lviv Croissants",
+        "lviv croissants",
+        "lvivcroissants",
+        "lviv-croissants",
+        "lviv.croissants",
+        "lviv croissants online",
+        "lviv croissants store",
+        "lviv croissants shop",
+        "lviv croissants app",
+        "www lviv croissants",
+        "www.lvivcroissants",
+        "lvivcroissants.com",
+        "lvivcroissants.ua"
+      ]
+    },
+    {
+      "name": "Львівські Круасани",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "Львівські Круасани",
+        "львівські круасани",
+        "львівськікруасани",
+        "львівські-круасани",
+        "львівські.круасани",
+        "львівські круасани online",
+        "львівські круасани store",
+        "львівські круасани shop",
+        "львівські круасани app",
+        "www львівські круасани",
+        "www.львівськікруасани",
+        "львівськікруасани.com",
+        "львівськікруасани.ua"
+      ]
+    },
+    {
+      "name": "Pizza Day",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "Pizza Day",
+        "pizza day",
+        "pizzaday",
+        "pizza-day",
+        "pizza.day",
+        "pizza day online",
+        "pizza day store",
+        "pizza day shop",
+        "pizza day app",
+        "www pizza day",
+        "www.pizzaday",
+        "pizzaday.com",
+        "pizzaday.ua"
+      ]
+    },
+    {
+      "name": "Domino's Pizza",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "Domino's Pizza",
+        "dominos pizza",
+        "dominospizza",
+        "dominos-pizza",
+        "dominos.pizza",
+        "dominos pizza online",
+        "dominos pizza store",
+        "dominos pizza shop",
+        "dominos pizza app",
+        "www dominos pizza",
+        "www.dominospizza",
+        "dominospizza.com",
+        "dominospizza.ua"
+      ]
+    },
+    {
+      "name": "Doner Market",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "Doner Market",
+        "doner market",
+        "donermarket",
+        "doner-market",
+        "doner.market",
+        "doner market online",
+        "doner market store",
+        "doner market shop",
+        "doner market app",
+        "www doner market",
+        "www.donermarket",
+        "donermarket.com",
+        "donermarket.ua"
+      ]
+    },
+    {
+      "name": "Menya Musashi",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "Menya Musashi",
+        "menya musashi",
+        "menyamusashi",
+        "menya-musashi",
+        "menya.musashi",
+        "menya musashi online",
+        "menya musashi store",
+        "menya musashi shop",
+        "menya musashi app",
+        "www menya musashi",
+        "www.menyamusashi",
+        "menyamusashi.com",
+        "menyamusashi.ua"
+      ]
+    },
+    {
+      "name": "Kebab Chef",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "Kebab Chef",
+        "kebab chef",
+        "kebabchef",
+        "kebab-chef",
+        "kebab.chef",
+        "kebab chef online",
+        "kebab chef store",
+        "kebab chef shop",
+        "kebab chef app",
+        "www kebab chef",
+        "www.kebabchef",
+        "kebabchef.com",
+        "kebabchef.ua"
+      ]
+    },
+    {
+      "name": "Shaurma",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "Shaurma",
+        "shaurma",
+        "shaurma online",
+        "shaurma store",
+        "shaurma shop",
+        "shaurma app",
+        "www shaurma",
+        "www.shaurma",
+        "shaurma.com",
+        "shaurma.ua"
+      ]
+    },
+    {
+      "name": "FreshLine",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "FreshLine",
+        "freshline",
+        "freshline online",
+        "freshline store",
+        "freshline shop",
+        "freshline app",
+        "www freshline",
+        "www.freshline",
+        "freshline.com",
+        "freshline.ua"
+      ]
+    },
+    {
+      "name": "Aroma Kava Food",
+      "category": "fast_food",
+      "subcategory": "fast_food",
+      "country": "UA",
+      "aliases": [
+        "Aroma Kava Food",
+        "aroma kava food",
+        "aromakavafood",
+        "aroma-kava-food",
+        "aroma.kava.food",
+        "aroma kava food online",
+        "aroma kava food store",
+        "aroma kava food shop",
+        "aroma kava food app",
+        "www aroma kava food",
+        "www.aromakavafood",
+        "aromakavafood.com",
+        "aromakavafood.ua"
+      ]
+    },
+    {
+      "name": "Aroma Kava",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Aroma Kava",
+        "aroma kava",
+        "aromakava",
+        "aroma-kava",
+        "aroma.kava",
+        "aroma kava online",
+        "aroma kava store",
+        "aroma kava shop",
+        "aroma kava app",
+        "www aroma kava",
+        "www.aromakava",
+        "aromakava.com",
+        "aromakava.ua"
+      ]
+    },
+    {
+      "name": "Арома Кава",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Арома Кава",
+        "арома кава",
+        "аромакава",
+        "арома-кава",
+        "арома.кава",
+        "арома кава online",
+        "арома кава store",
+        "арома кава shop",
+        "арома кава app",
+        "www арома кава",
+        "www.аромакава",
+        "аромакава.com",
+        "аромакава.ua"
+      ]
+    },
+    {
+      "name": "Lviv Coffee Manufacture",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Lviv Coffee Manufacture",
+        "lviv coffee manufacture",
+        "lvivcoffeemanufacture",
+        "lviv-coffee-manufacture",
+        "lviv.coffee.manufacture",
+        "lviv coffee manufacture online",
+        "lviv coffee manufacture store",
+        "lviv coffee manufacture shop",
+        "lviv coffee manufacture app",
+        "www lviv coffee manufacture",
+        "www.lvivcoffeemanufacture",
+        "lvivcoffeemanufacture.com",
+        "lvivcoffeemanufacture.ua"
+      ]
+    },
+    {
+      "name": "Львівська майстерня шоколаду",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Львівська майстерня шоколаду",
+        "львівська маистерня шоколаду",
+        "львівськамаистерняшоколаду",
+        "львівська-маистерня-шоколаду",
+        "львівська.маистерня.шоколаду",
+        "львівська маистерня шоколаду online",
+        "львівська маистерня шоколаду store",
+        "львівська маистерня шоколаду shop",
+        "львівська маистерня шоколаду app",
+        "www львівська маистерня шоколаду",
+        "www.львівськамаистерняшоколаду",
+        "львівськамаистерняшоколаду.com",
+        "львівськамаистерняшоколаду.ua"
+      ]
+    },
+    {
+      "name": "Idealist Coffee",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Idealist Coffee",
+        "idealist coffee",
+        "idealistcoffee",
+        "idealist-coffee",
+        "idealist.coffee",
+        "idealist coffee online",
+        "idealist coffee store",
+        "idealist coffee shop",
+        "idealist coffee app",
+        "www idealist coffee",
+        "www.idealistcoffee",
+        "idealistcoffee.com",
+        "idealistcoffee.ua"
+      ]
+    },
+    {
+      "name": "One Love Coffee",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "One Love Coffee",
+        "one love coffee",
+        "onelovecoffee",
+        "one-love-coffee",
+        "one.love.coffee",
+        "one love coffee online",
+        "one love coffee store",
+        "one love coffee shop",
+        "one love coffee app",
+        "www one love coffee",
+        "www.onelovecoffee",
+        "onelovecoffee.com",
+        "onelovecoffee.ua"
+      ]
+    },
+    {
+      "name": "Foundation Coffee",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Foundation Coffee",
+        "foundation coffee",
+        "foundationcoffee",
+        "foundation-coffee",
+        "foundation.coffee",
+        "foundation coffee online",
+        "foundation coffee store",
+        "foundation coffee shop",
+        "foundation coffee app",
+        "www foundation coffee",
+        "www.foundationcoffee",
+        "foundationcoffee.com",
+        "foundationcoffee.ua"
+      ]
+    },
+    {
+      "name": "Black Honey",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Black Honey",
+        "black honey",
+        "blackhoney",
+        "black-honey",
+        "black.honey",
+        "black honey online",
+        "black honey store",
+        "black honey shop",
+        "black honey app",
+        "www black honey",
+        "www.blackhoney",
+        "blackhoney.com",
+        "blackhoney.ua"
+      ]
+    },
+    {
+      "name": "Blur Coffee",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Blur Coffee",
+        "blur coffee",
+        "blurcoffee",
+        "blur-coffee",
+        "blur.coffee",
+        "blur coffee online",
+        "blur coffee store",
+        "blur coffee shop",
+        "blur coffee app",
+        "www blur coffee",
+        "www.blurcoffee",
+        "blurcoffee.com",
+        "blurcoffee.ua"
+      ]
+    },
+    {
+      "name": "Takava",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Takava",
+        "takava",
+        "takava online",
+        "takava store",
+        "takava shop",
+        "takava app",
+        "www takava",
+        "www.takava",
+        "takava.com",
+        "takava.ua"
+      ]
+    },
+    {
+      "name": "CoffeeDoor",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "CoffeeDoor",
+        "coffeedoor",
+        "coffeedoor online",
+        "coffeedoor store",
+        "coffeedoor shop",
+        "coffeedoor app",
+        "www coffeedoor",
+        "www.coffeedoor",
+        "coffeedoor.com",
+        "coffeedoor.ua"
+      ]
+    },
+    {
+      "name": "Gemini Espresso",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Gemini Espresso",
+        "gemini espresso",
+        "geminiespresso",
+        "gemini-espresso",
+        "gemini.espresso",
+        "gemini espresso online",
+        "gemini espresso store",
+        "gemini espresso shop",
+        "gemini espresso app",
+        "www gemini espresso",
+        "www.geminiespresso",
+        "geminiespresso.com",
+        "geminiespresso.ua"
+      ]
+    },
+    {
+      "name": "Svit Kavy",
+      "category": "coffee",
+      "subcategory": "coffee",
+      "country": "UA",
+      "aliases": [
+        "Svit Kavy",
+        "svit kavy",
+        "svitkavy",
+        "svit-kavy",
+        "svit.kavy",
+        "svit kavy online",
+        "svit kavy store",
+        "svit kavy shop",
+        "svit kavy app",
+        "www svit kavy",
+        "www.svitkavy",
+        "svitkavy.com",
+        "svitkavy.ua"
+      ]
+    },
+    {
+      "name": "Nova Poshta",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "Nova Poshta",
+        "nova poshta",
+        "novaposhta",
+        "nova-poshta",
+        "nova.poshta",
+        "nova poshta online",
+        "nova poshta store",
+        "nova poshta shop",
+        "nova poshta app",
+        "www nova poshta",
+        "www.novaposhta",
+        "novaposhta.com",
+        "novaposhta.ua"
+      ]
+    },
+    {
+      "name": "Нова Пошта",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "Нова Пошта",
+        "нова пошта",
+        "новапошта",
+        "нова-пошта",
+        "нова.пошта",
+        "нова пошта online",
+        "нова пошта store",
+        "нова пошта shop",
+        "нова пошта app",
+        "www нова пошта",
+        "www.новапошта",
+        "новапошта.com",
+        "новапошта.ua"
+      ]
+    },
+    {
+      "name": "NovaPay",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "NovaPay",
+        "novapay",
+        "novapay online",
+        "novapay store",
+        "novapay shop",
+        "novapay app",
+        "www novapay",
+        "www.novapay",
+        "novapay.com",
+        "novapay.ua"
+      ]
+    },
+    {
+      "name": "Ukrposhta",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "Ukrposhta",
+        "ukrposhta",
+        "ukrposhta online",
+        "ukrposhta store",
+        "ukrposhta shop",
+        "ukrposhta app",
+        "www ukrposhta",
+        "www.ukrposhta",
+        "ukrposhta.com",
+        "ukrposhta.ua"
+      ]
+    },
+    {
+      "name": "Укрпошта",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "Укрпошта",
+        "укрпошта",
+        "укрпошта online",
+        "укрпошта store",
+        "укрпошта shop",
+        "укрпошта app",
+        "www укрпошта",
+        "www.укрпошта",
+        "укрпошта.com",
+        "укрпошта.ua"
+      ]
+    },
+    {
+      "name": "Meest",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "Meest",
+        "meest",
+        "meest online",
+        "meest store",
+        "meest shop",
+        "meest app",
+        "www meest",
+        "www.meest",
+        "meest.com",
+        "meest.ua"
+      ]
+    },
+    {
+      "name": "Justin",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "Justin",
+        "justin",
+        "justin online",
+        "justin store",
+        "justin shop",
+        "justin app",
+        "www justin",
+        "www.justin",
+        "justin.com",
+        "justin.ua"
+      ]
+    },
+    {
+      "name": "Delivery Auto",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "Delivery Auto",
+        "delivery auto",
+        "deliveryauto",
+        "delivery-auto",
+        "delivery.auto",
+        "delivery auto online",
+        "delivery auto store",
+        "delivery auto shop",
+        "delivery auto app",
+        "www delivery auto",
+        "www.deliveryauto",
+        "deliveryauto.com",
+        "deliveryauto.ua"
+      ]
+    },
+    {
+      "name": "SAT",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "SAT",
+        "sat",
+        "sat online",
+        "sat store",
+        "sat shop",
+        "sat app",
+        "www sat",
+        "www.sat",
+        "sat.com",
+        "sat.ua"
+      ]
+    },
+    {
+      "name": "Нічний Експрес",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "Нічний Експрес",
+        "нічнии експрес",
+        "нічнииекспрес",
+        "нічнии-експрес",
+        "нічнии.експрес",
+        "нічнии експрес online",
+        "нічнии експрес store",
+        "нічнии експрес shop",
+        "нічнии експрес app",
+        "www нічнии експрес",
+        "www.нічнииекспрес",
+        "нічнииекспрес.com",
+        "нічнииекспрес.ua"
+      ]
+    },
+    {
+      "name": "Intime",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "Intime",
+        "intime",
+        "intime online",
+        "intime store",
+        "intime shop",
+        "intime app",
+        "www intime",
+        "www.intime",
+        "intime.com",
+        "intime.ua"
+      ]
+    },
+    {
+      "name": "DHL Ukraine",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "DHL Ukraine",
+        "dhl ukraine",
+        "dhlukraine",
+        "dhl-ukraine",
+        "dhl.ukraine",
+        "dhl ukraine online",
+        "dhl ukraine store",
+        "dhl ukraine shop",
+        "dhl ukraine app",
+        "www dhl ukraine",
+        "www.dhlukraine",
+        "dhlukraine.com",
+        "dhlukraine.ua"
+      ]
+    },
+    {
+      "name": "FedEx Ukraine",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "FedEx Ukraine",
+        "fedex ukraine",
+        "fedexukraine",
+        "fedex-ukraine",
+        "fedex.ukraine",
+        "fedex ukraine online",
+        "fedex ukraine store",
+        "fedex ukraine shop",
+        "fedex ukraine app",
+        "www fedex ukraine",
+        "www.fedexukraine",
+        "fedexukraine.com",
+        "fedexukraine.ua"
+      ]
+    },
+    {
+      "name": "UPS Ukraine",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "UPS Ukraine",
+        "ups ukraine",
+        "upsukraine",
+        "ups-ukraine",
+        "ups.ukraine",
+        "ups ukraine online",
+        "ups ukraine store",
+        "ups ukraine shop",
+        "ups ukraine app",
+        "www ups ukraine",
+        "www.upsukraine",
+        "upsukraine.com",
+        "upsukraine.ua"
+      ]
+    },
+    {
+      "name": "Rozetka Delivery",
+      "category": "delivery",
+      "subcategory": "postal",
+      "country": "UA",
+      "aliases": [
+        "Rozetka Delivery",
+        "rozetka delivery",
+        "rozetkadelivery",
+        "rozetka-delivery",
+        "rozetka.delivery",
+        "rozetka delivery online",
+        "rozetka delivery store",
+        "rozetka delivery shop",
+        "rozetka delivery app",
+        "www rozetka delivery",
+        "www.rozetkadelivery",
+        "rozetkadelivery.com",
+        "rozetkadelivery.ua"
+      ]
+    },
+    {
+      "name": "Glovo",
+      "category": "delivery",
+      "subcategory": "food_delivery",
+      "country": "UA",
+      "aliases": [
+        "Glovo",
+        "glovo",
+        "glovo online",
+        "glovo store",
+        "glovo shop",
+        "glovo app",
+        "www glovo",
+        "www.glovo",
+        "glovo.com",
+        "glovo.ua"
+      ]
+    },
+    {
+      "name": "Bolt Food",
+      "category": "delivery",
+      "subcategory": "food_delivery",
+      "country": "UA",
+      "aliases": [
+        "Bolt Food",
+        "bolt food",
+        "boltfood",
+        "bolt-food",
+        "bolt.food",
+        "bolt food online",
+        "bolt food store",
+        "bolt food shop",
+        "bolt food app",
+        "www bolt food",
+        "www.boltfood",
+        "boltfood.com",
+        "boltfood.ua"
+      ]
+    },
+    {
+      "name": "Raketa",
+      "category": "delivery",
+      "subcategory": "food_delivery",
+      "country": "UA",
+      "aliases": [
+        "Raketa",
+        "raketa",
+        "raketa online",
+        "raketa store",
+        "raketa shop",
+        "raketa app",
+        "www raketa",
+        "www.raketa",
+        "raketa.com",
+        "raketa.ua"
+      ]
+    },
+    {
+      "name": "Liki24",
+      "category": "delivery",
+      "subcategory": "food_delivery",
+      "country": "UA",
+      "aliases": [
+        "Liki24",
+        "liki24",
+        "liki24 online",
+        "liki24 store",
+        "liki24 shop",
+        "liki24 app",
+        "www liki24",
+        "www.liki24",
+        "liki24.com",
+        "liki24.ua"
+      ]
+    },
+    {
+      "name": "Zakaz.ua",
+      "category": "delivery",
+      "subcategory": "food_delivery",
+      "country": "UA",
+      "aliases": [
+        "Zakaz.ua",
+        "zakaz ua",
+        "zakazua",
+        "zakaz-ua",
+        "zakaz.ua",
+        "zakaz ua online",
+        "zakaz ua store",
+        "zakaz ua shop",
+        "zakaz ua app",
+        "www zakaz ua",
+        "www.zakazua",
+        "zakazua.com",
+        "zakazua.ua"
+      ]
+    },
+    {
+      "name": "MAUDAU",
+      "category": "delivery",
+      "subcategory": "food_delivery",
+      "country": "UA",
+      "aliases": [
+        "MAUDAU",
+        "maudau",
+        "maudau online",
+        "maudau store",
+        "maudau shop",
+        "maudau app",
+        "www maudau",
+        "www.maudau",
+        "maudau.com",
+        "maudau.ua"
+      ]
+    },
+    {
+      "name": "Cooker",
+      "category": "delivery",
+      "subcategory": "food_delivery",
+      "country": "UA",
+      "aliases": [
+        "Cooker",
+        "cooker",
+        "cooker online",
+        "cooker store",
+        "cooker shop",
+        "cooker app",
+        "www cooker",
+        "www.cooker",
+        "cooker.com",
+        "cooker.ua"
+      ]
+    },
+    {
+      "name": "Mister.Am",
+      "category": "delivery",
+      "subcategory": "food_delivery",
+      "country": "UA",
+      "aliases": [
+        "Mister.Am",
+        "mister am",
+        "misteram",
+        "mister-am",
+        "mister.am",
+        "mister am online",
+        "mister am store",
+        "mister am shop",
+        "mister am app",
+        "www mister am",
+        "www.misteram",
+        "misteram.com",
+        "misteram.ua"
+      ]
+    },
+    {
+      "name": "Eda.ua",
+      "category": "delivery",
+      "subcategory": "food_delivery",
+      "country": "UA",
+      "aliases": [
+        "Eda.ua",
+        "eda ua",
+        "edaua",
+        "eda-ua",
+        "eda.ua",
+        "eda ua online",
+        "eda ua store",
+        "eda ua shop",
+        "eda ua app",
+        "www eda ua",
+        "www.edaua",
+        "edaua.com",
+        "edaua.ua"
+      ]
+    },
+    {
+      "name": "Uklon",
+      "category": "taxi",
+      "subcategory": "taxi",
+      "country": "UA",
+      "aliases": [
+        "Uklon",
+        "uklon",
+        "uklon online",
+        "uklon store",
+        "uklon shop",
+        "uklon app",
+        "www uklon",
+        "www.uklon",
+        "uklon.com",
+        "uklon.ua"
+      ]
+    },
+    {
+      "name": "Uber",
+      "category": "taxi",
+      "subcategory": "taxi",
+      "country": "UA",
+      "aliases": [
+        "Uber",
+        "uber",
+        "uber online",
+        "uber store",
+        "uber shop",
+        "uber app",
+        "www uber",
+        "www.uber",
+        "uber.com",
+        "uber.ua"
+      ]
+    },
+    {
+      "name": "Bolt",
+      "category": "taxi",
+      "subcategory": "taxi",
+      "country": "UA",
+      "aliases": [
+        "Bolt",
+        "bolt",
+        "bolt online",
+        "bolt store",
+        "bolt shop",
+        "bolt app",
+        "www bolt",
+        "www.bolt",
+        "bolt.com",
+        "bolt.ua"
+      ]
+    },
+    {
+      "name": "BlaBlaCar",
+      "category": "taxi",
+      "subcategory": "taxi",
+      "country": "UA",
+      "aliases": [
+        "BlaBlaCar",
+        "blablacar",
+        "blablacar online",
+        "blablacar store",
+        "blablacar shop",
+        "blablacar app",
+        "www blablacar",
+        "www.blablacar",
+        "blablacar.com",
+        "blablacar.ua"
+      ]
+    },
+    {
+      "name": "OnTaxi",
+      "category": "taxi",
+      "subcategory": "taxi",
+      "country": "UA",
+      "aliases": [
+        "OnTaxi",
+        "ontaxi",
+        "ontaxi online",
+        "ontaxi store",
+        "ontaxi shop",
+        "ontaxi app",
+        "www ontaxi",
+        "www.ontaxi",
+        "ontaxi.com",
+        "ontaxi.ua"
+      ]
+    },
+    {
+      "name": "Shark Taxi",
+      "category": "taxi",
+      "subcategory": "taxi",
+      "country": "UA",
+      "aliases": [
+        "Shark Taxi",
+        "shark taxi",
+        "sharktaxi",
+        "shark-taxi",
+        "shark.taxi",
+        "shark taxi online",
+        "shark taxi store",
+        "shark taxi shop",
+        "shark taxi app",
+        "www shark taxi",
+        "www.sharktaxi",
+        "sharktaxi.com",
+        "sharktaxi.ua"
+      ]
+    },
+    {
+      "name": "838 Taxi",
+      "category": "taxi",
+      "subcategory": "taxi",
+      "country": "UA",
+      "aliases": [
+        "838 Taxi",
+        "838 taxi",
+        "838taxi",
+        "838-taxi",
+        "838.taxi",
+        "838 taxi online",
+        "838 taxi store",
+        "838 taxi shop",
+        "838 taxi app",
+        "www 838 taxi",
+        "www.838taxi",
+        "838taxi.com",
+        "838taxi.ua"
+      ]
+    },
+    {
+      "name": "Opti Taxi",
+      "category": "taxi",
+      "subcategory": "taxi",
+      "country": "UA",
+      "aliases": [
+        "Opti Taxi",
+        "opti taxi",
+        "optitaxi",
+        "opti-taxi",
+        "opti.taxi",
+        "opti taxi online",
+        "opti taxi store",
+        "opti taxi shop",
+        "opti taxi app",
+        "www opti taxi",
+        "www.optitaxi",
+        "optitaxi.com",
+        "optitaxi.ua"
+      ]
+    },
+    {
+      "name": "Taxi 309",
+      "category": "taxi",
+      "subcategory": "taxi",
+      "country": "UA",
+      "aliases": [
+        "Taxi 309",
+        "taxi 309",
+        "taxi309",
+        "taxi-309",
+        "taxi.309",
+        "taxi 309 online",
+        "taxi 309 store",
+        "taxi 309 shop",
+        "taxi 309 app",
+        "www taxi 309",
+        "www.taxi309",
+        "taxi309.com",
+        "taxi309.ua"
+      ]
+    },
+    {
+      "name": "Bond Taxi",
+      "category": "taxi",
+      "subcategory": "taxi",
+      "country": "UA",
+      "aliases": [
+        "Bond Taxi",
+        "bond taxi",
+        "bondtaxi",
+        "bond-taxi",
+        "bond.taxi",
+        "bond taxi online",
+        "bond taxi store",
+        "bond taxi shop",
+        "bond taxi app",
+        "www bond taxi",
+        "www.bondtaxi",
+        "bondtaxi.com",
+        "bondtaxi.ua"
+      ]
+    },
+    {
+      "name": "Kyiv Digital",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "Kyiv Digital",
+        "kyiv digital",
+        "kyivdigital",
+        "kyiv-digital",
+        "kyiv.digital",
+        "kyiv digital online",
+        "kyiv digital store",
+        "kyiv digital shop",
+        "kyiv digital app",
+        "www kyiv digital",
+        "www.kyivdigital",
+        "kyivdigital.com",
+        "kyivdigital.ua"
+      ]
+    },
+    {
+      "name": "Київ Цифровий",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "Київ Цифровий",
+        "киів цифровии",
+        "киівцифровии",
+        "киів-цифровии",
+        "киів.цифровии",
+        "киів цифровии online",
+        "киів цифровии store",
+        "киів цифровии shop",
+        "киів цифровии app",
+        "www киів цифровии",
+        "www.киівцифровии",
+        "киівцифровии.com",
+        "киівцифровии.ua"
+      ]
+    },
+    {
+      "name": "EasyWay",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "EasyWay",
+        "easyway",
+        "easyway online",
+        "easyway store",
+        "easyway shop",
+        "easyway app",
+        "www easyway",
+        "www.easyway",
+        "easyway.com",
+        "easyway.ua"
+      ]
+    },
+    {
+      "name": "Eway",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "Eway",
+        "eway",
+        "eway online",
+        "eway store",
+        "eway shop",
+        "eway app",
+        "www eway",
+        "www.eway",
+        "eway.com",
+        "eway.ua"
+      ]
+    },
+    {
+      "name": "Укрзалізниця",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "Укрзалізниця",
+        "укрзалізниця",
+        "укрзалізниця online",
+        "укрзалізниця store",
+        "укрзалізниця shop",
+        "укрзалізниця app",
+        "www укрзалізниця",
+        "www.укрзалізниця",
+        "укрзалізниця.com",
+        "укрзалізниця.ua"
+      ]
+    },
+    {
+      "name": "UZ Gov",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "UZ Gov",
+        "uz gov",
+        "uzgov",
+        "uz-gov",
+        "uz.gov",
+        "uz gov online",
+        "uz gov store",
+        "uz gov shop",
+        "uz gov app",
+        "www uz gov",
+        "www.uzgov",
+        "uzgov.com",
+        "uzgov.ua"
+      ]
+    },
+    {
+      "name": "УЗ",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "УЗ",
+        "уз",
+        "уз online",
+        "уз store",
+        "уз shop",
+        "уз app",
+        "www уз",
+        "www.уз",
+        "уз.com",
+        "уз.ua"
+      ]
+    },
+    {
+      "name": "Tickets.ua",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "Tickets.ua",
+        "tickets ua",
+        "ticketsua",
+        "tickets-ua",
+        "tickets.ua",
+        "tickets ua online",
+        "tickets ua store",
+        "tickets ua shop",
+        "tickets ua app",
+        "www tickets ua",
+        "www.ticketsua",
+        "ticketsua.com",
+        "ticketsua.ua"
+      ]
+    },
+    {
+      "name": "Busfor",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "Busfor",
+        "busfor",
+        "busfor online",
+        "busfor store",
+        "busfor shop",
+        "busfor app",
+        "www busfor",
+        "www.busfor",
+        "busfor.com",
+        "busfor.ua"
+      ]
+    },
+    {
+      "name": "Infobus",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "Infobus",
+        "infobus",
+        "infobus online",
+        "infobus store",
+        "infobus shop",
+        "infobus app",
+        "www infobus",
+        "www.infobus",
+        "infobus.com",
+        "infobus.ua"
+      ]
+    },
+    {
+      "name": "Ecolines",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "Ecolines",
+        "ecolines",
+        "ecolines online",
+        "ecolines store",
+        "ecolines shop",
+        "ecolines app",
+        "www ecolines",
+        "www.ecolines",
+        "ecolines.com",
+        "ecolines.ua"
+      ]
+    },
+    {
+      "name": "FlixBus",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "FlixBus",
+        "flixbus",
+        "flixbus online",
+        "flixbus store",
+        "flixbus shop",
+        "flixbus app",
+        "www flixbus",
+        "www.flixbus",
+        "flixbus.com",
+        "flixbus.ua"
+      ]
+    },
+    {
+      "name": "Leo Express",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "Leo Express",
+        "leo express",
+        "leoexpress",
+        "leo-express",
+        "leo.express",
+        "leo express online",
+        "leo express store",
+        "leo express shop",
+        "leo express app",
+        "www leo express",
+        "www.leoexpress",
+        "leoexpress.com",
+        "leoexpress.ua"
+      ]
+    },
+    {
+      "name": "SkyUp Bus",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "SkyUp Bus",
+        "skyup bus",
+        "skyupbus",
+        "skyup-bus",
+        "skyup.bus",
+        "skyup bus online",
+        "skyup bus store",
+        "skyup bus shop",
+        "skyup bus app",
+        "www skyup bus",
+        "www.skyupbus",
+        "skyupbus.com",
+        "skyupbus.ua"
+      ]
+    },
+    {
+      "name": "Автостанція Київ",
+      "category": "transport",
+      "subcategory": "public_transport",
+      "country": "UA",
+      "aliases": [
+        "Автостанція Київ",
+        "автостанція киів",
+        "автостанціякиів",
+        "автостанція-киів",
+        "автостанція.киів",
+        "автостанція киів online",
+        "автостанція киів store",
+        "автостанція киів shop",
+        "автостанція киів app",
+        "www автостанція киів",
+        "www.автостанціякиів",
+        "автостанціякиів.com",
+        "автостанціякиів.ua"
+      ]
+    },
+    {
+      "name": "Monobank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Monobank",
+        "monobank",
+        "monobank online",
+        "monobank store",
+        "monobank shop",
+        "monobank app",
+        "www monobank",
+        "www.monobank",
+        "monobank.com",
+        "monobank.ua"
+      ]
+    },
+    {
+      "name": "Mono",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Mono",
+        "mono",
+        "mono online",
+        "mono store",
+        "mono shop",
+        "mono app",
+        "www mono",
+        "www.mono",
+        "mono.com",
+        "mono.ua"
+      ]
+    },
+    {
+      "name": "Universal Bank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Universal Bank",
+        "universal bank",
+        "universalbank",
+        "universal-bank",
+        "universal.bank",
+        "universal bank online",
+        "universal bank store",
+        "universal bank shop",
+        "universal bank app",
+        "www universal bank",
+        "www.universalbank",
+        "universalbank.com",
+        "universalbank.ua"
+      ]
+    },
+    {
+      "name": "PrivatBank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "PrivatBank",
+        "privatbank",
+        "privatbank online",
+        "privatbank store",
+        "privatbank shop",
+        "privatbank app",
+        "www privatbank",
+        "www.privatbank",
+        "privatbank.com",
+        "privatbank.ua"
+      ]
+    },
+    {
+      "name": "ПриватБанк",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "ПриватБанк",
+        "приватбанк",
+        "приватбанк online",
+        "приватбанк store",
+        "приватбанк shop",
+        "приватбанк app",
+        "www приватбанк",
+        "www.приватбанк",
+        "приватбанк.com",
+        "приватбанк.ua"
+      ]
+    },
+    {
+      "name": "Sense Bank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Sense Bank",
+        "sense bank",
+        "sensebank",
+        "sense-bank",
+        "sense.bank",
+        "sense bank online",
+        "sense bank store",
+        "sense bank shop",
+        "sense bank app",
+        "www sense bank",
+        "www.sensebank",
+        "sensebank.com",
+        "sensebank.ua"
+      ]
+    },
+    {
+      "name": "Raiffeisen Bank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Raiffeisen Bank",
+        "raiffeisen bank",
+        "raiffeisenbank",
+        "raiffeisen-bank",
+        "raiffeisen.bank",
+        "raiffeisen bank online",
+        "raiffeisen bank store",
+        "raiffeisen bank shop",
+        "raiffeisen bank app",
+        "www raiffeisen bank",
+        "www.raiffeisenbank",
+        "raiffeisenbank.com",
+        "raiffeisenbank.ua"
+      ]
+    },
+    {
+      "name": "OTP Bank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "OTP Bank",
+        "otp bank",
+        "otpbank",
+        "otp-bank",
+        "otp.bank",
+        "otp bank online",
+        "otp bank store",
+        "otp bank shop",
+        "otp bank app",
+        "www otp bank",
+        "www.otpbank",
+        "otpbank.com",
+        "otpbank.ua"
+      ]
+    },
+    {
+      "name": "PUMB",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "PUMB",
+        "pumb",
+        "pumb online",
+        "pumb store",
+        "pumb shop",
+        "pumb app",
+        "www pumb",
+        "www.pumb",
+        "pumb.com",
+        "pumb.ua"
+      ]
+    },
+    {
+      "name": "ПУМБ",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "ПУМБ",
+        "пумб",
+        "пумб online",
+        "пумб store",
+        "пумб shop",
+        "пумб app",
+        "www пумб",
+        "www.пумб",
+        "пумб.com",
+        "пумб.ua"
+      ]
+    },
+    {
+      "name": "A-Bank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "A-Bank",
+        "a bank",
+        "abank",
+        "a-bank",
+        "a.bank",
+        "a bank online",
+        "a bank store",
+        "a bank shop",
+        "a bank app",
+        "www a bank",
+        "www.abank",
+        "abank.com",
+        "abank.ua"
+      ]
+    },
+    {
+      "name": "А-Банк",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "А-Банк",
+        "а банк",
+        "абанк",
+        "а-банк",
+        "а.банк",
+        "а банк online",
+        "а банк store",
+        "а банк shop",
+        "а банк app",
+        "www а банк",
+        "www.абанк",
+        "абанк.com",
+        "абанк.ua"
+      ]
+    },
+    {
+      "name": "Oschadbank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Oschadbank",
+        "oschadbank",
+        "oschadbank online",
+        "oschadbank store",
+        "oschadbank shop",
+        "oschadbank app",
+        "www oschadbank",
+        "www.oschadbank",
+        "oschadbank.com",
+        "oschadbank.ua"
+      ]
+    },
+    {
+      "name": "Ощадбанк",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Ощадбанк",
+        "ощадбанк",
+        "ощадбанк online",
+        "ощадбанк store",
+        "ощадбанк shop",
+        "ощадбанк app",
+        "www ощадбанк",
+        "www.ощадбанк",
+        "ощадбанк.com",
+        "ощадбанк.ua"
+      ]
+    },
+    {
+      "name": "Ukrgasbank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Ukrgasbank",
+        "ukrgasbank",
+        "ukrgasbank online",
+        "ukrgasbank store",
+        "ukrgasbank shop",
+        "ukrgasbank app",
+        "www ukrgasbank",
+        "www.ukrgasbank",
+        "ukrgasbank.com",
+        "ukrgasbank.ua"
+      ]
+    },
+    {
+      "name": "Укргазбанк",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Укргазбанк",
+        "укргазбанк",
+        "укргазбанк online",
+        "укргазбанк store",
+        "укргазбанк shop",
+        "укргазбанк app",
+        "www укргазбанк",
+        "www.укргазбанк",
+        "укргазбанк.com",
+        "укргазбанк.ua"
+      ]
+    },
+    {
+      "name": "Ukrsibbank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Ukrsibbank",
+        "ukrsibbank",
+        "ukrsibbank online",
+        "ukrsibbank store",
+        "ukrsibbank shop",
+        "ukrsibbank app",
+        "www ukrsibbank",
+        "www.ukrsibbank",
+        "ukrsibbank.com",
+        "ukrsibbank.ua"
+      ]
+    },
+    {
+      "name": "Кредобанк",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Кредобанк",
+        "кредобанк",
+        "кредобанк online",
+        "кредобанк store",
+        "кредобанк shop",
+        "кредобанк app",
+        "www кредобанк",
+        "www.кредобанк",
+        "кредобанк.com",
+        "кредобанк.ua"
+      ]
+    },
+    {
+      "name": "ТАСкомбанк",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "ТАСкомбанк",
+        "таскомбанк",
+        "таскомбанк online",
+        "таскомбанк store",
+        "таскомбанк shop",
+        "таскомбанк app",
+        "www таскомбанк",
+        "www.таскомбанк",
+        "таскомбанк.com",
+        "таскомбанк.ua"
+      ]
+    },
+    {
+      "name": "Sportbank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Sportbank",
+        "sportbank",
+        "sportbank online",
+        "sportbank store",
+        "sportbank shop",
+        "sportbank app",
+        "www sportbank",
+        "www.sportbank",
+        "sportbank.com",
+        "sportbank.ua"
+      ]
+    },
+    {
+      "name": "izibank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "izibank",
+        "izibank online",
+        "izibank store",
+        "izibank shop",
+        "izibank app",
+        "www izibank",
+        "www.izibank",
+        "izibank.com",
+        "izibank.ua"
+      ]
+    },
+    {
+      "name": "Neobank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Neobank",
+        "neobank",
+        "neobank online",
+        "neobank store",
+        "neobank shop",
+        "neobank app",
+        "www neobank",
+        "www.neobank",
+        "neobank.com",
+        "neobank.ua"
+      ]
+    },
+    {
+      "name": "Concord Bank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Concord Bank",
+        "concord bank",
+        "concordbank",
+        "concord-bank",
+        "concord.bank",
+        "concord bank online",
+        "concord bank store",
+        "concord bank shop",
+        "concord bank app",
+        "www concord bank",
+        "www.concordbank",
+        "concordbank.com",
+        "concordbank.ua"
+      ]
+    },
+    {
+      "name": "Idea Bank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Idea Bank",
+        "idea bank",
+        "ideabank",
+        "idea-bank",
+        "idea.bank",
+        "idea bank online",
+        "idea bank store",
+        "idea bank shop",
+        "idea bank app",
+        "www idea bank",
+        "www.ideabank",
+        "ideabank.com",
+        "ideabank.ua"
+      ]
+    },
+    {
+      "name": "Credit Agricole",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Credit Agricole",
+        "credit agricole",
+        "creditagricole",
+        "credit-agricole",
+        "credit.agricole",
+        "credit agricole online",
+        "credit agricole store",
+        "credit agricole shop",
+        "credit agricole app",
+        "www credit agricole",
+        "www.creditagricole",
+        "creditagricole.com",
+        "creditagricole.ua"
+      ]
+    },
+    {
+      "name": "Alfa Bank",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Alfa Bank",
+        "alfa bank",
+        "alfabank",
+        "alfa-bank",
+        "alfa.bank",
+        "alfa bank online",
+        "alfa bank store",
+        "alfa bank shop",
+        "alfa bank app",
+        "www alfa bank",
+        "www.alfabank",
+        "alfabank.com",
+        "alfabank.ua"
+      ]
+    },
+    {
+      "name": "Райфайзен",
+      "category": "finance",
+      "subcategory": "banking",
+      "country": "UA",
+      "aliases": [
+        "Райфайзен",
+        "раифаизен",
+        "раифаизен online",
+        "раифаизен store",
+        "раифаизен shop",
+        "раифаизен app",
+        "www раифаизен",
+        "www.раифаизен",
+        "раифаизен.com",
+        "раифаизен.ua"
+      ]
+    },
+    {
+      "name": "Epicentr",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Epicentr",
+        "epicentr",
+        "epicentr online",
+        "epicentr store",
+        "epicentr shop",
+        "epicentr app",
+        "www epicentr",
+        "www.epicentr",
+        "epicentr.com",
+        "epicentr.ua"
+      ]
+    },
+    {
+      "name": "Епіцентр",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Епіцентр",
+        "епіцентр",
+        "епіцентр online",
+        "епіцентр store",
+        "епіцентр shop",
+        "епіцентр app",
+        "www епіцентр",
+        "www.епіцентр",
+        "епіцентр.com",
+        "епіцентр.ua"
+      ]
+    },
+    {
+      "name": "Nova Linia",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Nova Linia",
+        "nova linia",
+        "novalinia",
+        "nova-linia",
+        "nova.linia",
+        "nova linia online",
+        "nova linia store",
+        "nova linia shop",
+        "nova linia app",
+        "www nova linia",
+        "www.novalinia",
+        "novalinia.com",
+        "novalinia.ua"
+      ]
+    },
+    {
+      "name": "Нова Лінія",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Нова Лінія",
+        "нова лінія",
+        "новалінія",
+        "нова-лінія",
+        "нова.лінія",
+        "нова лінія online",
+        "нова лінія store",
+        "нова лінія shop",
+        "нова лінія app",
+        "www нова лінія",
+        "www.новалінія",
+        "новалінія.com",
+        "новалінія.ua"
+      ]
+    },
+    {
+      "name": "Jysk",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Jysk",
+        "jysk",
+        "jysk online",
+        "jysk store",
+        "jysk shop",
+        "jysk app",
+        "www jysk",
+        "www.jysk",
+        "jysk.com",
+        "jysk.ua"
+      ]
+    },
+    {
+      "name": "IKEA",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "IKEA",
+        "ikea",
+        "ikea online",
+        "ikea store",
+        "ikea shop",
+        "ikea app",
+        "www ikea",
+        "www.ikea",
+        "ikea.com",
+        "ikea.ua"
+      ]
+    },
+    {
+      "name": "Leroy Merlin",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Leroy Merlin",
+        "leroy merlin",
+        "leroymerlin",
+        "leroy-merlin",
+        "leroy.merlin",
+        "leroy merlin online",
+        "leroy merlin store",
+        "leroy merlin shop",
+        "leroy merlin app",
+        "www leroy merlin",
+        "www.leroymerlin",
+        "leroymerlin.com",
+        "leroymerlin.ua"
+      ]
+    },
+    {
+      "name": "Oldi",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Oldi",
+        "oldi",
+        "oldi online",
+        "oldi store",
+        "oldi shop",
+        "oldi app",
+        "www oldi",
+        "www.oldi",
+        "oldi.com",
+        "oldi.ua"
+      ]
+    },
+    {
+      "name": "Agromat",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Agromat",
+        "agromat",
+        "agromat online",
+        "agromat store",
+        "agromat shop",
+        "agromat app",
+        "www agromat",
+        "www.agromat",
+        "agromat.com",
+        "agromat.ua"
+      ]
+    },
+    {
+      "name": "KeramaExpert",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "KeramaExpert",
+        "keramaexpert",
+        "keramaexpert online",
+        "keramaexpert store",
+        "keramaexpert shop",
+        "keramaexpert app",
+        "www keramaexpert",
+        "www.keramaexpert",
+        "keramaexpert.com",
+        "keramaexpert.ua"
+      ]
+    },
+    {
+      "name": "Deco",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Deco",
+        "deco",
+        "deco online",
+        "deco store",
+        "deco shop",
+        "deco app",
+        "www deco",
+        "www.deco",
+        "deco.com",
+        "deco.ua"
+      ]
+    },
+    {
+      "name": "MebelOk",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "MebelOk",
+        "mebelok",
+        "mebelok online",
+        "mebelok store",
+        "mebelok shop",
+        "mebelok app",
+        "www mebelok",
+        "www.mebelok",
+        "mebelok.com",
+        "mebelok.ua"
+      ]
+    },
+    {
+      "name": "MebelMarket",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "MebelMarket",
+        "mebelmarket",
+        "mebelmarket online",
+        "mebelmarket store",
+        "mebelmarket shop",
+        "mebelmarket app",
+        "www mebelmarket",
+        "www.mebelmarket",
+        "mebelmarket.com",
+        "mebelmarket.ua"
+      ]
+    },
+    {
+      "name": "Taburetka",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Taburetka",
+        "taburetka",
+        "taburetka online",
+        "taburetka store",
+        "taburetka shop",
+        "taburetka app",
+        "www taburetka",
+        "www.taburetka",
+        "taburetka.com",
+        "taburetka.ua"
+      ]
+    },
+    {
+      "name": "BRW",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "BRW",
+        "brw",
+        "brw online",
+        "brw store",
+        "brw shop",
+        "brw app",
+        "www brw",
+        "www.brw",
+        "brw.com",
+        "brw.ua"
+      ]
+    },
+    {
+      "name": "Blest",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Blest",
+        "blest",
+        "blest online",
+        "blest store",
+        "blest shop",
+        "blest app",
+        "www blest",
+        "www.blest",
+        "blest.com",
+        "blest.ua"
+      ]
+    },
+    {
+      "name": "Мир Меблів",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Мир Меблів",
+        "мир меблів",
+        "мирмеблів",
+        "мир-меблів",
+        "мир.меблів",
+        "мир меблів online",
+        "мир меблів store",
+        "мир меблів shop",
+        "мир меблів app",
+        "www мир меблів",
+        "www.мирмеблів",
+        "мирмеблів.com",
+        "мирмеблів.ua"
+      ]
+    },
+    {
+      "name": "Епіцентр К",
+      "category": "home",
+      "subcategory": "home_improvement",
+      "country": "UA",
+      "aliases": [
+        "Епіцентр К",
+        "епіцентр к",
+        "епіцентрк",
+        "епіцентр-к",
+        "епіцентр.к",
+        "епіцентр к online",
+        "епіцентр к store",
+        "епіцентр к shop",
+        "епіцентр к app",
+        "www епіцентр к",
+        "www.епіцентрк",
+        "епіцентрк.com",
+        "епіцентрк.ua"
+      ]
+    },
+    {
+      "name": "EVA",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "EVA",
+        "eva",
+        "eva online",
+        "eva store",
+        "eva shop",
+        "eva app",
+        "www eva",
+        "www.eva",
+        "eva.com",
+        "eva.ua"
+      ]
+    },
+    {
+      "name": "Watsons",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Watsons",
+        "watsons",
+        "watsons online",
+        "watsons store",
+        "watsons shop",
+        "watsons app",
+        "www watsons",
+        "www.watsons",
+        "watsons.com",
+        "watsons.ua"
+      ]
+    },
+    {
+      "name": "Brocard",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Brocard",
+        "brocard",
+        "brocard online",
+        "brocard store",
+        "brocard shop",
+        "brocard app",
+        "www brocard",
+        "www.brocard",
+        "brocard.com",
+        "brocard.ua"
+      ]
+    },
+    {
+      "name": "Prostor",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Prostor",
+        "prostor",
+        "prostor online",
+        "prostor store",
+        "prostor shop",
+        "prostor app",
+        "www prostor",
+        "www.prostor",
+        "prostor.com",
+        "prostor.ua"
+      ]
+    },
+    {
+      "name": "Makeup",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Makeup",
+        "makeup",
+        "makeup online",
+        "makeup store",
+        "makeup shop",
+        "makeup app",
+        "www makeup",
+        "www.makeup",
+        "makeup.com",
+        "makeup.ua"
+      ]
+    },
+    {
+      "name": "Notino",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Notino",
+        "notino",
+        "notino online",
+        "notino store",
+        "notino shop",
+        "notino app",
+        "www notino",
+        "www.notino",
+        "notino.com",
+        "notino.ua"
+      ]
+    },
+    {
+      "name": "Bomond",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Bomond",
+        "bomond",
+        "bomond online",
+        "bomond store",
+        "bomond shop",
+        "bomond app",
+        "www bomond",
+        "www.bomond",
+        "bomond.com",
+        "bomond.ua"
+      ]
+    },
+    {
+      "name": "Лінія Краси",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Лінія Краси",
+        "лінія краси",
+        "лініякраси",
+        "лінія-краси",
+        "лінія.краси",
+        "лінія краси online",
+        "лінія краси store",
+        "лінія краси shop",
+        "лінія краси app",
+        "www лінія краси",
+        "www.лініякраси",
+        "лініякраси.com",
+        "лініякраси.ua"
+      ]
+    },
+    {
+      "name": "Kiko Milano",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Kiko Milano",
+        "kiko milano",
+        "kikomilano",
+        "kiko-milano",
+        "kiko.milano",
+        "kiko milano online",
+        "kiko milano store",
+        "kiko milano shop",
+        "kiko milano app",
+        "www kiko milano",
+        "www.kikomilano",
+        "kikomilano.com",
+        "kikomilano.ua"
+      ]
+    },
+    {
+      "name": "Sisters Aroma",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Sisters Aroma",
+        "sisters aroma",
+        "sistersaroma",
+        "sisters-aroma",
+        "sisters.aroma",
+        "sisters aroma online",
+        "sisters aroma store",
+        "sisters aroma shop",
+        "sisters aroma app",
+        "www sisters aroma",
+        "www.sistersaroma",
+        "sistersaroma.com",
+        "sistersaroma.ua"
+      ]
+    },
+    {
+      "name": "G.Bar",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "G.Bar",
+        "g bar",
+        "gbar",
+        "g-bar",
+        "g.bar",
+        "g bar online",
+        "g bar store",
+        "g bar shop",
+        "g bar app",
+        "www g bar",
+        "www.gbar",
+        "gbar.com",
+        "gbar.ua"
+      ]
+    },
+    {
+      "name": "Lazerhall",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Lazerhall",
+        "lazerhall",
+        "lazerhall online",
+        "lazerhall store",
+        "lazerhall shop",
+        "lazerhall app",
+        "www lazerhall",
+        "www.lazerhall",
+        "lazerhall.com",
+        "lazerhall.ua"
+      ]
+    },
+    {
+      "name": "Лазерхауз",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Лазерхауз",
+        "лазерхауз",
+        "лазерхауз online",
+        "лазерхауз store",
+        "лазерхауз shop",
+        "лазерхауз app",
+        "www лазерхауз",
+        "www.лазерхауз",
+        "лазерхауз.com",
+        "лазерхауз.ua"
+      ]
+    },
+    {
+      "name": "Barbershop Frisor",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Barbershop Frisor",
+        "barbershop frisor",
+        "barbershopfrisor",
+        "barbershop-frisor",
+        "barbershop.frisor",
+        "barbershop frisor online",
+        "barbershop frisor store",
+        "barbershop frisor shop",
+        "barbershop frisor app",
+        "www barbershop frisor",
+        "www.barbershopfrisor",
+        "barbershopfrisor.com",
+        "barbershopfrisor.ua"
+      ]
+    },
+    {
+      "name": "Backstage",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Backstage",
+        "backstage",
+        "backstage online",
+        "backstage store",
+        "backstage shop",
+        "backstage app",
+        "www backstage",
+        "www.backstage",
+        "backstage.com",
+        "backstage.ua"
+      ]
+    },
+    {
+      "name": "Aldo Coppola",
+      "category": "beauty",
+      "subcategory": "beauty",
+      "country": "UA",
+      "aliases": [
+        "Aldo Coppola",
+        "aldo coppola",
+        "aldocoppola",
+        "aldo-coppola",
+        "aldo.coppola",
+        "aldo coppola online",
+        "aldo coppola store",
+        "aldo coppola shop",
+        "aldo coppola app",
+        "www aldo coppola",
+        "www.aldocoppola",
+        "aldocoppola.com",
+        "aldocoppola.ua"
+      ]
+    },
+    {
+      "name": "ANC",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "ANC",
+        "anc",
+        "anc online",
+        "anc store",
+        "anc shop",
+        "anc app",
+        "www anc",
+        "www.anc",
+        "anc.com",
+        "anc.ua"
+      ]
+    },
+    {
+      "name": "АНЦ",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "АНЦ",
+        "анц",
+        "анц online",
+        "анц store",
+        "анц shop",
+        "анц app",
+        "www анц",
+        "www.анц",
+        "анц.com",
+        "анц.ua"
+      ]
+    },
+    {
+      "name": "Аптека 911",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Аптека 911",
+        "аптека 911",
+        "аптека911",
+        "аптека-911",
+        "аптека.911",
+        "аптека 911 online",
+        "аптека 911 store",
+        "аптека 911 shop",
+        "аптека 911 app",
+        "www аптека 911",
+        "www.аптека911",
+        "аптека911.com",
+        "аптека911.ua"
+      ]
+    },
+    {
+      "name": "Apteka 911",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Apteka 911",
+        "apteka 911",
+        "apteka911",
+        "apteka-911",
+        "apteka.911",
+        "apteka 911 online",
+        "apteka 911 store",
+        "apteka 911 shop",
+        "apteka 911 app",
+        "www apteka 911",
+        "www.apteka911",
+        "apteka911.com",
+        "apteka911.ua"
+      ]
+    },
+    {
+      "name": "Подорожник",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Подорожник",
+        "подорожник",
+        "подорожник online",
+        "подорожник store",
+        "подорожник shop",
+        "подорожник app",
+        "www подорожник",
+        "www.подорожник",
+        "подорожник.com",
+        "подорожник.ua"
+      ]
+    },
+    {
+      "name": "Podorozhnyk",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Podorozhnyk",
+        "podorozhnyk",
+        "podorozhnyk online",
+        "podorozhnyk store",
+        "podorozhnyk shop",
+        "podorozhnyk app",
+        "www podorozhnyk",
+        "www.podorozhnyk",
+        "podorozhnyk.com",
+        "podorozhnyk.ua"
+      ]
+    },
+    {
+      "name": "Бажаємо здоров'я",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Бажаємо здоров'я",
+        "бажаємо здоровя",
+        "бажаємоздоровя",
+        "бажаємо-здоровя",
+        "бажаємо.здоровя",
+        "бажаємо здоровя online",
+        "бажаємо здоровя store",
+        "бажаємо здоровя shop",
+        "бажаємо здоровя app",
+        "www бажаємо здоровя",
+        "www.бажаємоздоровя",
+        "бажаємоздоровя.com",
+        "бажаємоздоровя.ua"
+      ]
+    },
+    {
+      "name": "Dobroho Dnia",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Dobroho Dnia",
+        "dobroho dnia",
+        "dobrohodnia",
+        "dobroho-dnia",
+        "dobroho.dnia",
+        "dobroho dnia online",
+        "dobroho dnia store",
+        "dobroho dnia shop",
+        "dobroho dnia app",
+        "www dobroho dnia",
+        "www.dobrohodnia",
+        "dobrohodnia.com",
+        "dobrohodnia.ua"
+      ]
+    },
+    {
+      "name": "Аптека Доброго Дня",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Аптека Доброго Дня",
+        "аптека доброго дня",
+        "аптекадоброгодня",
+        "аптека-доброго-дня",
+        "аптека.доброго.дня",
+        "аптека доброго дня online",
+        "аптека доброго дня store",
+        "аптека доброго дня shop",
+        "аптека доброго дня app",
+        "www аптека доброго дня",
+        "www.аптекадоброгодня",
+        "аптекадоброгодня.com",
+        "аптекадоброгодня.ua"
+      ]
+    },
+    {
+      "name": "Аптека Низьких Цін",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Аптека Низьких Цін",
+        "аптека низьких цін",
+        "аптеканизькихцін",
+        "аптека-низьких-цін",
+        "аптека.низьких.цін",
+        "аптека низьких цін online",
+        "аптека низьких цін store",
+        "аптека низьких цін shop",
+        "аптека низьких цін app",
+        "www аптека низьких цін",
+        "www.аптеканизькихцін",
+        "аптеканизькихцін.com",
+        "аптеканизькихцін.ua"
+      ]
+    },
+    {
+      "name": "Аптека Копійка",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Аптека Копійка",
+        "аптека копіика",
+        "аптекакопіика",
+        "аптека-копіика",
+        "аптека.копіика",
+        "аптека копіика online",
+        "аптека копіика store",
+        "аптека копіика shop",
+        "аптека копіика app",
+        "www аптека копіика",
+        "www.аптекакопіика",
+        "аптекакопіика.com",
+        "аптекакопіика.ua"
+      ]
+    },
+    {
+      "name": "Аптека 3і",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Аптека 3і",
+        "аптека 3і",
+        "аптека3і",
+        "аптека-3і",
+        "аптека.3і",
+        "аптека 3і online",
+        "аптека 3і store",
+        "аптека 3і shop",
+        "аптека 3і app",
+        "www аптека 3і",
+        "www.аптека3і",
+        "аптека3і.com",
+        "аптека3і.ua"
+      ]
+    },
+    {
+      "name": "Tabletki.ua",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Tabletki.ua",
+        "tabletki ua",
+        "tabletkiua",
+        "tabletki-ua",
+        "tabletki.ua",
+        "tabletki ua online",
+        "tabletki ua store",
+        "tabletki ua shop",
+        "tabletki ua app",
+        "www tabletki ua",
+        "www.tabletkiua",
+        "tabletkiua.com",
+        "tabletkiua.ua"
+      ]
+    },
+    {
+      "name": "Мед-Сервіс",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Мед-Сервіс",
+        "мед сервіс",
+        "медсервіс",
+        "мед-сервіс",
+        "мед.сервіс",
+        "мед сервіс online",
+        "мед сервіс store",
+        "мед сервіс shop",
+        "мед сервіс app",
+        "www мед сервіс",
+        "www.медсервіс",
+        "медсервіс.com",
+        "медсервіс.ua"
+      ]
+    },
+    {
+      "name": "DS",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "DS",
+        "ds",
+        "ds online",
+        "ds store",
+        "ds shop",
+        "ds app",
+        "www ds",
+        "www.ds",
+        "ds.com",
+        "ds.ua"
+      ]
+    },
+    {
+      "name": "Аптека Шара",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Аптека Шара",
+        "аптека шара",
+        "аптекашара",
+        "аптека-шара",
+        "аптека.шара",
+        "аптека шара online",
+        "аптека шара store",
+        "аптека шара shop",
+        "аптека шара app",
+        "www аптека шара",
+        "www.аптекашара",
+        "аптекашара.com",
+        "аптекашара.ua"
+      ]
+    },
+    {
+      "name": "Аптека оптових цін",
+      "category": "pharmacy",
+      "subcategory": "pharmacy",
+      "country": "UA",
+      "aliases": [
+        "Аптека оптових цін",
+        "аптека оптових цін",
+        "аптекаоптовихцін",
+        "аптека-оптових-цін",
+        "аптека.оптових.цін",
+        "аптека оптових цін online",
+        "аптека оптових цін store",
+        "аптека оптових цін shop",
+        "аптека оптових цін app",
+        "www аптека оптових цін",
+        "www.аптекаоптовихцін",
+        "аптекаоптовихцін.com",
+        "аптекаоптовихцін.ua"
+      ]
+    },
+    {
+      "name": "MasterZoo",
+      "category": "pets",
+      "subcategory": "pet_store",
+      "country": "UA",
+      "aliases": [
+        "MasterZoo",
+        "masterzoo",
+        "masterzoo online",
+        "masterzoo store",
+        "masterzoo shop",
+        "masterzoo app",
+        "www masterzoo",
+        "www.masterzoo",
+        "masterzoo.com",
+        "masterzoo.ua"
+      ]
+    },
+    {
+      "name": "ZooBonus",
+      "category": "pets",
+      "subcategory": "pet_store",
+      "country": "UA",
+      "aliases": [
+        "ZooBonus",
+        "zoobonus",
+        "zoobonus online",
+        "zoobonus store",
+        "zoobonus shop",
+        "zoobonus app",
+        "www zoobonus",
+        "www.zoobonus",
+        "zoobonus.com",
+        "zoobonus.ua"
+      ]
+    },
+    {
+      "name": "Зоолюкс",
+      "category": "pets",
+      "subcategory": "pet_store",
+      "country": "UA",
+      "aliases": [
+        "Зоолюкс",
+        "зоолюкс",
+        "зоолюкс online",
+        "зоолюкс store",
+        "зоолюкс shop",
+        "зоолюкс app",
+        "www зоолюкс",
+        "www.зоолюкс",
+        "зоолюкс.com",
+        "зоолюкс.ua"
+      ]
+    },
+    {
+      "name": "Zootovary",
+      "category": "pets",
+      "subcategory": "pet_store",
+      "country": "UA",
+      "aliases": [
+        "Zootovary",
+        "zootovary",
+        "zootovary online",
+        "zootovary store",
+        "zootovary shop",
+        "zootovary app",
+        "www zootovary",
+        "www.zootovary",
+        "zootovary.com",
+        "zootovary.ua"
+      ]
+    },
+    {
+      "name": "Pethouse",
+      "category": "pets",
+      "subcategory": "pet_store",
+      "country": "UA",
+      "aliases": [
+        "Pethouse",
+        "pethouse",
+        "pethouse online",
+        "pethouse store",
+        "pethouse shop",
+        "pethouse app",
+        "www pethouse",
+        "www.pethouse",
+        "pethouse.com",
+        "pethouse.ua"
+      ]
+    },
+    {
+      "name": "Petslike",
+      "category": "pets",
+      "subcategory": "pet_store",
+      "country": "UA",
+      "aliases": [
+        "Petslike",
+        "petslike",
+        "petslike online",
+        "petslike store",
+        "petslike shop",
+        "petslike app",
+        "www petslike",
+        "www.petslike",
+        "petslike.com",
+        "petslike.ua"
+      ]
+    },
+    {
+      "name": "Lapki",
+      "category": "pets",
+      "subcategory": "pet_store",
+      "country": "UA",
+      "aliases": [
+        "Lapki",
+        "lapki",
+        "lapki online",
+        "lapki store",
+        "lapki shop",
+        "lapki app",
+        "www lapki",
+        "www.lapki",
+        "lapki.com",
+        "lapki.ua"
+      ]
+    },
+    {
+      "name": "E-Zoo",
+      "category": "pets",
+      "subcategory": "pet_store",
+      "country": "UA",
+      "aliases": [
+        "E-Zoo",
+        "e zoo",
+        "ezoo",
+        "e-zoo",
+        "e.zoo",
+        "e zoo online",
+        "e zoo store",
+        "e zoo shop",
+        "e zoo app",
+        "www e zoo",
+        "www.ezoo",
+        "ezoo.com",
+        "ezoo.ua"
+      ]
+    },
+    {
+      "name": "Зооаптека",
+      "category": "pets",
+      "subcategory": "pet_store",
+      "country": "UA",
+      "aliases": [
+        "Зооаптека",
+        "зооаптека",
+        "зооаптека online",
+        "зооаптека store",
+        "зооаптека shop",
+        "зооаптека app",
+        "www зооаптека",
+        "www.зооаптека",
+        "зооаптека.com",
+        "зооаптека.ua"
+      ]
+    },
+    {
+      "name": "ZooComplex",
+      "category": "pets",
+      "subcategory": "pet_store",
+      "country": "UA",
+      "aliases": [
+        "ZooComplex",
+        "zoocomplex",
+        "zoocomplex online",
+        "zoocomplex store",
+        "zoocomplex shop",
+        "zoocomplex app",
+        "www zoocomplex",
+        "www.zoocomplex",
+        "zoocomplex.com",
+        "zoocomplex.ua"
+      ]
+    },
+    {
+      "name": "Megogo",
+      "category": "streaming",
+      "subcategory": "video_streaming",
+      "country": "UA",
+      "aliases": [
+        "Megogo",
+        "megogo",
+        "megogo online",
+        "megogo store",
+        "megogo shop",
+        "megogo app",
+        "www megogo",
+        "www.megogo",
+        "megogo.com",
+        "megogo.ua"
+      ]
+    },
+    {
+      "name": "SweetTV",
+      "category": "streaming",
+      "subcategory": "video_streaming",
+      "country": "UA",
+      "aliases": [
+        "SweetTV",
+        "sweettv",
+        "sweettv online",
+        "sweettv store",
+        "sweettv shop",
+        "sweettv app",
+        "www sweettv",
+        "www.sweettv",
+        "sweettv.com",
+        "sweettv.ua"
+      ]
+    },
+    {
+      "name": "Київстар ТБ",
+      "category": "streaming",
+      "subcategory": "video_streaming",
+      "country": "UA",
+      "aliases": [
+        "Київстар ТБ",
+        "киівстар тб",
+        "киівстартб",
+        "киівстар-тб",
+        "киівстар.тб",
+        "киівстар тб online",
+        "киівстар тб store",
+        "киівстар тб shop",
+        "киівстар тб app",
+        "www киівстар тб",
+        "www.киівстартб",
+        "киівстартб.com",
+        "киівстартб.ua"
+      ]
+    },
+    {
+      "name": "Volia TV",
+      "category": "streaming",
+      "subcategory": "video_streaming",
+      "country": "UA",
+      "aliases": [
+        "Volia TV",
+        "volia tv",
+        "voliatv",
+        "volia-tv",
+        "volia.tv",
+        "volia tv online",
+        "volia tv store",
+        "volia tv shop",
+        "volia tv app",
+        "www volia tv",
+        "www.voliatv",
+        "voliatv.com",
+        "voliatv.ua"
+      ]
+    },
+    {
+      "name": "Divan TV",
+      "category": "streaming",
+      "subcategory": "video_streaming",
+      "country": "UA",
+      "aliases": [
+        "Divan TV",
+        "divan tv",
+        "divantv",
+        "divan-tv",
+        "divan.tv",
+        "divan tv online",
+        "divan tv store",
+        "divan tv shop",
+        "divan tv app",
+        "www divan tv",
+        "www.divantv",
+        "divantv.com",
+        "divantv.ua"
+      ]
+    },
+    {
+      "name": "Takflix",
+      "category": "streaming",
+      "subcategory": "video_streaming",
+      "country": "UA",
+      "aliases": [
+        "Takflix",
+        "takflix",
+        "takflix online",
+        "takflix store",
+        "takflix shop",
+        "takflix app",
+        "www takflix",
+        "www.takflix",
+        "takflix.com",
+        "takflix.ua"
+      ]
+    },
+    {
+      "name": "oll.tv",
+      "category": "streaming",
+      "subcategory": "video_streaming",
+      "country": "UA",
+      "aliases": [
+        "oll.tv",
+        "oll tv",
+        "olltv",
+        "oll-tv",
+        "oll tv online",
+        "oll tv store",
+        "oll tv shop",
+        "oll tv app",
+        "www oll tv",
+        "www.olltv",
+        "olltv.com",
+        "olltv.ua"
+      ]
+    },
+    {
+      "name": "Kyivstar",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Kyivstar",
+        "kyivstar",
+        "kyivstar online",
+        "kyivstar store",
+        "kyivstar shop",
+        "kyivstar app",
+        "www kyivstar",
+        "www.kyivstar",
+        "kyivstar.com",
+        "kyivstar.ua"
+      ]
+    },
+    {
+      "name": "Київстар",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Київстар",
+        "киівстар",
+        "киівстар online",
+        "киівстар store",
+        "киівстар shop",
+        "киівстар app",
+        "www киівстар",
+        "www.киівстар",
+        "киівстар.com",
+        "киівстар.ua"
+      ]
+    },
+    {
+      "name": "Vodafone Ukraine",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Vodafone Ukraine",
+        "vodafone ukraine",
+        "vodafoneukraine",
+        "vodafone-ukraine",
+        "vodafone.ukraine",
+        "vodafone ukraine online",
+        "vodafone ukraine store",
+        "vodafone ukraine shop",
+        "vodafone ukraine app",
+        "www vodafone ukraine",
+        "www.vodafoneukraine",
+        "vodafoneukraine.com",
+        "vodafoneukraine.ua"
+      ]
+    },
+    {
+      "name": "Vodafone",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Vodafone",
+        "vodafone",
+        "vodafone online",
+        "vodafone store",
+        "vodafone shop",
+        "vodafone app",
+        "www vodafone",
+        "www.vodafone",
+        "vodafone.com",
+        "vodafone.ua"
+      ]
+    },
+    {
+      "name": "Lifecell",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Lifecell",
+        "lifecell",
+        "lifecell online",
+        "lifecell store",
+        "lifecell shop",
+        "lifecell app",
+        "www lifecell",
+        "www.lifecell",
+        "lifecell.com",
+        "lifecell.ua"
+      ]
+    },
+    {
+      "name": "Triolan",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Triolan",
+        "triolan",
+        "triolan online",
+        "triolan store",
+        "triolan shop",
+        "triolan app",
+        "www triolan",
+        "www.triolan",
+        "triolan.com",
+        "triolan.ua"
+      ]
+    },
+    {
+      "name": "Volia",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Volia",
+        "volia",
+        "volia online",
+        "volia store",
+        "volia shop",
+        "volia app",
+        "www volia",
+        "www.volia",
+        "volia.com",
+        "volia.ua"
+      ]
+    },
+    {
+      "name": "Воля",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Воля",
+        "воля",
+        "воля online",
+        "воля store",
+        "воля shop",
+        "воля app",
+        "www воля",
+        "www.воля",
+        "воля.com",
+        "воля.ua"
+      ]
+    },
+    {
+      "name": "Lanet",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Lanet",
+        "lanet",
+        "lanet online",
+        "lanet store",
+        "lanet shop",
+        "lanet app",
+        "www lanet",
+        "www.lanet",
+        "lanet.com",
+        "lanet.ua"
+      ]
+    },
+    {
+      "name": "Datagroup",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Datagroup",
+        "datagroup",
+        "datagroup online",
+        "datagroup store",
+        "datagroup shop",
+        "datagroup app",
+        "www datagroup",
+        "www.datagroup",
+        "datagroup.com",
+        "datagroup.ua"
+      ]
+    },
+    {
+      "name": "Укртелеком",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Укртелеком",
+        "укртелеком",
+        "укртелеком online",
+        "укртелеком store",
+        "укртелеком shop",
+        "укртелеком app",
+        "www укртелеком",
+        "www.укртелеком",
+        "укртелеком.com",
+        "укртелеком.ua"
+      ]
+    },
+    {
+      "name": "Tenet",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Tenet",
+        "tenet",
+        "tenet online",
+        "tenet store",
+        "tenet shop",
+        "tenet app",
+        "www tenet",
+        "www.tenet",
+        "tenet.com",
+        "tenet.ua"
+      ]
+    },
+    {
+      "name": "Fregat",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Fregat",
+        "fregat",
+        "fregat online",
+        "fregat store",
+        "fregat shop",
+        "fregat app",
+        "www fregat",
+        "www.fregat",
+        "fregat.com",
+        "fregat.ua"
+      ]
+    },
+    {
+      "name": "IPnet",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "IPnet",
+        "ipnet",
+        "ipnet online",
+        "ipnet store",
+        "ipnet shop",
+        "ipnet app",
+        "www ipnet",
+        "www.ipnet",
+        "ipnet.com",
+        "ipnet.ua"
+      ]
+    },
+    {
+      "name": "LocalNet",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "LocalNet",
+        "localnet",
+        "localnet online",
+        "localnet store",
+        "localnet shop",
+        "localnet app",
+        "www localnet",
+        "www.localnet",
+        "localnet.com",
+        "localnet.ua"
+      ]
+    },
+    {
+      "name": "Omega Telecom",
+      "category": "telecom",
+      "subcategory": "mobile",
+      "country": "UA",
+      "aliases": [
+        "Omega Telecom",
+        "omega telecom",
+        "omegatelecom",
+        "omega-telecom",
+        "omega.telecom",
+        "omega telecom online",
+        "omega telecom store",
+        "omega telecom shop",
+        "omega telecom app",
+        "www omega telecom",
+        "www.omegatelecom",
+        "omegatelecom.com",
+        "omegatelecom.ua"
+      ]
+    },
+    {
+      "name": "Yasno",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "Yasno",
+        "yasno",
+        "yasno online",
+        "yasno store",
+        "yasno shop",
+        "yasno app",
+        "www yasno",
+        "www.yasno",
+        "yasno.com",
+        "yasno.ua"
+      ]
+    },
+    {
+      "name": "DTEK",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "DTEK",
+        "dtek",
+        "dtek online",
+        "dtek store",
+        "dtek shop",
+        "dtek app",
+        "www dtek",
+        "www.dtek",
+        "dtek.com",
+        "dtek.ua"
+      ]
+    },
+    {
+      "name": "ДТЕК",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "ДТЕК",
+        "дтек",
+        "дтек online",
+        "дтек store",
+        "дтек shop",
+        "дтек app",
+        "www дтек",
+        "www.дтек",
+        "дтек.com",
+        "дтек.ua"
+      ]
+    },
+    {
+      "name": "Naftogaz",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "Naftogaz",
+        "naftogaz",
+        "naftogaz online",
+        "naftogaz store",
+        "naftogaz shop",
+        "naftogaz app",
+        "www naftogaz",
+        "www.naftogaz",
+        "naftogaz.com",
+        "naftogaz.ua"
+      ]
+    },
+    {
+      "name": "Нафтогаз",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "Нафтогаз",
+        "нафтогаз",
+        "нафтогаз online",
+        "нафтогаз store",
+        "нафтогаз shop",
+        "нафтогаз app",
+        "www нафтогаз",
+        "www.нафтогаз",
+        "нафтогаз.com",
+        "нафтогаз.ua"
+      ]
+    },
+    {
+      "name": "Київводоканал",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "Київводоканал",
+        "киівводоканал",
+        "киівводоканал online",
+        "киівводоканал store",
+        "киівводоканал shop",
+        "киівводоканал app",
+        "www киівводоканал",
+        "www.киівводоканал",
+        "киівводоканал.com",
+        "киівводоканал.ua"
+      ]
+    },
+    {
+      "name": "Львівводоканал",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "Львівводоканал",
+        "львівводоканал",
+        "львівводоканал online",
+        "львівводоканал store",
+        "львівводоканал shop",
+        "львівводоканал app",
+        "www львівводоканал",
+        "www.львівводоканал",
+        "львівводоканал.com",
+        "львівводоканал.ua"
+      ]
+    },
+    {
+      "name": "Харківводоканал",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "Харківводоканал",
+        "харківводоканал",
+        "харківводоканал online",
+        "харківводоканал store",
+        "харківводоканал shop",
+        "харківводоканал app",
+        "www харківводоканал",
+        "www.харківводоканал",
+        "харківводоканал.com",
+        "харківводоканал.ua"
+      ]
+    },
+    {
+      "name": "Київтеплоенерго",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "Київтеплоенерго",
+        "киівтеплоенерго",
+        "киівтеплоенерго online",
+        "киівтеплоенерго store",
+        "киівтеплоенерго shop",
+        "киівтеплоенерго app",
+        "www киівтеплоенерго",
+        "www.киівтеплоенерго",
+        "киівтеплоенерго.com",
+        "киівтеплоенерго.ua"
+      ]
+    },
+    {
+      "name": "ЦКС Київ",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "ЦКС Київ",
+        "цкс киів",
+        "цкскиів",
+        "цкс-киів",
+        "цкс.киів",
+        "цкс киів online",
+        "цкс киів store",
+        "цкс киів shop",
+        "цкс киів app",
+        "www цкс киів",
+        "www.цкскиів",
+        "цкскиів.com",
+        "цкскиів.ua"
+      ]
+    },
+    {
+      "name": "104.ua",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "104.ua",
+        "104 ua",
+        "104ua",
+        "104-ua",
+        "104 ua online",
+        "104 ua store",
+        "104 ua shop",
+        "104 ua app",
+        "www 104 ua",
+        "www.104ua",
+        "104ua.com",
+        "104ua.ua"
+      ]
+    },
+    {
+      "name": "Gasolina Online",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "Gasolina Online",
+        "gasolina online",
+        "gasolinaonline",
+        "gasolina-online",
+        "gasolina.online",
+        "gasolina online online",
+        "gasolina online store",
+        "gasolina online shop",
+        "gasolina online app",
+        "www gasolina online",
+        "www.gasolinaonline",
+        "gasolinaonline.com",
+        "gasolinaonline.ua"
+      ]
+    },
+    {
+      "name": "ОСББ",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "ОСББ",
+        "осбб",
+        "осбб online",
+        "осбб store",
+        "осбб shop",
+        "осбб app",
+        "www осбб",
+        "www.осбб",
+        "осбб.com",
+        "осбб.ua"
+      ]
+    },
+    {
+      "name": "ЖЕК",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "ЖЕК",
+        "жек",
+        "жек online",
+        "жек store",
+        "жек shop",
+        "жек app",
+        "www жек",
+        "www.жек",
+        "жек.com",
+        "жек.ua"
+      ]
+    },
+    {
+      "name": "Комунальний сервіс",
+      "category": "utilities",
+      "subcategory": "utilities",
+      "country": "UA",
+      "aliases": [
+        "Комунальний сервіс",
+        "комунальнии сервіс",
+        "комунальниисервіс",
+        "комунальнии-сервіс",
+        "комунальнии.сервіс",
+        "комунальнии сервіс online",
+        "комунальнии сервіс store",
+        "комунальнии сервіс shop",
+        "комунальнии сервіс app",
+        "www комунальнии сервіс",
+        "www.комунальниисервіс",
+        "комунальниисервіс.com",
+        "комунальниисервіс.ua"
+      ]
+    },
+    {
+      "name": "ZARA",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "ZARA",
+        "zara",
+        "zara online",
+        "zara store",
+        "zara shop",
+        "zara app",
+        "www zara",
+        "www.zara",
+        "zara.com",
+        "zara.ua"
+      ]
+    },
+    {
+      "name": "Bershka",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Bershka",
+        "bershka",
+        "bershka online",
+        "bershka store",
+        "bershka shop",
+        "bershka app",
+        "www bershka",
+        "www.bershka",
+        "bershka.com",
+        "bershka.ua"
+      ]
+    },
+    {
+      "name": "Pull&Bear",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Pull&Bear",
+        "pull and bear",
+        "pullandbear",
+        "pull & bear",
+        "pull-and-bear",
+        "pull.and.bear",
+        "pull and bear online",
+        "pull and bear store",
+        "pull and bear shop",
+        "pull and bear app",
+        "www pull and bear",
+        "www.pullandbear",
+        "pullandbear.com",
+        "pullandbear.ua"
+      ]
+    },
+    {
+      "name": "Stradivarius",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Stradivarius",
+        "stradivarius",
+        "stradivarius online",
+        "stradivarius store",
+        "stradivarius shop",
+        "stradivarius app",
+        "www stradivarius",
+        "www.stradivarius",
+        "stradivarius.com",
+        "stradivarius.ua"
+      ]
+    },
+    {
+      "name": "Massimo Dutti",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Massimo Dutti",
+        "massimo dutti",
+        "massimodutti",
+        "massimo-dutti",
+        "massimo.dutti",
+        "massimo dutti online",
+        "massimo dutti store",
+        "massimo dutti shop",
+        "massimo dutti app",
+        "www massimo dutti",
+        "www.massimodutti",
+        "massimodutti.com",
+        "massimodutti.ua"
+      ]
+    },
+    {
+      "name": "Oysho",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Oysho",
+        "oysho",
+        "oysho online",
+        "oysho store",
+        "oysho shop",
+        "oysho app",
+        "www oysho",
+        "www.oysho",
+        "oysho.com",
+        "oysho.ua"
+      ]
+    },
+    {
+      "name": "Reserved",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Reserved",
+        "reserved",
+        "reserved online",
+        "reserved store",
+        "reserved shop",
+        "reserved app",
+        "www reserved",
+        "www.reserved",
+        "reserved.com",
+        "reserved.ua"
+      ]
+    },
+    {
+      "name": "Sinsay",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Sinsay",
+        "sinsay",
+        "sinsay online",
+        "sinsay store",
+        "sinsay shop",
+        "sinsay app",
+        "www sinsay",
+        "www.sinsay",
+        "sinsay.com",
+        "sinsay.ua"
+      ]
+    },
+    {
+      "name": "Cropp",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Cropp",
+        "cropp",
+        "cropp online",
+        "cropp store",
+        "cropp shop",
+        "cropp app",
+        "www cropp",
+        "www.cropp",
+        "cropp.com",
+        "cropp.ua"
+      ]
+    },
+    {
+      "name": "House",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "House",
+        "house",
+        "house online",
+        "house store",
+        "house shop",
+        "house app",
+        "www house",
+        "www.house",
+        "house.com",
+        "house.ua"
+      ]
+    },
+    {
+      "name": "Intertop",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Intertop",
+        "intertop",
+        "intertop online",
+        "intertop store",
+        "intertop shop",
+        "intertop app",
+        "www intertop",
+        "www.intertop",
+        "intertop.com",
+        "intertop.ua"
+      ]
+    },
+    {
+      "name": "Answear",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Answear",
+        "answear",
+        "answear online",
+        "answear store",
+        "answear shop",
+        "answear app",
+        "www answear",
+        "www.answear",
+        "answear.com",
+        "answear.ua"
+      ]
+    },
+    {
+      "name": "MD Fashion",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "MD Fashion",
+        "md fashion",
+        "mdfashion",
+        "md-fashion",
+        "md.fashion",
+        "md fashion online",
+        "md fashion store",
+        "md fashion shop",
+        "md fashion app",
+        "www md fashion",
+        "www.mdfashion",
+        "mdfashion.com",
+        "mdfashion.ua"
+      ]
+    },
+    {
+      "name": "LC Waikiki",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "LC Waikiki",
+        "lc waikiki",
+        "lcwaikiki",
+        "lc-waikiki",
+        "lc.waikiki",
+        "lc waikiki online",
+        "lc waikiki store",
+        "lc waikiki shop",
+        "lc waikiki app",
+        "www lc waikiki",
+        "www.lcwaikiki",
+        "lcwaikiki.com",
+        "lcwaikiki.ua"
+      ]
+    },
+    {
+      "name": "Colin's",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Colin's",
+        "colins",
+        "colins online",
+        "colins store",
+        "colins shop",
+        "colins app",
+        "www colins",
+        "www.colins",
+        "colins.com",
+        "colins.ua"
+      ]
+    },
+    {
+      "name": "Vovk",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Vovk",
+        "vovk",
+        "vovk online",
+        "vovk store",
+        "vovk shop",
+        "vovk app",
+        "www vovk",
+        "www.vovk",
+        "vovk.com",
+        "vovk.ua"
+      ]
+    },
+    {
+      "name": "MustHave",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "MustHave",
+        "musthave",
+        "musthave online",
+        "musthave store",
+        "musthave shop",
+        "musthave app",
+        "www musthave",
+        "www.musthave",
+        "musthave.com",
+        "musthave.ua"
+      ]
+    },
+    {
+      "name": "Goldi",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Goldi",
+        "goldi",
+        "goldi online",
+        "goldi store",
+        "goldi shop",
+        "goldi app",
+        "www goldi",
+        "www.goldi",
+        "goldi.com",
+        "goldi.ua"
+      ]
+    },
+    {
+      "name": "Arber",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Arber",
+        "arber",
+        "arber online",
+        "arber store",
+        "arber shop",
+        "arber app",
+        "www arber",
+        "www.arber",
+        "arber.com",
+        "arber.ua"
+      ]
+    },
+    {
+      "name": "Helen Marlen",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Helen Marlen",
+        "helen marlen",
+        "helenmarlen",
+        "helen-marlen",
+        "helen.marlen",
+        "helen marlen online",
+        "helen marlen store",
+        "helen marlen shop",
+        "helen marlen app",
+        "www helen marlen",
+        "www.helenmarlen",
+        "helenmarlen.com",
+        "helenmarlen.ua"
+      ]
+    },
+    {
+      "name": "Symbol",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Symbol",
+        "symbol",
+        "symbol online",
+        "symbol store",
+        "symbol shop",
+        "symbol app",
+        "www symbol",
+        "www.symbol",
+        "symbol.com",
+        "symbol.ua"
+      ]
+    },
+    {
+      "name": "Walker",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Walker",
+        "walker",
+        "walker online",
+        "walker store",
+        "walker shop",
+        "walker app",
+        "www walker",
+        "www.walker",
+        "walker.com",
+        "walker.ua"
+      ]
+    },
+    {
+      "name": "Miraton",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Miraton",
+        "miraton",
+        "miraton online",
+        "miraton store",
+        "miraton shop",
+        "miraton app",
+        "www miraton",
+        "www.miraton",
+        "miraton.com",
+        "miraton.ua"
+      ]
+    },
+    {
+      "name": "Kachorovska",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Kachorovska",
+        "kachorovska",
+        "kachorovska online",
+        "kachorovska store",
+        "kachorovska shop",
+        "kachorovska app",
+        "www kachorovska",
+        "www.kachorovska",
+        "kachorovska.com",
+        "kachorovska.ua"
+      ]
+    },
+    {
+      "name": "Konfiskat",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Konfiskat",
+        "konfiskat",
+        "konfiskat online",
+        "konfiskat store",
+        "konfiskat shop",
+        "konfiskat app",
+        "www konfiskat",
+        "www.konfiskat",
+        "konfiskat.com",
+        "konfiskat.ua"
+      ]
+    },
+    {
+      "name": "Defacto",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Defacto",
+        "defacto",
+        "defacto online",
+        "defacto store",
+        "defacto shop",
+        "defacto app",
+        "www defacto",
+        "www.defacto",
+        "defacto.com",
+        "defacto.ua"
+      ]
+    },
+    {
+      "name": "New Yorker",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "New Yorker",
+        "new yorker",
+        "newyorker",
+        "new-yorker",
+        "new.yorker",
+        "new yorker online",
+        "new yorker store",
+        "new yorker shop",
+        "new yorker app",
+        "www new yorker",
+        "www.newyorker",
+        "newyorker.com",
+        "newyorker.ua"
+      ]
+    },
+    {
+      "name": "H&M",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "H&M",
+        "h and m",
+        "handm",
+        "h & m",
+        "h-and-m",
+        "h.and.m",
+        "h and m online",
+        "h and m store",
+        "h and m shop",
+        "h and m app",
+        "www h and m",
+        "www.handm",
+        "handm.com",
+        "handm.ua"
+      ]
+    },
+    {
+      "name": "Nike",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Nike",
+        "nike",
+        "nike online",
+        "nike store",
+        "nike shop",
+        "nike app",
+        "www nike",
+        "www.nike",
+        "nike.com",
+        "nike.ua"
+      ]
+    },
+    {
+      "name": "Adidas",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Adidas",
+        "adidas",
+        "adidas online",
+        "adidas store",
+        "adidas shop",
+        "adidas app",
+        "www adidas",
+        "www.adidas",
+        "adidas.com",
+        "adidas.ua"
+      ]
+    },
+    {
+      "name": "Puma",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Puma",
+        "puma",
+        "puma online",
+        "puma store",
+        "puma shop",
+        "puma app",
+        "www puma",
+        "www.puma",
+        "puma.com",
+        "puma.ua"
+      ]
+    },
+    {
+      "name": "Under Armour",
+      "category": "clothing",
+      "subcategory": "clothing",
+      "country": "UA",
+      "aliases": [
+        "Under Armour",
+        "under armour",
+        "underarmour",
+        "under-armour",
+        "under.armour",
+        "under armour online",
+        "under armour store",
+        "under armour shop",
+        "under armour app",
+        "www under armour",
+        "www.underarmour",
+        "underarmour.com",
+        "underarmour.ua"
+      ]
+    },
+    {
+      "name": "Prom.ua",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Prom.ua",
+        "prom ua",
+        "promua",
+        "prom-ua",
+        "prom.ua",
+        "prom ua online",
+        "prom ua store",
+        "prom ua shop",
+        "prom ua app",
+        "www prom ua",
+        "www.promua",
+        "promua.com",
+        "promua.ua"
+      ]
+    },
+    {
+      "name": "OLX",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "OLX",
+        "olx",
+        "olx online",
+        "olx store",
+        "olx shop",
+        "olx app",
+        "www olx",
+        "www.olx",
+        "olx.com",
+        "olx.ua"
+      ]
+    },
+    {
+      "name": "Kasta",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Kasta",
+        "kasta",
+        "kasta online",
+        "kasta store",
+        "kasta shop",
+        "kasta app",
+        "www kasta",
+        "www.kasta",
+        "kasta.com",
+        "kasta.ua"
+      ]
+    },
+    {
+      "name": "Bigl.ua",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Bigl.ua",
+        "bigl ua",
+        "biglua",
+        "bigl-ua",
+        "bigl.ua",
+        "bigl ua online",
+        "bigl ua store",
+        "bigl ua shop",
+        "bigl ua app",
+        "www bigl ua",
+        "www.biglua",
+        "biglua.com",
+        "biglua.ua"
+      ]
+    },
+    {
+      "name": "Shafa",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Shafa",
+        "shafa",
+        "shafa online",
+        "shafa store",
+        "shafa shop",
+        "shafa app",
+        "www shafa",
+        "www.shafa",
+        "shafa.com",
+        "shafa.ua"
+      ]
+    },
+    {
+      "name": "Crafta",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Crafta",
+        "crafta",
+        "crafta online",
+        "crafta store",
+        "crafta shop",
+        "crafta app",
+        "www crafta",
+        "www.crafta",
+        "crafta.com",
+        "crafta.ua"
+      ]
+    },
+    {
+      "name": "Zakupka",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Zakupka",
+        "zakupka",
+        "zakupka online",
+        "zakupka store",
+        "zakupka shop",
+        "zakupka app",
+        "www zakupka",
+        "www.zakupka",
+        "zakupka.com",
+        "zakupka.ua"
+      ]
+    },
+    {
+      "name": "Hotline",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Hotline",
+        "hotline",
+        "hotline online",
+        "hotline store",
+        "hotline shop",
+        "hotline app",
+        "www hotline",
+        "www.hotline",
+        "hotline.com",
+        "hotline.ua"
+      ]
+    },
+    {
+      "name": "Price.ua",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Price.ua",
+        "price ua",
+        "priceua",
+        "price-ua",
+        "price.ua",
+        "price ua online",
+        "price ua store",
+        "price ua shop",
+        "price ua app",
+        "www price ua",
+        "www.priceua",
+        "priceua.com",
+        "priceua.ua"
+      ]
+    },
+    {
+      "name": "Epicentr Marketplace",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Epicentr Marketplace",
+        "epicentr marketplace",
+        "epicentrmarketplace",
+        "epicentr-marketplace",
+        "epicentr.marketplace",
+        "epicentr marketplace online",
+        "epicentr marketplace store",
+        "epicentr marketplace shop",
+        "epicentr marketplace app",
+        "www epicentr marketplace",
+        "www.epicentrmarketplace",
+        "epicentrmarketplace.com",
+        "epicentrmarketplace.ua"
+      ]
+    },
+    {
+      "name": "Rozetka Marketplace",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Rozetka Marketplace",
+        "rozetka marketplace",
+        "rozetkamarketplace",
+        "rozetka-marketplace",
+        "rozetka.marketplace",
+        "rozetka marketplace online",
+        "rozetka marketplace store",
+        "rozetka marketplace shop",
+        "rozetka marketplace app",
+        "www rozetka marketplace",
+        "www.rozetkamarketplace",
+        "rozetkamarketplace.com",
+        "rozetkamarketplace.ua"
+      ]
+    },
+    {
+      "name": "Allbiz",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Allbiz",
+        "allbiz",
+        "allbiz online",
+        "allbiz store",
+        "allbiz shop",
+        "allbiz app",
+        "www allbiz",
+        "www.allbiz",
+        "allbiz.com",
+        "allbiz.ua"
+      ]
+    },
+    {
+      "name": "Kabanchik",
+      "category": "marketplaces",
+      "subcategory": "marketplaces",
+      "country": "UA",
+      "aliases": [
+        "Kabanchik",
+        "kabanchik",
+        "kabanchik online",
+        "kabanchik store",
+        "kabanchik shop",
+        "kabanchik app",
+        "www kabanchik",
+        "www.kabanchik",
+        "kabanchik.com",
+        "kabanchik.ua"
+      ]
+    },
+    {
+      "name": "Sportmaster",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "Sportmaster",
+        "sportmaster",
+        "sportmaster online",
+        "sportmaster store",
+        "sportmaster shop",
+        "sportmaster app",
+        "www sportmaster",
+        "www.sportmaster",
+        "sportmaster.com",
+        "sportmaster.ua"
+      ]
+    },
+    {
+      "name": "Intersport",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "Intersport",
+        "intersport",
+        "intersport online",
+        "intersport store",
+        "intersport shop",
+        "intersport app",
+        "www intersport",
+        "www.intersport",
+        "intersport.com",
+        "intersport.ua"
+      ]
+    },
+    {
+      "name": "Megasport",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "Megasport",
+        "megasport",
+        "megasport online",
+        "megasport store",
+        "megasport shop",
+        "megasport app",
+        "www megasport",
+        "www.megasport",
+        "megasport.com",
+        "megasport.ua"
+      ]
+    },
+    {
+      "name": "Gorgany",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "Gorgany",
+        "gorgany",
+        "gorgany online",
+        "gorgany store",
+        "gorgany shop",
+        "gorgany app",
+        "www gorgany",
+        "www.gorgany",
+        "gorgany.com",
+        "gorgany.ua"
+      ]
+    },
+    {
+      "name": "Extrem Style",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "Extrem Style",
+        "extrem style",
+        "extremstyle",
+        "extrem-style",
+        "extrem.style",
+        "extrem style online",
+        "extrem style store",
+        "extrem style shop",
+        "extrem style app",
+        "www extrem style",
+        "www.extremstyle",
+        "extremstyle.com",
+        "extremstyle.ua"
+      ]
+    },
+    {
+      "name": "Decathlon Ukraine",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "Decathlon Ukraine",
+        "decathlon ukraine",
+        "decathlonukraine",
+        "decathlon-ukraine",
+        "decathlon.ukraine",
+        "decathlon ukraine online",
+        "decathlon ukraine store",
+        "decathlon ukraine shop",
+        "decathlon ukraine app",
+        "www decathlon ukraine",
+        "www.decathlonukraine",
+        "decathlonukraine.com",
+        "decathlonukraine.ua"
+      ]
+    },
+    {
+      "name": "Veliki.ua",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "Veliki.ua",
+        "veliki ua",
+        "velikiua",
+        "veliki-ua",
+        "veliki.ua",
+        "veliki ua online",
+        "veliki ua store",
+        "veliki ua shop",
+        "veliki ua app",
+        "www veliki ua",
+        "www.velikiua",
+        "velikiua.com",
+        "velikiua.ua"
+      ]
+    },
+    {
+      "name": "Drive Sport",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "Drive Sport",
+        "drive sport",
+        "drivesport",
+        "drive-sport",
+        "drive.sport",
+        "drive sport online",
+        "drive sport store",
+        "drive sport shop",
+        "drive sport app",
+        "www drive sport",
+        "www.drivesport",
+        "drivesport.com",
+        "drivesport.ua"
+      ]
+    },
+    {
+      "name": "Athletics",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "Athletics",
+        "athletics",
+        "athletics online",
+        "athletics store",
+        "athletics shop",
+        "athletics app",
+        "www athletics",
+        "www.athletics",
+        "athletics.com",
+        "athletics.ua"
+      ]
+    },
+    {
+      "name": "4F Ukraine",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "4F Ukraine",
+        "4f ukraine",
+        "4fukraine",
+        "4f-ukraine",
+        "4f.ukraine",
+        "4f ukraine online",
+        "4f ukraine store",
+        "4f ukraine shop",
+        "4f ukraine app",
+        "www 4f ukraine",
+        "www.4fukraine",
+        "4fukraine.com",
+        "4fukraine.ua"
+      ]
+    },
+    {
+      "name": "Arena Store",
+      "category": "sport",
+      "subcategory": "sport",
+      "country": "UA",
+      "aliases": [
+        "Arena Store",
+        "arena store",
+        "arenastore",
+        "arena-store",
+        "arena.store",
+        "arena store online",
+        "arena store store",
+        "arena store shop",
+        "arena store app",
+        "www arena store",
+        "www.arenastore",
+        "arenastore.com",
+        "arenastore.ua"
+      ]
+    },
+    {
+      "name": "Yakaboo",
+      "category": "books",
+      "subcategory": "books",
+      "country": "UA",
+      "aliases": [
+        "Yakaboo",
+        "yakaboo",
+        "yakaboo online",
+        "yakaboo store",
+        "yakaboo shop",
+        "yakaboo app",
+        "www yakaboo",
+        "www.yakaboo",
+        "yakaboo.com",
+        "yakaboo.ua"
+      ]
+    },
+    {
+      "name": "Книгарня Є",
+      "category": "books",
+      "subcategory": "books",
+      "country": "UA",
+      "aliases": [
+        "Книгарня Є",
+        "книгарня є",
+        "книгарняє",
+        "книгарня-є",
+        "книгарня.є",
+        "книгарня є online",
+        "книгарня є store",
+        "книгарня є shop",
+        "книгарня є app",
+        "www книгарня є",
+        "www.книгарняє",
+        "книгарняє.com",
+        "книгарняє.ua"
+      ]
+    },
+    {
+      "name": "Book24",
+      "category": "books",
+      "subcategory": "books",
+      "country": "UA",
+      "aliases": [
+        "Book24",
+        "book24",
+        "book24 online",
+        "book24 store",
+        "book24 shop",
+        "book24 app",
+        "www book24",
+        "www.book24",
+        "book24.com",
+        "book24.ua"
+      ]
+    },
+    {
+      "name": "Наш Формат",
+      "category": "books",
+      "subcategory": "books",
+      "country": "UA",
+      "aliases": [
+        "Наш Формат",
+        "наш формат",
+        "нашформат",
+        "наш-формат",
+        "наш.формат",
+        "наш формат online",
+        "наш формат store",
+        "наш формат shop",
+        "наш формат app",
+        "www наш формат",
+        "www.нашформат",
+        "нашформат.com",
+        "нашформат.ua"
+      ]
+    },
+    {
+      "name": "Видавництво Старого Лева",
+      "category": "books",
+      "subcategory": "books",
+      "country": "UA",
+      "aliases": [
+        "Видавництво Старого Лева",
+        "видавництво старого лева",
+        "видавництвостароголева",
+        "видавництво-старого-лева",
+        "видавництво.старого.лева",
+        "видавництво старого лева online",
+        "видавництво старого лева store",
+        "видавництво старого лева shop",
+        "видавництво старого лева app",
+        "www видавництво старого лева",
+        "www.видавництвостароголева",
+        "видавництвостароголева.com",
+        "видавництвостароголева.ua"
+      ]
+    },
+    {
+      "name": "А-БА-БА-ГА-ЛА-МА-ГА",
+      "category": "books",
+      "subcategory": "books",
+      "country": "UA",
+      "aliases": [
+        "А-БА-БА-ГА-ЛА-МА-ГА",
+        "а ба ба га ла ма га",
+        "абабагаламага",
+        "а-ба-ба-га-ла-ма-га",
+        "а.ба.ба.га.ла.ма.га",
+        "а ба ба га ла ма га online",
+        "а ба ба га ла ма га store",
+        "а ба ба га ла ма га shop",
+        "а ба ба га ла ма га app",
+        "www а ба ба га ла ма га",
+        "www.абабагаламага",
+        "абабагаламага.com",
+        "абабагаламага.ua"
+      ]
+    },
+    {
+      "name": "Буква",
+      "category": "books",
+      "subcategory": "books",
+      "country": "UA",
+      "aliases": [
+        "Буква",
+        "буква",
+        "буква online",
+        "буква store",
+        "буква shop",
+        "буква app",
+        "www буква",
+        "www.буква",
+        "буква.com",
+        "буква.ua"
+      ]
+    },
+    {
+      "name": "Лабораторія",
+      "category": "books",
+      "subcategory": "books",
+      "country": "UA",
+      "aliases": [
+        "Лабораторія",
+        "лабораторія",
+        "лабораторія online",
+        "лабораторія store",
+        "лабораторія shop",
+        "лабораторія app",
+        "www лабораторія",
+        "www.лабораторія",
+        "лабораторія.com",
+        "лабораторія.ua"
+      ]
+    },
+    {
+      "name": "Readeat",
+      "category": "books",
+      "subcategory": "books",
+      "country": "UA",
+      "aliases": [
+        "Readeat",
+        "readeat",
+        "readeat online",
+        "readeat store",
+        "readeat shop",
+        "readeat app",
+        "www readeat",
+        "www.readeat",
+        "readeat.com",
+        "readeat.ua"
+      ]
+    },
+    {
+      "name": "Добробут",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Добробут",
+        "добробут",
+        "добробут online",
+        "добробут store",
+        "добробут shop",
+        "добробут app",
+        "www добробут",
+        "www.добробут",
+        "добробут.com",
+        "добробут.ua"
+      ]
+    },
+    {
+      "name": "Oxford Medical",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Oxford Medical",
+        "oxford medical",
+        "oxfordmedical",
+        "oxford-medical",
+        "oxford.medical",
+        "oxford medical online",
+        "oxford medical store",
+        "oxford medical shop",
+        "oxford medical app",
+        "www oxford medical",
+        "www.oxfordmedical",
+        "oxfordmedical.com",
+        "oxfordmedical.ua"
+      ]
+    },
+    {
+      "name": "Медиком",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Медиком",
+        "медиком",
+        "медиком online",
+        "медиком store",
+        "медиком shop",
+        "медиком app",
+        "www медиком",
+        "www.медиком",
+        "медиком.com",
+        "медиком.ua"
+      ]
+    },
+    {
+      "name": "Into-Sana",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Into-Sana",
+        "into sana",
+        "intosana",
+        "into-sana",
+        "into.sana",
+        "into sana online",
+        "into sana store",
+        "into sana shop",
+        "into sana app",
+        "www into sana",
+        "www.intosana",
+        "intosana.com",
+        "intosana.ua"
+      ]
+    },
+    {
+      "name": "Сінево",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Сінево",
+        "сінево",
+        "сінево online",
+        "сінево store",
+        "сінево shop",
+        "сінево app",
+        "www сінево",
+        "www.сінево",
+        "сінево.com",
+        "сінево.ua"
+      ]
+    },
+    {
+      "name": "Synevo",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Synevo",
+        "synevo",
+        "synevo online",
+        "synevo store",
+        "synevo shop",
+        "synevo app",
+        "www synevo",
+        "www.synevo",
+        "synevo.com",
+        "synevo.ua"
+      ]
+    },
+    {
+      "name": "Діла",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Діла",
+        "діла",
+        "діла online",
+        "діла store",
+        "діла shop",
+        "діла app",
+        "www діла",
+        "www.діла",
+        "діла.com",
+        "діла.ua"
+      ]
+    },
+    {
+      "name": "Dila",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Dila",
+        "dila",
+        "dila online",
+        "dila store",
+        "dila shop",
+        "dila app",
+        "www dila",
+        "www.dila",
+        "dila.com",
+        "dila.ua"
+      ]
+    },
+    {
+      "name": "Ескулаб",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Ескулаб",
+        "ескулаб",
+        "ескулаб online",
+        "ескулаб store",
+        "ескулаб shop",
+        "ескулаб app",
+        "www ескулаб",
+        "www.ескулаб",
+        "ескулаб.com",
+        "ескулаб.ua"
+      ]
+    },
+    {
+      "name": "Ніколаб",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Ніколаб",
+        "ніколаб",
+        "ніколаб online",
+        "ніколаб store",
+        "ніколаб shop",
+        "ніколаб app",
+        "www ніколаб",
+        "www.ніколаб",
+        "ніколаб.com",
+        "ніколаб.ua"
+      ]
+    },
+    {
+      "name": "Adonis",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Adonis",
+        "adonis",
+        "adonis online",
+        "adonis store",
+        "adonis shop",
+        "adonis app",
+        "www adonis",
+        "www.adonis",
+        "adonis.com",
+        "adonis.ua"
+      ]
+    },
+    {
+      "name": "MedLife",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "MedLife",
+        "medlife",
+        "medlife online",
+        "medlife store",
+        "medlife shop",
+        "medlife app",
+        "www medlife",
+        "www.medlife",
+        "medlife.com",
+        "medlife.ua"
+      ]
+    },
+    {
+      "name": "Ісіда",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Ісіда",
+        "ісіда",
+        "ісіда online",
+        "ісіда store",
+        "ісіда shop",
+        "ісіда app",
+        "www ісіда",
+        "www.ісіда",
+        "ісіда.com",
+        "ісіда.ua"
+      ]
+    },
+    {
+      "name": "ЛюміДент",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "ЛюміДент",
+        "люмідент",
+        "люмідент online",
+        "люмідент store",
+        "люмідент shop",
+        "люмідент app",
+        "www люмідент",
+        "www.люмідент",
+        "люмідент.com",
+        "люмідент.ua"
+      ]
+    },
+    {
+      "name": "Astra Dent",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Astra Dent",
+        "astra dent",
+        "astradent",
+        "astra-dent",
+        "astra.dent",
+        "astra dent online",
+        "astra dent store",
+        "astra dent shop",
+        "astra dent app",
+        "www astra dent",
+        "www.astradent",
+        "astradent.com",
+        "astradent.ua"
+      ]
+    },
+    {
+      "name": "Оберіг",
+      "category": "health",
+      "subcategory": "medical",
+      "country": "UA",
+      "aliases": [
+        "Оберіг",
+        "оберіг",
+        "оберіг online",
+        "оберіг store",
+        "оберіг shop",
+        "оберіг app",
+        "www оберіг",
+        "www.оберіг",
+        "оберіг.com",
+        "оберіг.ua"
+      ]
+    },
+    {
+      "name": "Дія",
+      "category": "government",
+      "subcategory": "government",
+      "country": "UA",
+      "aliases": [
+        "Дія",
+        "дія",
+        "дія online",
+        "дія store",
+        "дія shop",
+        "дія app",
+        "www дія",
+        "www.дія",
+        "дія.com",
+        "дія.ua"
+      ]
+    },
+    {
+      "name": "Diia",
+      "category": "government",
+      "subcategory": "government",
+      "country": "UA",
+      "aliases": [
+        "Diia",
+        "diia",
+        "diia online",
+        "diia store",
+        "diia shop",
+        "diia app",
+        "www diia",
+        "www.diia",
+        "diia.com",
+        "diia.ua"
+      ]
+    },
+    {
+      "name": "ЦНАП",
+      "category": "government",
+      "subcategory": "government",
+      "country": "UA",
+      "aliases": [
+        "ЦНАП",
+        "цнап",
+        "цнап online",
+        "цнап store",
+        "цнап shop",
+        "цнап app",
+        "www цнап",
+        "www.цнап",
+        "цнап.com",
+        "цнап.ua"
+      ]
+    },
+    {
+      "name": "ДП Документ",
+      "category": "government",
+      "subcategory": "government",
+      "country": "UA",
+      "aliases": [
+        "ДП Документ",
+        "дп документ",
+        "дпдокумент",
+        "дп-документ",
+        "дп.документ",
+        "дп документ online",
+        "дп документ store",
+        "дп документ shop",
+        "дп документ app",
+        "www дп документ",
+        "www.дпдокумент",
+        "дпдокумент.com",
+        "дпдокумент.ua"
+      ]
+    },
+    {
+      "name": "МВС",
+      "category": "government",
+      "subcategory": "government",
+      "country": "UA",
+      "aliases": [
+        "МВС",
+        "мвс",
+        "мвс online",
+        "мвс store",
+        "мвс shop",
+        "мвс app",
+        "www мвс",
+        "www.мвс",
+        "мвс.com",
+        "мвс.ua"
+      ]
+    },
+    {
+      "name": "Мін'юст",
+      "category": "government",
+      "subcategory": "government",
+      "country": "UA",
+      "aliases": [
+        "Мін'юст",
+        "мінюст",
+        "мінюст online",
+        "мінюст store",
+        "мінюст shop",
+        "мінюст app",
+        "www мінюст",
+        "www.мінюст",
+        "мінюст.com",
+        "мінюст.ua"
+      ]
+    },
+    {
+      "name": "Судовий збір",
+      "category": "government",
+      "subcategory": "government",
+      "country": "UA",
+      "aliases": [
+        "Судовий збір",
+        "судовии збір",
+        "судовиизбір",
+        "судовии-збір",
+        "судовии.збір",
+        "судовии збір online",
+        "судовии збір store",
+        "судовии збір shop",
+        "судовии збір app",
+        "www судовии збір",
+        "www.судовиизбір",
+        "судовиизбір.com",
+        "судовиизбір.ua"
+      ]
+    },
+    {
+      "name": "Штраф ПДР",
+      "category": "government",
+      "subcategory": "government",
+      "country": "UA",
+      "aliases": [
+        "Штраф ПДР",
+        "штраф пдр",
+        "штрафпдр",
+        "штраф-пдр",
+        "штраф.пдр",
+        "штраф пдр online",
+        "штраф пдр store",
+        "штраф пдр shop",
+        "штраф пдр app",
+        "www штраф пдр",
+        "www.штрафпдр",
+        "штрафпдр.com",
+        "штрафпдр.ua"
+      ]
+    },
+    {
+      "name": "Електронний суд",
+      "category": "government",
+      "subcategory": "government",
+      "country": "UA",
+      "aliases": [
+        "Електронний суд",
+        "електроннии суд",
+        "електронниисуд",
+        "електроннии-суд",
+        "електроннии.суд",
+        "електроннии суд online",
+        "електроннии суд store",
+        "електроннии суд shop",
+        "електроннии суд app",
+        "www електроннии суд",
+        "www.електронниисуд",
+        "електронниисуд.com",
+        "електронниисуд.ua"
+      ]
+    },
+    {
+      "name": "United24",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "United24",
+        "united24",
+        "united24 online",
+        "united24 store",
+        "united24 shop",
+        "united24 app",
+        "www united24",
+        "www.united24",
+        "united24.com",
+        "united24.ua"
+      ]
+    },
+    {
+      "name": "Повернись живим",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "Повернись живим",
+        "повернись живим",
+        "повернисьживим",
+        "повернись-живим",
+        "повернись.живим",
+        "повернись живим online",
+        "повернись живим store",
+        "повернись живим shop",
+        "повернись живим app",
+        "www повернись живим",
+        "www.повернисьживим",
+        "повернисьживим.com",
+        "повернисьживим.ua"
+      ]
+    },
+    {
+      "name": "Come Back Alive",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "Come Back Alive",
+        "come back alive",
+        "comebackalive",
+        "come-back-alive",
+        "come.back.alive",
+        "come back alive online",
+        "come back alive store",
+        "come back alive shop",
+        "come back alive app",
+        "www come back alive",
+        "www.comebackalive",
+        "comebackalive.com",
+        "comebackalive.ua"
+      ]
+    },
+    {
+      "name": "Serhiy Prytula Foundation",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "Serhiy Prytula Foundation",
+        "serhiy prytula foundation",
+        "serhiyprytulafoundation",
+        "serhiy-prytula-foundation",
+        "serhiy.prytula.foundation",
+        "serhiy prytula foundation online",
+        "serhiy prytula foundation store",
+        "serhiy prytula foundation shop",
+        "serhiy prytula foundation app",
+        "www serhiy prytula foundation",
+        "www.serhiyprytulafoundation",
+        "serhiyprytulafoundation.com",
+        "serhiyprytulafoundation.ua"
+      ]
+    },
+    {
+      "name": "Фонд Притули",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "Фонд Притули",
+        "фонд притули",
+        "фондпритули",
+        "фонд-притули",
+        "фонд.притули",
+        "фонд притули online",
+        "фонд притули store",
+        "фонд притули shop",
+        "фонд притули app",
+        "www фонд притули",
+        "www.фондпритули",
+        "фондпритули.com",
+        "фондпритули.ua"
+      ]
+    },
+    {
+      "name": "Tabletochki",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "Tabletochki",
+        "tabletochki",
+        "tabletochki online",
+        "tabletochki store",
+        "tabletochki shop",
+        "tabletochki app",
+        "www tabletochki",
+        "www.tabletochki",
+        "tabletochki.com",
+        "tabletochki.ua"
+      ]
+    },
+    {
+      "name": "UAnimals",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "UAnimals",
+        "uanimals",
+        "uanimals online",
+        "uanimals store",
+        "uanimals shop",
+        "uanimals app",
+        "www uanimals",
+        "www.uanimals",
+        "uanimals.com",
+        "uanimals.ua"
+      ]
+    },
+    {
+      "name": "Razom for Ukraine",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "Razom for Ukraine",
+        "razom for ukraine",
+        "razomforukraine",
+        "razom-for-ukraine",
+        "razom.for.ukraine",
+        "razom for ukraine online",
+        "razom for ukraine store",
+        "razom for ukraine shop",
+        "razom for ukraine app",
+        "www razom for ukraine",
+        "www.razomforukraine",
+        "razomforukraine.com",
+        "razomforukraine.ua"
+      ]
+    },
+    {
+      "name": "Save Ukraine",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "Save Ukraine",
+        "save ukraine",
+        "saveukraine",
+        "save-ukraine",
+        "save.ukraine",
+        "save ukraine online",
+        "save ukraine store",
+        "save ukraine shop",
+        "save ukraine app",
+        "www save ukraine",
+        "www.saveukraine",
+        "saveukraine.com",
+        "saveukraine.ua"
+      ]
+    },
+    {
+      "name": "Hospitallers",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "Hospitallers",
+        "hospitallers",
+        "hospitallers online",
+        "hospitallers store",
+        "hospitallers shop",
+        "hospitallers app",
+        "www hospitallers",
+        "www.hospitallers",
+        "hospitallers.com",
+        "hospitallers.ua"
+      ]
+    },
+    {
+      "name": "Карітас",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "Карітас",
+        "карітас",
+        "карітас online",
+        "карітас store",
+        "карітас shop",
+        "карітас app",
+        "www карітас",
+        "www.карітас",
+        "карітас.com",
+        "карітас.ua"
+      ]
+    },
+    {
+      "name": "Червоний Хрест",
+      "category": "charity",
+      "subcategory": "charity",
+      "country": "UA",
+      "aliases": [
+        "Червоний Хрест",
+        "червонии хрест",
+        "червониихрест",
+        "червонии-хрест",
+        "червонии.хрест",
+        "червонии хрест online",
+        "червонии хрест store",
+        "червонии хрест shop",
+        "червонии хрест app",
+        "www червонии хрест",
+        "www.червониихрест",
+        "червониихрест.com",
+        "червониихрест.ua"
+      ]
+    }
+  ]
+}

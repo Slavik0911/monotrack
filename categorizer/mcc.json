@@ -1,0 +1,4912 @@
+{
+  "1520": {
+    "name": "General Contractors-Residential and Commercial",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "1711": {
+    "name": "Air Conditioning Contractors – Sales and Installation, Heating Contractors – Sales, Service, Installation",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "1731": {
+    "name": "Electrical Contractors",
+    "category": "utilities",
+    "subcategory": "utilities"
+  },
+  "1740": {
+    "name": "Insulation – Contractors, Masonry, Stonework Contractors, Plastering Contractors, Stonework and Masonry Contractors, Tile Settings Contractors",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "1750": {
+    "name": "Carpentry Contractors",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "1761": {
+    "name": "Roofing – Contractors, Sheet Metal Work – Contractors, Siding – Contractors",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "1771": {
+    "name": "Contractors – Concrete Work",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "1799": {
+    "name": "Contractors – Special Trade, Not Elsewhere Classified",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "2741": {
+    "name": "Miscellaneous Publishing and Printing",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "2791": {
+    "name": "Typesetting, Plate Making, & Related Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "2842": {
+    "name": "Specialty Cleaning, Polishing, and Sanitation Preparations",
+    "category": "repair",
+    "subcategory": "services"
+  },
+  "3000": {
+    "name": "UNITED AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3001": {
+    "name": "AMERICAN AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3002": {
+    "name": "PAN AMERICAN",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3003": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3004": {
+    "name": "TRANS WORLD AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3005": {
+    "name": "BRITISH AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3006": {
+    "name": "JAPAN AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3007": {
+    "name": "AIR FRANCE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3008": {
+    "name": "LUFTHANSA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3009": {
+    "name": "AIR CANADA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3010": {
+    "name": "KLM (ROYAL DUTCH AIRLINES)",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3011": {
+    "name": "AEORFLOT",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3012": {
+    "name": "QUANTAS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3013": {
+    "name": "ALITALIA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3014": {
+    "name": "SAUDIA ARABIAN AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3015": {
+    "name": "SWISSAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3016": {
+    "name": "SAS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3017": {
+    "name": "SOUTH AFRICAN AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3018": {
+    "name": "VARIG (BRAZIL)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3019": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3020": {
+    "name": "AIR-INDIA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3021": {
+    "name": "AIR ALGERIE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3022": {
+    "name": "PHILIPPINE AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3023": {
+    "name": "MEXICANA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3024": {
+    "name": "PAKISTAN INTERNATIONAL",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3025": {
+    "name": "AIR NEW ZEALAND",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3026": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3027": {
+    "name": "UTA/INTERAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3028": {
+    "name": "AIR MALTA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3029": {
+    "name": "SABENA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3030": {
+    "name": "AEROLINEAS ARGENTINAS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3031": {
+    "name": "OLYMPIC AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3032": {
+    "name": "EL AL",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3033": {
+    "name": "ANSETT AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3034": {
+    "name": "AUSTRAINLIAN AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3035": {
+    "name": "TAP (PORTUGAL)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3036": {
+    "name": "VASP (BRAZIL)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3037": {
+    "name": "EGYPTAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3038": {
+    "name": "KUWAIT AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3039": {
+    "name": "AVIANCA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3040": {
+    "name": "GULF AIR (BAHRAIN)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3041": {
+    "name": "BALKAN-BULGARIAN AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3042": {
+    "name": "FINNAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3043": {
+    "name": "AER LINGUS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3044": {
+    "name": "AIR LANKA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3045": {
+    "name": "NIGERIA AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3046": {
+    "name": "CRUZEIRO DO SUL (BRAZIJ)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3047": {
+    "name": "THY (TURKEY)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3048": {
+    "name": "ROYAL AIR MAROC",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3049": {
+    "name": "TUNIS AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3050": {
+    "name": "ICELANDAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3051": {
+    "name": "AUSTRIAN AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3052": {
+    "name": "LANCHILE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3053": {
+    "name": "AVIACO (SPAIN)",
+    "category": "beauty",
+    "subcategory": "beauty"
+  },
+  "3054": {
+    "name": "LADECO (CHILE)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3055": {
+    "name": "LAB (BOLIVIA)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3056": {
+    "name": "QUEBECAIRE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3057": {
+    "name": "EASTWEST AIRLINES (AUSTRALIA)",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3058": {
+    "name": "DELTA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3059": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3060": {
+    "name": "NORTHWEST",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3061": {
+    "name": "CONTINENTAL",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3062": {
+    "name": "WESTERN",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3063": {
+    "name": "US AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3064": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3065": {
+    "name": "AIRINTER",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3066": {
+    "name": "SOUTHWEST",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3067": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3068": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3069": {
+    "name": "SUN COUNTRY AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3070": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3071": {
+    "name": "AIR BRITISH COLUBIA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3072": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3073": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3074": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3075": {
+    "name": "SINGAPORE AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3076": {
+    "name": "AEROMEXICO",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3077": {
+    "name": "THAI AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3078": {
+    "name": "CHINA AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3079": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3080": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3081": {
+    "name": "NORDAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3082": {
+    "name": "KOREAN AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3083": {
+    "name": "AIR AFRIGUE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3084": {
+    "name": "EVA AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3085": {
+    "name": "MIDWEST EXPRESS AIRLINES, INC.",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3086": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3087": {
+    "name": "METRO AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3088": {
+    "name": "CROATIA AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3089": {
+    "name": "TRANSAERO",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3090": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3091": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3092": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3093": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3094": {
+    "name": "ZAMBIA AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3095": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3096": {
+    "name": "AIR ZIMBABWE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3097": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3098": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3099": {
+    "name": "CATHAY PACIFIC",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3100": {
+    "name": "MALAYSIAN AIRLINE SYSTEM",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3101": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3102": {
+    "name": "IBERIA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3103": {
+    "name": "GARUDA (INDONESIA)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3104": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3105": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3106": {
+    "name": "BRAATHENS S.A.F.E. (NORWAY)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3107": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3108": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3109": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3110": {
+    "name": "WINGS AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3111": {
+    "name": "BRITISH MIDLAND",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3112": {
+    "name": "WINDWARD ISLAND",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3113": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3114": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3115": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3116": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3117": {
+    "name": "VIASA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3118": {
+    "name": "VALLEY AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3119": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3120": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3121": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3122": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3123": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3124": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3125": {
+    "name": "TAN",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3126": {
+    "name": "TALAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3127": {
+    "name": "TACA INTERNATIONAL",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3128": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3129": {
+    "name": "SURINAM AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3130": {
+    "name": "SUN WORLD INTERNATIONAL",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3131": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3132": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3133": {
+    "name": "SUNBELT AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3134": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3135": {
+    "name": "SUDAN AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3136": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3137": {
+    "name": "SINGLETON",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3138": {
+    "name": "SIMMONS AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3139": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3140": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3141": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3142": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3143": {
+    "name": "SCENIC AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3144": {
+    "name": "VIRGIN ATLANTIC",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3145": {
+    "name": "SAN JUAN AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3146": {
+    "name": "LUXAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3147": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3148": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3149": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3150": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3151": {
+    "name": "AIR ZAIRE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3152": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3153": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3154": {
+    "name": "PRINCEVILLE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3155": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3156": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3157": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3158": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3159": {
+    "name": "PBA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3160": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3161": {
+    "name": "ALL NIPPON AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3162": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3163": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3164": {
+    "name": "NORONTAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3165": {
+    "name": "NEW YORK HELICOPTER",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3166": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3167": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3168": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3169": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3170": {
+    "name": "NOUNT COOK",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3171": {
+    "name": "CANADIAN AIRLINES INTERNATIONAL",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3172": {
+    "name": "NATIONAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3173": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3174": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3175": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3176": {
+    "name": "METROFLIGHT AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3177": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3178": {
+    "name": "MESA AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3179": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3180": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3181": {
+    "name": "MALEV",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3182": {
+    "name": "LOT (POLAND)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3183": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3184": {
+    "name": "LIAT",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3185": {
+    "name": "LAV (VENEZUELA)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3186": {
+    "name": "LAP (PARAGUAY)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3187": {
+    "name": "LACSA (COSTA RICA)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3188": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3189": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3190": {
+    "name": "JUGOSLAV AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3191": {
+    "name": "ISLAND AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3192": {
+    "name": "IRAN AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3193": {
+    "name": "INDIAN AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3194": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3195": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3196": {
+    "name": "HAWAIIAN AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3197": {
+    "name": "HAVASU AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3198": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3199": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3200": {
+    "name": "FUYANA AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3201": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3202": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3203": {
+    "name": "GOLDEN PACIFIC AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3204": {
+    "name": "FREEDOM AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3205": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3206": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3207": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3208": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3209": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3210": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3211": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3212": {
+    "name": "DOMINICANA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3213": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3214": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3215": {
+    "name": "DAN AIR SERVICES",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3216": {
+    "name": "CUMBERLAND AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3217": {
+    "name": "CSA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3218": {
+    "name": "CROWN AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3219": {
+    "name": "COPA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3220": {
+    "name": "COMPANIA FAUCETT",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3221": {
+    "name": "TRANSPORTES AEROS MILITARES ECCUATORANOS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3222": {
+    "name": "COMMAND AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3223": {
+    "name": "COMAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3224": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3225": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3226": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3227": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3228": {
+    "name": "CAYMAN AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3229": {
+    "name": "SAETA SOCIAEDAD ECUATORIANOS DE TRANSPORTES AEREOS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3230": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3231": {
+    "name": "SASHA SERVICIO AERO DE HONDURAS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3232": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3233": {
+    "name": "CAPITOL AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3234": {
+    "name": "BWIA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3235": {
+    "name": "BROKWAY AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3236": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3237": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3238": {
+    "name": "BEMIDJI AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3239": {
+    "name": "BAR HARBOR AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3240": {
+    "name": "BAHAMASAIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3241": {
+    "name": "AVIATECA (GUATEMALA)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3242": {
+    "name": "AVENSA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3243": {
+    "name": "AUSTRIAN AIR SERVICE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3244": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3245": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3246": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3247": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3248": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3249": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3250": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3251": {
+    "name": "ALOHA AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3252": {
+    "name": "ALM",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3253": {
+    "name": "AMERICA WEST",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3254": {
+    "name": "TRUMP AIRLINE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3255": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3256": {
+    "name": "ALASKA AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3257": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3258": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3259": {
+    "name": "AMERICAN TRANS AIR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3260": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3261": {
+    "name": "AIR CHINA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3262": {
+    "name": "RENO AIR, INC.",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3263": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3264": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3265": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3266": {
+    "name": "AIR SEYCHELLES",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3267": {
+    "name": "AIR PANAMA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3268": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3269": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3270": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3271": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3272": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3273": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3274": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3275": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3276": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3277": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3278": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3279": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3280": {
+    "name": "AIR JAMAICA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3281": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3282": {
+    "name": "AIR DJIBOUTI",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3283": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3284": {
+    "name": "AERO VIRGIN ISLANDS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3285": {
+    "name": "AERO PERU",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3286": {
+    "name": "AEROLINEAS NICARAGUENSIS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3287": {
+    "name": "AERO COACH AVAIATION",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3288": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3289": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3290": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3291": {
+    "name": "ARIANA AFGHAN",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3292": {
+    "name": "CYPRUS AIRWAYS",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3293": {
+    "name": "ECUATORIANA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3294": {
+    "name": "ETHIOPIAN AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3295": {
+    "name": "KENYA AIRLINES",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3296": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3297": {
+    "name": "Airlines",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3298": {
+    "name": "AIR MAURITIUS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3299": {
+    "name": "WIDERO’S FLYVESELSKAP",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3351": {
+    "name": "AFFILIATED AUTO RENTAL",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "3352": {
+    "name": "AMERICAN INTL RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3353": {
+    "name": "BROOKS RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3354": {
+    "name": "ACTION AUTO RENTAL",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "3355": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3356": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3357": {
+    "name": "HERTZ RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3358": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3359": {
+    "name": "PAYLESS CAR RENTAL",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3360": {
+    "name": "SNAPPY CAR RENTAL",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3361": {
+    "name": "AIRWAYS RENT-A-CAR",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "3362": {
+    "name": "ALTRA AUTO RENTAL",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "3363": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3364": {
+    "name": "AGENCY RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3365": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3366": {
+    "name": "BUDGET RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3367": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3368": {
+    "name": "HOLIDAY RENT-A-WRECK",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3369": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3370": {
+    "name": "RENT-A-WRECK",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3371": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3372": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3373": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3374": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3375": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3376": {
+    "name": "AJAX RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3377": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3378": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3379": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3380": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3381": {
+    "name": "EUROP CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3382": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3383": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3384": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3385": {
+    "name": "TROPICAL RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3386": {
+    "name": "SHOWCASE RENTAL CARS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3387": {
+    "name": "ALAMO RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3388": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3389": {
+    "name": "AVIS RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3390": {
+    "name": "DOLLAR RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3391": {
+    "name": "EUROPE BY CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3392": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3393": {
+    "name": "NATIONAL CAR RENTAL",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3394": {
+    "name": "KEMWELL GROUP RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3395": {
+    "name": "THRIFTY RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3396": {
+    "name": "TILDEN TENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3397": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3398": {
+    "name": "ECONO-CAR RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3399": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3400": {
+    "name": "AUTO HOST COST CAR RENTALS",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3401": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3402": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3403": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3404": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3405": {
+    "name": "ENTERPRISE RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3406": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3407": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3408": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3409": {
+    "name": "GENERAL RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3410": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3411": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3412": {
+    "name": "A-1 RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3413": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3414": {
+    "name": "GODFREY NATL RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3415": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3416": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3417": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3418": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3419": {
+    "name": "ALPHA RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3420": {
+    "name": "ANSA INTL RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3421": {
+    "name": "ALLSTAE RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3422": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3423": {
+    "name": "AVCAR RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3424": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3425": {
+    "name": "AUTOMATE RENT-A-CAR",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "3426": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3427": {
+    "name": "AVON RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3428": {
+    "name": "CAREY RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3429": {
+    "name": "INSURANCE RENT-A-CAR",
+    "category": "insurance",
+    "subcategory": "insurance"
+  },
+  "3430": {
+    "name": "MAJOR RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3431": {
+    "name": "REPLACEMENT RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3432": {
+    "name": "RESERVE RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3433": {
+    "name": "UGLY DUCKLING RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3434": {
+    "name": "USA RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3435": {
+    "name": "VALUE RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3436": {
+    "name": "AUTOHANSA RENT-A-CAR",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "3437": {
+    "name": "CITE RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3438": {
+    "name": "INTERENT RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3439": {
+    "name": "MILLEVILLE RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3440": {
+    "name": "VIA ROUTE RENT-A-CAR",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3441": {
+    "name": "Car Rental",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3501": {
+    "name": "HOLIDAY INNS, HOLIDAY INN EXPRESS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3502": {
+    "name": "BEST WESTERN HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3503": {
+    "name": "SHERATON HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3504": {
+    "name": "HILTON HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3505": {
+    "name": "FORTE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3506": {
+    "name": "GOLDEN TULIP HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3507": {
+    "name": "FRIENDSHIP INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3508": {
+    "name": "QUALITY INNS, QUALITY SUITES",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3509": {
+    "name": "MARRIOTT HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3510": {
+    "name": "DAYS INN, DAYSTOP",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3511": {
+    "name": "ARABELLA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3512": {
+    "name": "INTER-CONTINENTAL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3513": {
+    "name": "WESTIN HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3514": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3515": {
+    "name": "RODEWAY INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3516": {
+    "name": "LA QUINTA MOTOR INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3517": {
+    "name": "AMERICANA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3518": {
+    "name": "SOL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3519": {
+    "name": "PULLMAN INTERNATIONAL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3520": {
+    "name": "MERIDIEN HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3521": {
+    "name": "CREST HOTELS (see FORTE HOTELS)",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3522": {
+    "name": "TOKYO HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3523": {
+    "name": "PENNSULA HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3524": {
+    "name": "WELCOMGROUP HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3525": {
+    "name": "DUNFEY HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3526": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3527": {
+    "name": "DOWNTOWNER-PASSPORT HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3528": {
+    "name": "RED LION HOTELS, RED LION INNS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3529": {
+    "name": "CP HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3530": {
+    "name": "RENAISSANCE HOTELS, STOUFFER HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3531": {
+    "name": "ASTIR HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3532": {
+    "name": "SUN ROUTE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3533": {
+    "name": "HOTEL IBIS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3534": {
+    "name": "SOUTHERN PACIFIC HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3535": {
+    "name": "HILTON INTERNATIONAL",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3536": {
+    "name": "AMFAC HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3537": {
+    "name": "ANA HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3538": {
+    "name": "CONCORDE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3539": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3540": {
+    "name": "IBEROTEL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3541": {
+    "name": "HOTEL OKURA",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3542": {
+    "name": "ROYAL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3543": {
+    "name": "FOUR SEASONS HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3544": {
+    "name": "CIGA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3545": {
+    "name": "SHANGRI-LA INTERNATIONAL",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3546": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3547": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3548": {
+    "name": "HOTELES MELIA",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3549": {
+    "name": "AUBERGE DES GOVERNEURS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3550": {
+    "name": "REGAL 8 INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3551": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3552": {
+    "name": "COAST HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3553": {
+    "name": "PARK INNS INTERNATIONAL",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3554": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3555": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3556": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3557": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3558": {
+    "name": "JOLLY HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3559": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3560": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3561": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3562": {
+    "name": "COMFORT INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3563": {
+    "name": "JOURNEY’S END MOTLS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3564": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3565": {
+    "name": "RELAX INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3566": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3567": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3568": {
+    "name": "LADBROKE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3569": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3570": {
+    "name": "FORUM HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3571": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3572": {
+    "name": "MIYAKO HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3573": {
+    "name": "SANDMAN HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3574": {
+    "name": "VENTURE INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3575": {
+    "name": "VAGABOND HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3576": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3577": {
+    "name": "MANDARIN ORIENTAL HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3578": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3579": {
+    "name": "HOTEL MERCURE",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3580": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3581": {
+    "name": "DELTA HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3582": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3583": {
+    "name": "SAS HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3584": {
+    "name": "PRINCESS HOTELS INTERNATIONAL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3585": {
+    "name": "HUNGAR HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3586": {
+    "name": "SOKOS HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3587": {
+    "name": "DORAL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3588": {
+    "name": "HELMSLEY HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3589": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3590": {
+    "name": "FAIRMONT HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3591": {
+    "name": "SONESTA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3592": {
+    "name": "OMNI HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3593": {
+    "name": "CUNARD HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3594": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3595": {
+    "name": "HOSPITALITY INTERNATIONAL",
+    "category": "pharmacy",
+    "subcategory": "health"
+  },
+  "3596": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3597": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3598": {
+    "name": "REGENT INTERNATIONAL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3599": {
+    "name": "PANNONIA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3600": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3601": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3602": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3603": {
+    "name": "NOAH’S HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3604": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3605": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3606": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3607": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3608": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3609": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3610": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3611": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3612": {
+    "name": "MOVENPICK HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3613": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3614": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3615": {
+    "name": "TRAVELODGE",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "3616": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3617": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3618": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3619": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3620": {
+    "name": "TELFORD INTERNATIONAL",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3621": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3622": {
+    "name": "MERLIN HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3623": {
+    "name": "DORINT HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3624": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3625": {
+    "name": "HOTLE UNIVERSALE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3626": {
+    "name": "PRINCE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3627": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3628": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3629": {
+    "name": "DAN HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3630": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3631": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3632": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3633": {
+    "name": "RANK HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3634": {
+    "name": "SWISSOTEL",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3635": {
+    "name": "RESO HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3636": {
+    "name": "SAROVA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3637": {
+    "name": "RAMADA INNS, RAMADA LIMITED",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3638": {
+    "name": "HO JO INN, HOWARD JOHNSON",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3639": {
+    "name": "MOUNT CHARLOTTE THISTLE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3640": {
+    "name": "HYATT HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3641": {
+    "name": "SOFITEL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3642": {
+    "name": "NOVOTEL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3643": {
+    "name": "STEIGENBERGER HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3644": {
+    "name": "ECONO LODGES",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3645": {
+    "name": "QUEENS MOAT HOUSES",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3646": {
+    "name": "SWALLOW HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3647": {
+    "name": "HUSA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3648": {
+    "name": "DE VERE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3649": {
+    "name": "RADISSON HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3650": {
+    "name": "RED ROOK INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3651": {
+    "name": "IMPERIAL LONDON HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3652": {
+    "name": "EMBASSY HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3653": {
+    "name": "PENTA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3654": {
+    "name": "LOEWS HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3655": {
+    "name": "SCANDIC HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3656": {
+    "name": "SARA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3657": {
+    "name": "OBEROI HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3658": {
+    "name": "OTANI HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3659": {
+    "name": "TAJ HOTELS INTERNATIONAL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3660": {
+    "name": "KNIGHTS INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3661": {
+    "name": "METROPOLE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3662": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3663": {
+    "name": "HOTELES EL PRESIDENTS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3664": {
+    "name": "FLAG INN",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3665": {
+    "name": "HAMPTON INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3666": {
+    "name": "STAKIS HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3667": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3668": {
+    "name": "MARITIM HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3669": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3670": {
+    "name": "ARCARD HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3671": {
+    "name": "ARCTIA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3672": {
+    "name": "CAMPANIEL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3673": {
+    "name": "IBUSZ HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3674": {
+    "name": "RANTASIPI HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3675": {
+    "name": "INTERHOTEL CEDOK",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3676": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3677": {
+    "name": "CLIMAT DE FRANCE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3678": {
+    "name": "CUMULUS HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3679": {
+    "name": "DANUBIUS HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3680": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3681": {
+    "name": "ADAMS MARK HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3682": {
+    "name": "ALLSTAR INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3683": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3684": {
+    "name": "BUDGET HOST INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3685": {
+    "name": "BUDGETEL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3686": {
+    "name": "SUISSE CHALETS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3687": {
+    "name": "CLARION HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3688": {
+    "name": "COMPRI HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3689": {
+    "name": "CONSORT HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3690": {
+    "name": "COURTYARD BY MARRIOTT",
+    "category": "government",
+    "subcategory": "government"
+  },
+  "3691": {
+    "name": "DILLION INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3692": {
+    "name": "DOUBLETREE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3693": {
+    "name": "DRURY INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3694": {
+    "name": "ECONOMY INNS OF AMERICA",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3695": {
+    "name": "EMBASSY SUITES",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3696": {
+    "name": "EXEL INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3697": {
+    "name": "FARFIELD HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3698": {
+    "name": "HARLEY HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3699": {
+    "name": "MIDWAY MOTOR LODGE",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3700": {
+    "name": "MOTEL 6",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3701": {
+    "name": "GUEST QUARTERS (Formally PICKETT SUITE HOTELS)",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3702": {
+    "name": "THE REGISTRY HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3703": {
+    "name": "RESIDENCE INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3704": {
+    "name": "ROYCE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3705": {
+    "name": "SANDMAN INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3706": {
+    "name": "SHILO INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3707": {
+    "name": "SHONEY’S INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3708": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3709": {
+    "name": "SUPER8 MOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3710": {
+    "name": "THE RITZ CARLTON HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3711": {
+    "name": "FLAG INNS (AUSRALIA)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3712": {
+    "name": "GOLDEN CHAIN HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3713": {
+    "name": "QUALITY PACIFIC HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3714": {
+    "name": "FOUR SEASONS HOTEL (AUSTRALIA)",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3715": {
+    "name": "FARIFIELD INN",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3716": {
+    "name": "CARLTON HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3717": {
+    "name": "CITY LODGE HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3718": {
+    "name": "KAROS HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3719": {
+    "name": "PROTEA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3720": {
+    "name": "SOUTHERN SUN HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3721": {
+    "name": "HILTON CONRAD",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3722": {
+    "name": "WYNDHAM HOTEL AND RESORTS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3723": {
+    "name": "RICA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3724": {
+    "name": "INER NOR HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3725": {
+    "name": "SEAINES PLANATION",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3726": {
+    "name": "RIO SUITES",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3727": {
+    "name": "BROADMOOR HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3728": {
+    "name": "BALLY’S HOTEL AND CASINO",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3729": {
+    "name": "JOHN ASCUAGA’S NUGGET",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3730": {
+    "name": "MGM GRAND HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3731": {
+    "name": "HARRAH’S HOTELS AND CASINOS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3732": {
+    "name": "OPRYLAND HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3733": {
+    "name": "BOCA RATON RESORT",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3734": {
+    "name": "HARVEY/BRISTOL HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3735": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3736": {
+    "name": "COLORADO BELLE/EDGEWATER RESORT",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3737": {
+    "name": "RIVIERA HOTEL AND CASINO",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3738": {
+    "name": "TROPICANA RESORT AND CASINO",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3739": {
+    "name": "WOODSIDE HOTELS AND RESORTS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3740": {
+    "name": "TOWNPLACE SUITES",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3741": {
+    "name": "MILLENIUM BROADWAY HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3742": {
+    "name": "CLUB MED",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3743": {
+    "name": "BILTMORE HOTEL AND SUITES",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3744": {
+    "name": "CAREFREE RESORTS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3745": {
+    "name": "ST. REGIS HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3746": {
+    "name": "THE ELIOT HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3747": {
+    "name": "CLUBCORP/CLUB RESORTS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3748": {
+    "name": "WELESLEY INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3749": {
+    "name": "THE BEVERLY HILLS HOTEL",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3750": {
+    "name": "CROWNE PLAZA HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3751": {
+    "name": "HOMEWOOD SUITES",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "3752": {
+    "name": "PEABODY HOTELS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3753": {
+    "name": "GREENBRIAH RESORTS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3754": {
+    "name": "AMELIA ISLAND PLANATION",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "3755": {
+    "name": "THE HOMESTEAD",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "3756": {
+    "name": "SOUTH SEAS RESORTS",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3757": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3758": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3759": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3760": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3761": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3762": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3763": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3764": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3765": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3766": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3767": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3768": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3769": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3770": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3771": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3772": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3773": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3774": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3775": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3776": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3777": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3778": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3779": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3780": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3781": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3782": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3783": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3784": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3785": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3786": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3787": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3788": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3789": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3790": {
+    "name": "Hotels/Motels/Inns/Resorts",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "3816": {
+    "name": "Home2Suites",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "3835": {
+    "name": "* MASTERS ECONOMY INNS",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4011": {
+    "name": "Railroads",
+    "category": "transport",
+    "subcategory": "mobility"
+  },
+  "4111": {
+    "name": "Local/Suburban Commuter Passenger Transportation – Railroads, Feries, Local Water Transportation.",
+    "category": "transport",
+    "subcategory": "mobility"
+  },
+  "4112": {
+    "name": "Passenger Railways",
+    "category": "transport",
+    "subcategory": "mobility"
+  },
+  "4119": {
+    "name": "Ambulance Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4121": {
+    "name": "Taxicabs and Limousines",
+    "category": "transport",
+    "subcategory": "mobility"
+  },
+  "4131": {
+    "name": "Bus Lines, Including Charters, Tour Buses",
+    "category": "transport",
+    "subcategory": "mobility"
+  },
+  "4214": {
+    "name": "Motor Freight Carriers, Moving and Storage Companies, Trucking – Local/Long Distance, Delivery Services – Local",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4215": {
+    "name": "Courier Services – Air or Ground, Freight forwarders",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4225": {
+    "name": "Public warehousing, Storage",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4411": {
+    "name": "Cruise and Steamship Lines",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "4457": {
+    "name": "Boat Rentals and Leases",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4468": {
+    "name": "Marinas, Marine Service, and Supplies",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4511": {
+    "name": "Airlines, Air Carriers ( not listed elsewhere)",
+    "category": "flight",
+    "subcategory": "airlines"
+  },
+  "4582": {
+    "name": "Airports, Airport Terminals, Flying Fields",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4722": {
+    "name": "Travel Agencies and Tour Operations",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "4723": {
+    "name": "Package Tour Operators (For use in Germany only)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4784": {
+    "name": "Toll and Bridge Fees",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4789": {
+    "name": "Transportation Services, Not elsewhere classified)",
+    "category": "transport",
+    "subcategory": "mobility"
+  },
+  "4812": {
+    "name": "Telecommunications Equipment including telephone sales",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "4814": {
+    "name": "Fax services, Telecommunication Services",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "4815": {
+    "name": "VisaPhone",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "4816": {
+    "name": "Computer Network Services",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "4821": {
+    "name": "Telegraph services",
+    "category": "utilities",
+    "subcategory": "utilities"
+  },
+  "4829": {
+    "name": "Money Orders – Wire Transfer",
+    "category": "finance",
+    "subcategory": "financial_services"
+  },
+  "4899": {
+    "name": "Cable and other pay television (previously Cable Services)",
+    "category": "utilities",
+    "subcategory": "utilities"
+  },
+  "4900": {
+    "name": "Electric, Gas, Sanitary and Water Utilities",
+    "category": "utilities",
+    "subcategory": "utilities"
+  },
+  "5013": {
+    "name": "Motor vehicle supplies and new parts",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5021": {
+    "name": "Office and Commercial Furniture",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5039": {
+    "name": "Construction Materials, Not Elsewhere Classified",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5044": {
+    "name": "Office, Photographic, Photocopy, and Microfilm Equipment",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5045": {
+    "name": "Computers, Computer Peripheral Equipment, Software",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "5046": {
+    "name": "Commercial Equipment, Not Elsewhere Classified",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5047": {
+    "name": "Medical, Dental Ophthalmic, Hospital Equipment and Supplies",
+    "category": "pharmacy",
+    "subcategory": "health"
+  },
+  "5051": {
+    "name": "Metal Service Centers and Offices",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5065": {
+    "name": "Electrical Parts and Equipment",
+    "category": "utilities",
+    "subcategory": "utilities"
+  },
+  "5072": {
+    "name": "Hardware Equipment and Supplies",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5074": {
+    "name": "Plumbing and Heating Equipment and Supplies",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5085": {
+    "name": "Industrial Supplies, Not Elsewhere Classified",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5094": {
+    "name": "Precious Stones and Metals, Watches and Jewelry",
+    "category": "jewelry",
+    "subcategory": "jewelry"
+  },
+  "5099": {
+    "name": "Durable Goods, Not Elsewhere Classified",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5111": {
+    "name": "Stationery, Office Supplies, Printing, and Writing Paper",
+    "category": "education",
+    "subcategory": "education"
+  },
+  "5122": {
+    "name": "Drugs, Drug Proprietors, and Druggist’s Sundries",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5131": {
+    "name": "Piece Goods, Notions, and Other Dry Goods",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5137": {
+    "name": "Men’s Women’s and Children’s Uniforms and Commercial Clothing",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5139": {
+    "name": "Commercial Footwear",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5169": {
+    "name": "Chemicals and Allied Products, Not Elsewhere Classified",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5172": {
+    "name": "Petroleum and Petroleum Products",
+    "category": "pets",
+    "subcategory": "pets"
+  },
+  "5192": {
+    "name": "Books, Periodicals, and Newspapers",
+    "category": "beauty",
+    "subcategory": "beauty"
+  },
+  "5193": {
+    "name": "Florists’ Supplies, Nursery Stock and Flowers",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5198": {
+    "name": "Paints, Varnishes, and Supplies",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5199": {
+    "name": "Non-durable Goods, Not Elsewhere Classified",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5200": {
+    "name": "Home Supply Warehouse Stores",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5211": {
+    "name": "Lumber and Building Materials Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5231": {
+    "name": "Glass, Paint, and Wallpaper Stores",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5251": {
+    "name": "Hardware Stores",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5261": {
+    "name": "Nurseries – Lawn and Garden Supply Store",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5271": {
+    "name": "Mobile Home Dealers",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5300": {
+    "name": "Wholesale Clubs",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5309": {
+    "name": "Duty Free Store",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5310": {
+    "name": "Discount Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5311": {
+    "name": "Department Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5331": {
+    "name": "Variety Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5399": {
+    "name": "Misc. General Merchandise",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5411": {
+    "name": "Grocery Stores, Supermarkets",
+    "category": "supermarket",
+    "subcategory": "groceries"
+  },
+  "5422": {
+    "name": "Meat Provisioners – Freezer and Locker",
+    "category": "supermarket",
+    "subcategory": "groceries"
+  },
+  "5441": {
+    "name": "Candy, Nut, and Confectionery Stores",
+    "category": "supermarket",
+    "subcategory": "groceries"
+  },
+  "5451": {
+    "name": "Dairy Products Stores",
+    "category": "supermarket",
+    "subcategory": "groceries"
+  },
+  "5462": {
+    "name": "Bakeries",
+    "category": "supermarket",
+    "subcategory": "groceries"
+  },
+  "5499": {
+    "name": "Misc. Food Stores – Convenience Stores and Specialty Markets",
+    "category": "supermarket",
+    "subcategory": "groceries"
+  },
+  "5511": {
+    "name": "Car and Truck Dealers (New and Used) Sales, Service, Repairs, Parts, and Leasing",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "5521": {
+    "name": "Automobile and Truck Dealers (Used Only)",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "5531": {
+    "name": "Automobile Supply Stores",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "5532": {
+    "name": "Automotive Tire Stores",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "5533": {
+    "name": "Automotive Parts, Accessories Stores",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "5541": {
+    "name": "Service Stations ( with or without ancillary services)",
+    "category": "fuel",
+    "subcategory": "fuel"
+  },
+  "5542": {
+    "name": "Automated Fuel Dispensers",
+    "category": "fuel",
+    "subcategory": "fuel"
+  },
+  "5551": {
+    "name": "Boat Dealers",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5561": {
+    "name": "Recreational and Utility Trailers, Camp Dealers",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "5571": {
+    "name": "Motorcycle Dealers",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "5592": {
+    "name": "Motor Home Dealers",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5598": {
+    "name": "Snowmobile Dealers",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5599": {
+    "name": "Miscellaneous Auto Dealers ",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "5611": {
+    "name": "Men’s and Boy’s Clothing and Accessories Stores",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5621": {
+    "name": "Women’s Ready-to-Wear Stores",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5631": {
+    "name": "Women’s Accessory and Specialty Shops",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5641": {
+    "name": "Children’s and Infant’s Wear Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5651": {
+    "name": "Family Clothing Stores",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5655": {
+    "name": "Sports Apparel, Riding Apparel Stores",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5661": {
+    "name": "Shoe Stores",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5681": {
+    "name": "Furriers and Fur Shops",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5691": {
+    "name": "Men’s and Women’s Clothing Stores",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5697": {
+    "name": "Tailors, Seamstress, Mending, and Alterations",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5698": {
+    "name": "Wig and Toupee Stores",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5699": {
+    "name": "Miscellaneous Apparel and Accessory Shops",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5712": {
+    "name": "Furniture, Home Furnishings, and Equipment Stores, ExceptAppliances",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5713": {
+    "name": "Floor Covering Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5714": {
+    "name": "Drapery, Window Covering and Upholstery Stores",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5718": {
+    "name": "Fireplace, Fireplace Screens, and Accessories Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5719": {
+    "name": "Miscellaneous Home Furnishing Specialty Stores",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5722": {
+    "name": "Household Appliance Stores",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5732": {
+    "name": "Electronics Stores",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "5733": {
+    "name": "Music Stores, Musical Instruments, Piano Sheet Music",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5734": {
+    "name": "Computer Software Stores",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "5735": {
+    "name": "Record Shops",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "5811": {
+    "name": "Caterers",
+    "category": "restaurant",
+    "subcategory": "dining"
+  },
+  "5812": {
+    "name": "Eating places and Restaurants",
+    "category": "restaurant",
+    "subcategory": "dining"
+  },
+  "5813": {
+    "name": "Drinking Places (Alcoholic Beverages), Bars, Taverns, Cocktail lounges, Nightclubs and Discotheques",
+    "category": "bar",
+    "subcategory": "bars"
+  },
+  "5814": {
+    "name": "Fast Food Restaurants",
+    "category": "fast_food",
+    "subcategory": "fast_food"
+  },
+  "5815": {
+    "name": "Digital Goods: Media, Books, Movies, Music",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "5816": {
+    "name": "Digital Goods: Games",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "5817": {
+    "name": "Digital Goods: Applications (Excludes Games)",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "5818": {
+    "name": "Digital Goods: Large Digital Goods Merchant",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "5832": {
+    "name": "Antique Shops – Sales, Repairs, and Restoration Services",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5912": {
+    "name": "Drug Stores and Pharmacies",
+    "category": "pharmacy",
+    "subcategory": "pharmacy"
+  },
+  "5921": {
+    "name": "Package Stores – Beer, Wine, and Liquor",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5931": {
+    "name": "Used Merchandise and Secondhand Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5932": {
+    "name": "Antique Shops",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5933": {
+    "name": "Pawn Shops and Salvage Yards",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5935": {
+    "name": "Wrecking and Salvage Yards",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5937": {
+    "name": "Antique Reproductions",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5940": {
+    "name": "Bicycle Shops – Sales and Service",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5941": {
+    "name": "Sporting Goods Stores",
+    "category": "sport",
+    "subcategory": "sport"
+  },
+  "5942": {
+    "name": "Book Stores",
+    "category": "education",
+    "subcategory": "education"
+  },
+  "5943": {
+    "name": "Stationery Stores, Office and School Supply Stores",
+    "category": "education",
+    "subcategory": "education"
+  },
+  "5944": {
+    "name": "Watch, Clock, Jewelry, and Silverware Stores",
+    "category": "jewelry",
+    "subcategory": "jewelry"
+  },
+  "5945": {
+    "name": "Hobby, Toy, and Game Shops",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5946": {
+    "name": "Camera and Photographic Supply Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5947": {
+    "name": "Card Shops, Gift, Novelty, and Souvenir Shops",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5948": {
+    "name": "Leather Foods Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5949": {
+    "name": "Sewing, Needle, Fabric, and Price Goods Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5950": {
+    "name": "Glassware/Crystal Stores",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "5960": {
+    "name": "Direct Marketing- Insurance Service",
+    "category": "insurance",
+    "subcategory": "insurance"
+  },
+  "5961": {
+    "name": "Mail Order Houses Including Catalog Order Stores, Book/Record Clubs (No longer permitted for U.S. original presentments)",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "5962": {
+    "name": "Direct Marketing – Travel Related Arrangements Services",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "5963": {
+    "name": "Door-to-Door Sales",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5964": {
+    "name": "Direct Marketing – Catalog Merchant",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5965": {
+    "name": "Direct Marketing – Catalog and Catalog and Retail Merchant",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5966": {
+    "name": "Direct Marketing- Outbound Telemarketing Merchant",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5967": {
+    "name": "Direct Marketing – Inbound Teleservices Merchant",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5968": {
+    "name": "Direct Marketing – Continuity/Subscription Merchant",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5969": {
+    "name": "Direct Marketing – Not Elsewhere Classified",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5970": {
+    "name": "Artist’s Supply and Craft Shops",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5971": {
+    "name": "Art Dealers and Galleries",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5972": {
+    "name": "Stamp and Coin Stores – Philatelic and Numismatic Supplies",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5973": {
+    "name": "Religious Goods Stores",
+    "category": "charity",
+    "subcategory": "charity"
+  },
+  "5975": {
+    "name": "Hearing Aids – Sales, Service, and Supply Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5976": {
+    "name": "Orthopedic Goods Prosthetic Devices",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5977": {
+    "name": "Cosmetic Stores",
+    "category": "beauty",
+    "subcategory": "beauty"
+  },
+  "5978": {
+    "name": "Typewriter Stores – Sales, Rental, Service",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5983": {
+    "name": "Fuel – Fuel Oil, Wood, Coal, Liquefied Petroleum",
+    "category": "fuel",
+    "subcategory": "fuel"
+  },
+  "5992": {
+    "name": "Florists",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5993": {
+    "name": "Cigar Stores and Stands",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5994": {
+    "name": "News Dealers and Newsstands",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5995": {
+    "name": "Pet Shops, Pet Foods, and Supplies Stores",
+    "category": "pets",
+    "subcategory": "pets"
+  },
+  "5996": {
+    "name": "Swimming Pools – Sales, Service, and Supplies",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5997": {
+    "name": "Electric Razor Stores – Sales and Service",
+    "category": "utilities",
+    "subcategory": "utilities"
+  },
+  "5998": {
+    "name": "Tent and Awning Shops",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "5999": {
+    "name": "Miscellaneous and Specialty Retail Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "6010": {
+    "name": "Financial Institutions – Manual Cash Disbursements",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "6011": {
+    "name": "Financial Institutions – Manual Cash Disbursements",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "6012": {
+    "name": "Financial Institutions - Merchandise and Services",
+    "category": "finance",
+    "subcategory": "banking"
+  },
+  "6051": {
+    "name": "Non-Financial Institutions – Foreign Currency, Money Orders (not wire transfer) and Travelers Cheques",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "6211": {
+    "name": "Security Brokers/Dealers",
+    "category": "finance",
+    "subcategory": "financial_services"
+  },
+  "6300": {
+    "name": "Insurance Sales, Underwriting, and Premiums",
+    "category": "insurance",
+    "subcategory": "insurance"
+  },
+  "6381": {
+    "name": "Insurance Premiums, (no longer valid for first presentment work)",
+    "category": "insurance",
+    "subcategory": "insurance"
+  },
+  "6399": {
+    "name": "Insurance, Not Elsewhere Classified ( no longer valid forfirst presentment work)",
+    "category": "insurance",
+    "subcategory": "insurance"
+  },
+  "6513": {
+    "name": "Real Estate Agents and Managers - Rentals",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "6538": {
+    "name": "MoneySend Funding",
+    "category": "transfer",
+    "subcategory": "card_transfer"
+  },
+  "7011": {
+    "name": "Lodging – Hotels, Motels, Resorts, Central Reservation Services (not elsewhere classified)",
+    "category": "hotel",
+    "subcategory": "lodging"
+  },
+  "7012": {
+    "name": "Timeshares",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7032": {
+    "name": "Sporting and Recreational Camps",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "7033": {
+    "name": "Trailer Parks and Camp Grounds",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "7210": {
+    "name": "Laundry, Cleaning, and Garment Services",
+    "category": "repair",
+    "subcategory": "services"
+  },
+  "7211": {
+    "name": "Laundry – Family and Commercial",
+    "category": "repair",
+    "subcategory": "services"
+  },
+  "7216": {
+    "name": "Dry Cleaners",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7217": {
+    "name": "Carpet and Upholstery Cleaning",
+    "category": "pets",
+    "subcategory": "pets"
+  },
+  "7221": {
+    "name": "Photographic Studios",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7230": {
+    "name": "Barber and Beauty Shops",
+    "category": "beauty",
+    "subcategory": "beauty"
+  },
+  "7251": {
+    "name": "Shop Repair Shops and Shoe Shine Parlors, and Hat Cleaning Shops",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "7261": {
+    "name": "Funeral Service and Crematories",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7273": {
+    "name": "Dating and Escort Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7276": {
+    "name": "Tax Preparation Service",
+    "category": "government",
+    "subcategory": "government"
+  },
+  "7277": {
+    "name": "Counseling Service – Debt, Marriage, Personal",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7278": {
+    "name": "Buying/Shopping Services, Clubs",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7296": {
+    "name": "Clothing Rental – Costumes, Formal Wear, Uniforms",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "7297": {
+    "name": "Massage Parlors",
+    "category": "beauty",
+    "subcategory": "beauty"
+  },
+  "7298": {
+    "name": "Health and Beauty Shops",
+    "category": "pharmacy",
+    "subcategory": "health"
+  },
+  "7299": {
+    "name": "Miscellaneous Personal Services ( not elsewhere classifies)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7311": {
+    "name": "Advertising Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7321": {
+    "name": "Consumer Credit Reporting Agencies",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7332": {
+    "name": "Blueprinting and Photocopying Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7333": {
+    "name": "Commercial Photography, Art and Graphics",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7338": {
+    "name": "Quick Copy, Reproduction and Blueprinting Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7339": {
+    "name": "Stenographic and Secretarial Support Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7342": {
+    "name": "Exterminating and Disinfecting Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7349": {
+    "name": "Cleaning and Maintenance, Janitorial Services",
+    "category": "repair",
+    "subcategory": "services"
+  },
+  "7361": {
+    "name": "Employment Agencies, Temporary Help Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7372": {
+    "name": "Computer Programming, Integrated Systems Design and Data Processing Services",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "7375": {
+    "name": "Information Retrieval Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7379": {
+    "name": "Computer Maintenance and Repair Services, Not Elsewhere Classified",
+    "category": "electronics",
+    "subcategory": "electronics"
+  },
+  "7392": {
+    "name": "Management, Consulting, and Public Relations Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7393": {
+    "name": "Protective and Security Services – Including Armored Carsand Guard Dogs",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7394": {
+    "name": "Equipment Rental and Leasing Services, Tool Rental, Furniture Rental, and Appliance Rental",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "7395": {
+    "name": "Photofinishing Laboratories, Photo Developing",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7399": {
+    "name": "Business Services, Not Elsewhere Classified",
+    "category": "transport",
+    "subcategory": "mobility"
+  },
+  "7511": {
+    "name": "Truck Stop",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7512": {
+    "name": "Car Rental Companies ( Not Listed Below)",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "7513": {
+    "name": "Truck and Utility Trailer Rentals",
+    "category": "transport",
+    "subcategory": "mobility"
+  },
+  "7519": {
+    "name": "Motor Home and Recreational Vehicle Rentals",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "7523": {
+    "name": "Automobile Parking Lots and Garages",
+    "category": "transport",
+    "subcategory": "mobility"
+  },
+  "7531": {
+    "name": "Automotive Body Repair Shops",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "7534": {
+    "name": "Tire Re-treading and Repair Shops",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "7535": {
+    "name": "Paint Shops – Automotive",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "7538": {
+    "name": "Automotive Service Shops",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "7542": {
+    "name": "Car Washes",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "7549": {
+    "name": "Towing Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7622": {
+    "name": "Radio Repair Shops",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "7623": {
+    "name": "Air Conditioning and Refrigeration Repair Shops",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "7629": {
+    "name": "Electrical And Small Appliance Repair Shops",
+    "category": "utilities",
+    "subcategory": "utilities"
+  },
+  "7631": {
+    "name": "Watch, Clock, and Jewelry Repair",
+    "category": "jewelry",
+    "subcategory": "jewelry"
+  },
+  "7641": {
+    "name": "Furniture, Furniture Repair, and Furniture Refinishing",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "7692": {
+    "name": "Welding Repair",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "7699": {
+    "name": "Repair Shops and Related Services –Miscellaneous",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "7800": {
+    "name": "Government-Owned Lotteries",
+    "category": "government",
+    "subcategory": "government"
+  },
+  "7801": {
+    "name": "Government-Licensed On-Line Casinos (On-Line Gambling)",
+    "category": "government",
+    "subcategory": "government"
+  },
+  "7802": {
+    "name": "Government-Licensed Horse/Dog Racing",
+    "category": "government",
+    "subcategory": "government"
+  },
+  "7829": {
+    "name": "Motion Pictures and Video Tape Production and Distribution",
+    "category": "entertainment",
+    "subcategory": "entertainment"
+  },
+  "7832": {
+    "name": "Motion Picture Theaters",
+    "category": "entertainment",
+    "subcategory": "entertainment"
+  },
+  "7841": {
+    "name": "Video Tape Rental Stores",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7911": {
+    "name": "Dance Halls, Studios and Schools",
+    "category": "education",
+    "subcategory": "education"
+  },
+  "7922": {
+    "name": "Theatrical Producers (Except Motion Pictures), Ticket Agencies",
+    "category": "entertainment",
+    "subcategory": "entertainment"
+  },
+  "7929": {
+    "name": "Bands, Orchestras, and Miscellaneous Entertainers (Not Elsewhere Classified)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "7932": {
+    "name": "Billiard and Pool Establishments",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "7933": {
+    "name": "Bowling Alleys",
+    "category": "entertainment",
+    "subcategory": "entertainment"
+  },
+  "7941": {
+    "name": "Commercial Sports, Athletic Fields, Professional Sport Clubs, and Sport Promoters",
+    "category": "sport",
+    "subcategory": "sport"
+  },
+  "7991": {
+    "name": "Tourist Attractions and Exhibits",
+    "category": "travel",
+    "subcategory": "travel"
+  },
+  "7992": {
+    "name": "Golf Courses – Public",
+    "category": "sport",
+    "subcategory": "sport"
+  },
+  "7993": {
+    "name": "Video Amusement Game Supplies",
+    "category": "entertainment",
+    "subcategory": "entertainment"
+  },
+  "7994": {
+    "name": "Video Game Arcades/Establishments",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "7995": {
+    "name": "Betting (including Lottery Tickets, Casino Gaming Chips, Off-track Betting and Wagers at Race Tracks)",
+    "category": "entertainment",
+    "subcategory": "entertainment"
+  },
+  "7996": {
+    "name": "Amusement Parks, Carnivals, Circuses, Fortune Tellers",
+    "category": "entertainment",
+    "subcategory": "entertainment"
+  },
+  "7997": {
+    "name": "Membership Clubs (Sports, Recreation, Athletic), Country Clubs, and Private Golf Courses",
+    "category": "sport",
+    "subcategory": "sport"
+  },
+  "7998": {
+    "name": "Aquariums, Sea-aquariums, Dolphinariums",
+    "category": "entertainment",
+    "subcategory": "entertainment"
+  },
+  "7999": {
+    "name": "Recreation Services (Not Elsewhere Classified)",
+    "category": "entertainment",
+    "subcategory": "entertainment"
+  },
+  "8011": {
+    "name": "Doctors and Physicians (Not Elsewhere Classified)",
+    "category": "pharmacy",
+    "subcategory": "health"
+  },
+  "8021": {
+    "name": "Dentists and Orthodontists",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8031": {
+    "name": "Osteopaths",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8041": {
+    "name": "Chiropractors",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8042": {
+    "name": "Optometrists and Ophthalmologists",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8043": {
+    "name": "Opticians, Opticians Goods and Eyeglasses",
+    "category": "home",
+    "subcategory": "home"
+  },
+  "8044": {
+    "name": "Opticians, Optical Goods, and Eyeglasses (no longer validfor first presentments)",
+    "category": "pharmacy",
+    "subcategory": "health"
+  },
+  "8049": {
+    "name": "Podiatrists and Chiropodists",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8050": {
+    "name": "Nursing and Personal Care Facilities",
+    "category": "pharmacy",
+    "subcategory": "health"
+  },
+  "8062": {
+    "name": "Hospitals",
+    "category": "pharmacy",
+    "subcategory": "health"
+  },
+  "8071": {
+    "name": "Medical and Dental Laboratories",
+    "category": "pharmacy",
+    "subcategory": "health"
+  },
+  "8099": {
+    "name": "Medical Services and Health Practitioners (Not Elsewhere Classified)",
+    "category": "pharmacy",
+    "subcategory": "health"
+  },
+  "8111": {
+    "name": "Legal Services and Attorneys",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8211": {
+    "name": "Elementary and Secondary Schools",
+    "category": "education",
+    "subcategory": "education"
+  },
+  "8220": {
+    "name": "Colleges, Junior Colleges, Universities, and ProfessionalSchools",
+    "category": "education",
+    "subcategory": "education"
+  },
+  "8241": {
+    "name": "Correspondence Schools",
+    "category": "education",
+    "subcategory": "education"
+  },
+  "8244": {
+    "name": "Business and Secretarial Schools",
+    "category": "transport",
+    "subcategory": "mobility"
+  },
+  "8249": {
+    "name": "Vocational Schools and Trade Schools",
+    "category": "education",
+    "subcategory": "education"
+  },
+  "8299": {
+    "name": "Schools and Educational Services ( Not Elsewhere Classified)",
+    "category": "education",
+    "subcategory": "education"
+  },
+  "8351": {
+    "name": "Child Care Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8398": {
+    "name": "Charitable and Social Service Organizations",
+    "category": "charity",
+    "subcategory": "charity"
+  },
+  "8641": {
+    "name": "Civic, Fraternal, and Social Associations",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8651": {
+    "name": "Political Organizations",
+    "category": "charity",
+    "subcategory": "charity"
+  },
+  "8661": {
+    "name": "Religious Organizations",
+    "category": "charity",
+    "subcategory": "charity"
+  },
+  "8675": {
+    "name": "Automobile Associations",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "8699": {
+    "name": "Membership Organizations ( Not Elsewhere Classified)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8734": {
+    "name": "Testing Laboratories ( non-medical)",
+    "category": "pharmacy",
+    "subcategory": "health"
+  },
+  "8911": {
+    "name": "Architectural – Engineering and Surveying Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8931": {
+    "name": "Accounting, Auditing, and Bookkeeping Services",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "8999": {
+    "name": "Professional Services ( Not Elsewhere Defined)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "9211": {
+    "name": "Court Costs, including Alimony and Child Support",
+    "category": "government",
+    "subcategory": "government"
+  },
+  "9222": {
+    "name": "Fines",
+    "category": "government",
+    "subcategory": "government"
+  },
+  "9223": {
+    "name": "Bail and Bond Payments",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "9311": {
+    "name": "Tax Payments",
+    "category": "clothing",
+    "subcategory": "clothing"
+  },
+  "9399": {
+    "name": "Government Services ( Not Elsewhere Classified)",
+    "category": "government",
+    "subcategory": "government"
+  },
+  "9402": {
+    "name": "Postal Services – Government Only",
+    "category": "government",
+    "subcategory": "government"
+  },
+  "9405": {
+    "name": "Intra – Government Transactions",
+    "category": "government",
+    "subcategory": "government"
+  },
+  "9700": {
+    "name": "Automated Referral Service ( For Visa Only)",
+    "category": "auto",
+    "subcategory": "auto"
+  },
+  "9701": {
+    "name": "Visa Credential Service ( For Visa Only)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "9702": {
+    "name": "GCAS Emergency Services ( For Visa Only)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "9950": {
+    "name": "Intra – Company Purchases ( For Visa Only)",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "0742": {
+    "name": "Veterinary Services",
+    "category": "pets",
+    "subcategory": "pets"
+  },
+  "0763": {
+    "name": "Agricultural Co-operatives",
+    "category": "retail",
+    "subcategory": "retail"
+  },
+  "0780": {
+    "name": "Horticultural Services, Landscaping Services",
+    "category": "retail",
+    "subcategory": "retail"
+  }
+}

@@ -1,138 +1,88 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useMemo, useState } from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import ChartCard from "./components/ChartCard";
+import Categories from "./components/Categories";
+import Transactions from "./components/Transactions";
+import AccountSelector from "./components/AccountSelector";
+import TransactionsPage from "./pages/TransactionsPage";
+import { useAnalytics } from "./hooks/useAnalytics";
+import { createChartData } from "./utils/chart";
+import { getCurrency } from "./utils/format";
+import {
+  ALL_ACCOUNTS_ID,
+  createScopedAnalytics,
+} from "./utils/analyticsScope";
 
-// 🌐 Твій Production URL з ноди Webhook в n8n (без слова -test)
-const N8N_URL = 'http://161.97.165.81:5678/webhook/84b08eab-899e-43f8-ba2f-1895544e3d40';
+export default function App() {
+  const { data, error, loading } = useAnalytics();
+  const [path, setPath] = useState(() => window.location.pathname);
+  const [selectedAccountId, setSelectedAccountId] = useState(ALL_ACCOUNTS_ID);
+  const activeData = useMemo(
+    () => createScopedAnalytics(data, selectedAccountId),
+    [data, selectedAccountId]
+  );
+  const chartData = useMemo(() => createChartData(activeData), [activeData]);
+  const currency = getCurrency(activeData);
 
-function App() {
-  const [analytics, setAnalytics] = useState(null);
-  const [currency, setCurrency] = useState('UAH');
-  const [loading, setLoading] = useState(false);
-
-  // Функція для отримання даних з бекенду n8n
-  const loadData = async (selectedCurrency) => {
-    setLoading(true);
-    try {
-      const response = await fetch(`${N8N_URL}?currency=${selectedCurrency}`);
-      const data = await response.json();
-      setAnalytics(data);
-    } catch (error) {
-      console.error("Помилка завантаження даних:", error);
-    } finally {
-      setLoading(false);
-    }
+  const navigate = (nextPath) => {
+    if (nextPath === path) return;
+    window.history.pushState({}, "", nextPath);
+    setPath(nextPath);
   };
 
   useEffect(() => {
-    loadData(currency);
-  }, [currency]);
+    const handlePopState = () => setPath(window.location.pathname);
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-[#0B0C0F] text-white">
+        <div
+          className="h-11 w-11 animate-spin rounded-full border border-[#1B1D23] border-t-[#E4BD67]"
+          aria-label="Завантаження"
+        />
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 font-sans p-6 md:p-12">
-      <div className="max-w-5xl mx-auto">
-        
-        <header className="flex flex-col md:flex-row md:items-center md:justify-between pb-8 border-b border-slate-800 mb-8 gap-4">
-          <div>
-            <h1 className="text-3xl font-black text-amber-400 tracking-tight">MONO ANALYTICS</h1>
-            <p className="text-slate-400 text-sm mt-1">Мультивалютний фінансовий дашборд</p>
+    <div className="min-h-screen bg-[#0B0C0F] text-white antialiased">
+      <Header activePath={path} onNavigate={navigate} />
+
+      {error ? (
+        <main className="mx-auto w-full max-w-[1440px] px-4 py-10 sm:px-6 lg:px-12 xl:px-16">
+          <div className="rounded-[28px] border border-[#1B1D23] bg-[#121318] px-5 py-10 text-center">
+            <p className="text-[16px] font-semibold text-[#F4F1EA]">
+              Не вдалося завантажити дані
+            </p>
+            <p className="mt-2 text-[13px] text-[#777B85]">
+              Перевір n8n webhook або спробуй оновити сторінку.
+            </p>
           </div>
+        </main>
+      ) : path === "/transactions" ? (
+        <TransactionsPage data={data} />
+      ) : (
+      <main className="mx-auto flex w-full max-w-[1440px] flex-col gap-6 px-4 pb-10 pt-6 sm:px-6 lg:px-12 xl:px-16">
+        <Hero data={activeData} />
 
-          <div className="flex bg-slate-800 p-1 rounded-xl border border-slate-700 self-start md:self-auto">
-            {['UAH', 'USD', 'EUR'].map((curr) => (
-              <button
-                key={curr}
-                onClick={() => setCurrency(curr)}
-                className={`px-4 py-2 text-sm font-bold rounded-lg transition-all ${
-                  currency === curr 
-                    ? 'bg-amber-400 text-slate-900 shadow-md' 
-                    : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                {curr}
-              </button>
-            ))}
-          </div>
-        </header>
+        <AccountSelector
+          data={data}
+          onSelectAccount={setSelectedAccountId}
+          selectedAccountId={selectedAccountId}
+        />
 
-        {loading && (
-          <div className="text-center py-20 text-amber-400 font-bold animate-pulse">
-            Завантаження аналітики з n8n...
-          </div>
-        )}
+        <section className="grid grid-cols-1 gap-4 lg:grid-cols-[minmax(0,2fr)_minmax(300px,1fr)]">
+          <ChartCard chartData={chartData} currency={currency} />
+          <Categories data={activeData} />
+        </section>
 
-        {!loading && analytics && (
-          <div className="space-y-8">
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-slate-800 p-6 rounded-2xl border border-slate-750 shadow-lg">
-                <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Загальні витрати</p>
-                <p className="text-3xl font-black text-white mt-2">
-                  {analytics.global?.total_spent_converted?.toLocaleString()} <span className="text-amber-400 text-xl">{analytics.report_base_currency}</span>
-                </p>
-              </div>
-
-              <div className="bg-slate-800 p-6 rounded-2xl border border-slate-750 shadow-lg">
-                <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Кількість транзакцій</p>
-                <p className="text-3xl font-black text-white mt-2">
-                  {analytics.global?.transactions_count} <span className="text-slate-500 text-xl">операцій</span>
-                </p>
-              </div>
-
-              <div className="bg-slate-800 p-6 rounded-2xl border border-slate-750 shadow-lg">
-                <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Топ категорія</p>
-                <p className="text-3xl font-black text-rose-400 mt-2 capitalize">
-                  {analytics.global?.top_category || 'Немає'}
-                  <span className="text-slate-400 text-lg font-medium ml-2">({analytics.global?.top_percent}%)</span>
-                </p>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              
-              <div className="bg-slate-800/60 p-6 rounded-2xl border border-slate-800">
-                <h3 className="text-lg font-bold mb-4 text-white">Витрати за категоріями</h3>
-                <div className="space-y-4">
-                  {analytics.global?.breakdown?.map((item) => (
-                    <div key={item.category} className="space-y-1">
-                      <div className="flex justify-between text-sm font-medium">
-                        <span className="capitalize text-slate-300">{item.category}</span>
-                        <span className="text-white">{item.amount_converted} {analytics.report_base_currency} ({item.percent}%)</span>
-                      </div>
-                      <div className="w-full bg-slate-700 h-2 rounded-full overflow-hidden">
-                        <div 
-                          className="bg-amber-400 h-full rounded-full transition-all duration-500" 
-                          style={{ width: `${item.percent}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="bg-slate-800/60 p-6 rounded-2xl border border-slate-800">
-                <h3 className="text-lg font-bold mb-4 text-white">Аналітика по рахунках</h3>
-                <div className="space-y-3">
-                  {analytics.by_account?.map((acc) => (
-                    <div key={acc.account_id} className="p-4 bg-slate-800 rounded-xl border border-slate-700 flex justify-between items-center">
-                      <div>
-                        <p className="text-xs font-mono text-slate-500 truncate w-40 md:w-60">ID: {acc.account_id}</p>
-                        <p className="text-sm font-semibold text-slate-300 mt-1">Транзакцій: {acc.transactions_count}</p>
-                      </div>
-                      <div className="text-right">
-                        <p className="text-base font-bold text-white">{acc.total_spent_converted} {analytics.report_base_currency}</p>
-                        <p className="text-xs text-slate-400 font-medium">Оригінал: {acc.total_spent_original} ({acc.currency_code === 840 ? 'USD' : acc.currency_code === 978 ? 'EUR' : 'UAH'})</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        )}
-      </div>
+        <Transactions data={activeData} onViewAll={() => navigate("/transactions")} />
+      </main>
+      )}
     </div>
   );
 }
-
-export default App;

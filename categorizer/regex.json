@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "patterns": [
+    {
+      "pattern": "\\bm\\s*c\\s*donald'?s?\\b|\\bмак\\s*дональдс\\b",
+      "replace": "mcdonalds",
+      "category": "fast_food",
+      "subcategory": "fast_food"
+    },
+    {
+      "pattern": "\\bnova\\s*poshta\\b|\\bnovaposhta\\b|\\bнова\\s*пошта\\b",
+      "replace": "nova poshta",
+      "category": "delivery",
+      "subcategory": "postal"
+    },
+    {
+      "pattern": "\\bapple\\.?com\\/bill\\b|\\bapple\\s+bill\\b",
+      "replace": "apple.com/bill",
+      "category": "digital",
+      "subcategory": "app_store"
+    },
+    {
+      "pattern": "\\byou\\s*tube\\b|\\byoutube\\s*premium\\b",
+      "replace": "youtube premium",
+      "category": "streaming",
+      "subcategory": "video_streaming"
+    },
+    {
+      "pattern": "\\bgoogle\\s*cloud\\b|\\bgcp\\b",
+      "replace": "google cloud",
+      "category": "cloud",
+      "subcategory": "cloud"
+    },
+    {
+      "pattern": "\\bamazon\\s*web\\s*services\\b|\\baws\\b",
+      "replace": "aws",
+      "category": "cloud",
+      "subcategory": "cloud"
+    },
+    {
+      "pattern": "\\bopen\\s*ai\\b|\\bchat\\s*gpt\\b",
+      "replace": "openai",
+      "category": "digital",
+      "subcategory": "ai"
+    },
+    {
+      "pattern": "\\bprivat\\s*bank\\b|\\bприват\\s*банк\\b",
+      "replace": "privatbank",
+      "category": "finance",
+      "subcategory": "banking"
+    },
+    {
+      "pattern": "\\bmono\\s*bank\\b|\\bmonobank\\b|\\bмоно\\s*банк\\b",
+      "replace": "monobank",
+      "category": "finance",
+      "subcategory": "banking"
+    },
+    {
+      "pattern": "\\bукр\\s*залізниця\\b|\\buz\\.?gov\\b|\\buz\\b",
+      "replace": "ukrzaliznytsia",
+      "category": "transport",
+      "subcategory": "rail"
+    },
+    {
+      "pattern": "\\bkyiv\\s*digital\\b|\\bкиїв\\s*цифровий\\b",
+      "replace": "kyiv digital",
+      "category": "transport",
+      "subcategory": "public_transport"
+    },
+    {
+      "pattern": "\\bаптека\\s*911\\b|\\bapteka\\s*911\\b",
+      "replace": "apteka 911",
+      "category": "pharmacy",
+      "subcategory": "pharmacy"
+    },
+    {
+      "pattern": "\\bатб\\b|\\batb\\b",
+      "replace": "atb",
+      "category": "supermarket",
+      "subcategory": "groceries"
+    },
+    {
+      "pattern": "\\bсiльпо\\b|\\bсільпо\\b|\\bsilpo\\b",
+      "replace": "silpo",
+      "category": "supermarket",
+      "subcategory": "groceries"
+    },
+    {
+      "pattern": "\\bbolt\\s*food\\b",
+      "replace": "bolt food",
+      "category": "delivery",
+      "subcategory": "food_delivery"
+    },
+    {
+      "pattern": "\\buber\\s*eats\\b",
+      "replace": "uber eats",
+      "category": "delivery",
+      "subcategory": "food_delivery"
+    },
+    {
+      "pattern": "\\bvisa\\s+direct\\b|\\bmastercard\\s+money\\s*send\\b",
+      "replace": "card transfer",
+      "category": "transfer",
+      "subcategory": "card_transfer"
+    }
+  ]
+}
