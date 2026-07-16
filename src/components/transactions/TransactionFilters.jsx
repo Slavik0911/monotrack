@@ -112,6 +112,8 @@ export default function TransactionFilters({
   onToggleCategories,
   search,
 }) {
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const filtersRef = useRef(null);
   const primaryCategoryOptions = getPrimaryCategoryOptions(
     categoryOptions,
     category
@@ -130,6 +132,17 @@ export default function TransactionFilters({
     });
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (!filtersRef.current?.contains(event.target)) {
+        setFiltersOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   return (
     <section className="rounded-[18px] border border-[#1B1D23] bg-[#121318] p-4">
       <div className="flex flex-col gap-3 lg:flex-row">
@@ -143,12 +156,21 @@ export default function TransactionFilters({
           />
         </label>
 
-        <details className="group relative">
-          <summary className="flex min-h-10 cursor-pointer list-none items-center gap-2 rounded-xl border border-[#1B1D23] bg-[#1A1B20] px-4 text-[12px] text-[#8B8F98] transition hover:text-[#F4F1EA]">
+        <div className="relative" ref={filtersRef}>
+          <button
+            className={`flex min-h-10 items-center gap-2 rounded-xl border px-4 text-[12px] transition ${
+              filtersOpen
+                ? "border-[#E4BD67] bg-[#1A1B20] text-[#F4F1EA]"
+                : "border-[#1B1D23] bg-[#1A1B20] text-[#8B8F98] hover:text-[#F4F1EA]"
+            }`}
+            type="button"
+            onClick={() => setFiltersOpen((current) => !current)}
+          >
             <SlidersHorizontal className="h-4 w-4" strokeWidth={1.8} />
             Фільтр
-          </summary>
+          </button>
 
+          {filtersOpen ? (
           <div className="absolute right-0 z-30 mt-2 w-[280px] rounded-2xl border border-[#1B1D23] bg-[#121318] p-4">
             <p className="text-[12px] font-semibold text-[#F4F1EA]">Тип операції</p>
             <div className="mt-3 grid grid-cols-2 gap-2">
@@ -208,7 +230,8 @@ export default function TransactionFilters({
               onChange={(sort) => onFiltersChange({ ...filters, sort })}
             />
           </div>
-        </details>
+          ) : null}
+        </div>
       </div>
 
       <div className="mt-3 flex flex-col gap-2">
