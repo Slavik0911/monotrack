@@ -11,7 +11,7 @@ import {
 const navigation = [
   { label: "Панель управління", Icon: LayoutDashboard, path: "/" },
   { label: "Транзакції", Icon: ArrowLeftRight, path: "/transactions" },
-  { label: "Бюджет", Icon: Wallet },
+  { label: "Бюджет", Icon: Wallet, path: "/budget" },
   { label: "AI Помічник", Icon: Bot },
 ];
 

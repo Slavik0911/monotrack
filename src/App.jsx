@@ -5,6 +5,7 @@ import ChartCard from "./components/ChartCard";
 import Categories from "./components/Categories";
 import Transactions from "./components/Transactions";
 import AccountSelector from "./components/AccountSelector";
+import BudgetPage from "./pages/BudgetPage";
 import TransactionsPage from "./pages/TransactionsPage";
 import { useAnalytics } from "./hooks/useAnalytics";
 import { createChartData } from "./utils/chart";
@@ -85,6 +86,8 @@ export default function App() {
         </main>
       ) : path === "/transactions" ? (
         <TransactionsPage data={data} />
+      ) : path === "/budget" ? (
+        <BudgetPage data={data} />
       ) : (
       <main className="mx-auto flex w-full max-w-[1440px] flex-col gap-6 px-4 pb-10 pt-6 sm:px-6 lg:px-12 xl:px-16">
         <Hero data={activeData} />
