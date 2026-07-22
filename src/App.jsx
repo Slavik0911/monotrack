@@ -85,7 +85,11 @@ export default function App() {
           </div>
         </main>
       ) : path === "/transactions" ? (
-        <TransactionsPage data={data} />
+        <TransactionsPage
+          data={data}
+          onSelectAccount={setSelectedAccountId}
+          selectedAccountId={selectedAccountId}
+        />
       ) : path === "/budget" ? (
         <BudgetPage data={data} />
       ) : (

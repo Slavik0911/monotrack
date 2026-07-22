@@ -1,10 +1,15 @@
 import { useMemo, useState } from "react";
+import AccountSelector from "../components/AccountSelector";
 import PageTitle from "../components/PageTitle";
 import AiFinanceAssistant from "../components/transactions/AiFinanceAssistant";
 import TransactionFilters from "../components/transactions/TransactionFilters";
 import TransactionList from "../components/transactions/TransactionList";
 import TransactionSummaryCards from "../components/transactions/TransactionSummaryCards";
 import { getCurrency } from "../utils/format";
+import {
+  ALL_ACCOUNTS_ID,
+  createScopedAnalytics,
+} from "../utils/analyticsScope";
 import {
   getRawTransactions,
   getSignedAmount,
@@ -119,7 +124,11 @@ function buildCategoryOptions(transactions) {
   ];
 }
 
-export default function TransactionsPage({ data }) {
+export default function TransactionsPage({
+  data,
+  selectedAccountId = ALL_ACCOUNTS_ID,
+  onSelectAccount,
+}) {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");
   const [showAllCategories, setShowAllCategories] = useState(false);
@@ -129,8 +138,12 @@ export default function TransactionsPage({ data }) {
     maxAmount: "",
     sort: "newest",
   });
-  const currency = getCurrency(data);
-  const rawTransactions = useMemo(() => getRawTransactions(data), [data]);
+  const activeData = useMemo(
+    () => createScopedAnalytics(data, selectedAccountId),
+    [data, selectedAccountId]
+  );
+  const currency = getCurrency(activeData);
+  const rawTransactions = useMemo(() => getRawTransactions(activeData), [activeData]);
   const categoryOptions = useMemo(
     () => buildCategoryOptions(rawTransactions),
     [rawTransactions]
@@ -156,7 +169,13 @@ export default function TransactionsPage({ data }) {
     <main className="mx-auto flex w-full max-w-[1440px] flex-col gap-6 px-4 pb-10 pt-6 sm:px-6 lg:px-12 xl:px-16">
       <PageTitle title="Транзакції" />
 
-      <TransactionSummaryCards data={data} />
+      <TransactionSummaryCards data={activeData} />
+
+      <AccountSelector
+        data={data}
+        onSelectAccount={onSelectAccount}
+        selectedAccountId={selectedAccountId}
+      />
 
       <section className="grid grid-cols-1 gap-4 xl:grid-cols-[minmax(0,2fr)_minmax(300px,0.78fr)]">
         <div className="flex min-w-0 flex-col gap-4">
@@ -179,7 +198,7 @@ export default function TransactionsPage({ data }) {
           />
         </div>
 
-        <AiFinanceAssistant data={data} />
+        <AiFinanceAssistant data={activeData} />
       </section>
     </main>
   );
