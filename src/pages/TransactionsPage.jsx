@@ -2,11 +2,13 @@ import { useMemo, useState } from "react";
 import AccountSelector from "../components/AccountSelector";
 import PageTitle from "../components/PageTitle";
 import AiFinanceAssistant from "../components/transactions/AiFinanceAssistant";
+import TransactionEditAccess from "../components/transactions/TransactionEditAccess";
 import TransactionFilters from "../components/transactions/TransactionFilters";
 import TransactionEditorModal from "../components/transactions/TransactionEditorModal";
 import TransactionList from "../components/transactions/TransactionList";
 import TransactionSummaryCards from "../components/transactions/TransactionSummaryCards";
 import {
+  clearTransactionEdits,
   deleteTransactionEdit,
   getTransactionKey,
   saveTransactionEdit,
@@ -139,6 +141,7 @@ export default function TransactionsPage({
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");
   const [showAllCategories, setShowAllCategories] = useState(false);
+  const [showEditedTransactions, setShowEditedTransactions] = useState(false);
   const [showHiddenTransactions, setShowHiddenTransactions] = useState(false);
   const [editingTransaction, setEditingTransaction] = useState(null);
   const [filters, setFilters] = useState({
@@ -152,14 +155,29 @@ export default function TransactionsPage({
     [data, selectedAccountId]
   );
   const currency = getCurrency(activeData);
-  const allRawTransactions = useMemo(() => getRawTransactions(activeData), [activeData]);
+  const allEditedTransactions = useMemo(
+    () =>
+      getRawTransactions(data).filter(
+        (transaction) => transaction.__hasLocalEdit
+      ),
+    [data]
+  );
+  const allRawTransactions = useMemo(
+    () =>
+      showEditedTransactions
+        ? allEditedTransactions
+        : getRawTransactions(activeData),
+    [activeData, allEditedTransactions, showEditedTransactions]
+  );
   const rawTransactions = useMemo(
     () =>
       allRawTransactions.filter(
         (transaction) =>
-          showHiddenTransactions || !transaction.__hideFromTransactions
+          showEditedTransactions ||
+          showHiddenTransactions ||
+          !transaction.__hideFromTransactions
       ),
-    [allRawTransactions, showHiddenTransactions]
+    [allRawTransactions, showEditedTransactions, showHiddenTransactions]
   );
   const categoryOptions = useMemo(
     () => buildCategoryOptions(rawTransactions),
@@ -182,6 +200,23 @@ export default function TransactionsPage({
     return sortTransactions(filtered, filters.sort);
   }, [rawTransactions, search, selectedCategory, filters]);
 
+  const resetVisibleFilters = () => {
+    setSearch("");
+    setCategory("all");
+    setFilters({
+      type: "all",
+      minAmount: "",
+      maxAmount: "",
+      sort: "newest",
+    });
+  };
+
+  const handleToggleEditedTransactions = () => {
+    resetVisibleFilters();
+    setShowHiddenTransactions(false);
+    setShowEditedTransactions((currentValue) => !currentValue);
+  };
+
   const handleSaveTransactionEdit = (edit) => {
     const transactionKey =
       editingTransaction.__transaction_key ?? getTransactionKey(editingTransaction);
@@ -197,6 +232,19 @@ export default function TransactionsPage({
 
     deleteTransactionEdit(transactionKey);
     setEditingTransaction(null);
+    onTransactionEditsChange?.();
+  };
+
+  const handleResetAllTransactionEdits = () => {
+    if (!window.confirm("Скинути всі локальні правки транзакцій?")) {
+      return;
+    }
+
+    clearTransactionEdits();
+    setEditingTransaction(null);
+    setShowEditedTransactions(false);
+    setShowHiddenTransactions(false);
+    resetVisibleFilters();
     onTransactionEditsChange?.();
   };
 
@@ -230,6 +278,12 @@ export default function TransactionsPage({
               setShowAllCategories((currentValue) => !currentValue)
             }
             showHiddenTransactions={showHiddenTransactions}
+          />
+          <TransactionEditAccess
+            count={allEditedTransactions.length}
+            visible={showEditedTransactions}
+            onResetAll={handleResetAllTransactionEdits}
+            onToggle={handleToggleEditedTransactions}
           />
           <TransactionList
             currency={currency}

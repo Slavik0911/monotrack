@@ -100,6 +100,10 @@ export function deleteTransactionEdit(transactionKey) {
   writeAllEdits(edits);
 }
 
+export function clearTransactionEdits() {
+  writeAllEdits({});
+}
+
 function getAccountsById(data) {
   return new Map(
     asArray(data?.by_account).map((account) => [

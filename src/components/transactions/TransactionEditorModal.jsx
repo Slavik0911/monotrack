@@ -86,7 +86,14 @@ export default function TransactionEditorModal({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 px-4 py-4 sm:items-center">
+    <div
+      className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 px-4 py-4 sm:items-center"
+      onMouseDown={(event) => {
+        if (event.target === event.currentTarget) {
+          onClose();
+        }
+      }}
+    >
       <form
         className="w-full max-w-[520px] rounded-[24px] border border-[#1B1D23] bg-[#121318] p-5"
         onSubmit={handleSubmit}
