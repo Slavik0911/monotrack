@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import {
   ChevronDown,
   ChevronUp,
-  EyeOff,
   Search,
   SlidersHorizontal,
 } from "lucide-react";
@@ -39,11 +38,9 @@ export default function TransactionFilters({
   categoryOptions,
   filters,
   showAllCategories,
-  showHiddenTransactions,
   onCategoryChange,
   onFiltersChange,
   onSearchChange,
-  onToggleHiddenTransactions,
   onToggleCategories,
   search,
 }) {
@@ -167,18 +164,6 @@ export default function TransactionFilters({
               onChange={(sort) => onFiltersChange({ ...filters, sort })}
             />
 
-            <button
-              className={`mt-4 flex h-10 w-full items-center justify-center gap-2 rounded-xl border px-3 text-[12px] transition ${
-                showHiddenTransactions
-                  ? "border-[#E4BD67] bg-[#211D16] text-[#E4BD67]"
-                  : "border-[#24262D] bg-[#1A1B20] text-[#8B8F98] hover:text-[#F4F1EA]"
-              }`}
-              type="button"
-              onClick={onToggleHiddenTransactions}
-            >
-              <EyeOff className="h-4 w-4" strokeWidth={1.8} />
-              {showHiddenTransactions ? "Приховані показано" : "Показати приховані"}
-            </button>
           </div>
           ) : null}
         </div>

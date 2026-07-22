@@ -43,11 +43,7 @@ export default function TransactionRow({ currency, onEdit, transaction }) {
   const Icon = isTransfer ? ArrowLeftRight : isIncome ? ArrowUpRight : null;
 
   return (
-    <li
-      className={`grid grid-cols-1 gap-3 border-b border-[#1B1D23] py-4 last:border-b-0 md:grid-cols-[minmax(0,1.7fr)_minmax(130px,0.8fr)_minmax(110px,0.7fr)_minmax(130px,0.7fr)_40px] md:items-center ${
-        transaction.__hideFromTransactions ? "opacity-60" : ""
-      }`}
-    >
+    <li className="grid grid-cols-1 gap-3 border-b border-[#1B1D23] py-4 last:border-b-0 md:grid-cols-[minmax(0,1.7fr)_minmax(130px,0.8fr)_minmax(110px,0.7fr)_minmax(130px,0.7fr)_40px] md:items-center">
       <div className="flex min-w-0 items-center gap-4">
         <div
           className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full ${
@@ -78,7 +74,7 @@ export default function TransactionRow({ currency, onEdit, transaction }) {
             {transaction.__hideFromTransactions ? (
               <span className="inline-flex items-center gap-1 rounded-full bg-[#1B1D23] px-2 py-0.5 text-[10px] font-semibold text-[#8B8F98]">
                 <EyeOff className="h-3 w-3" strokeWidth={1.8} />
-                приховано
+                сховано з головної
               </span>
             ) : null}
           </div>

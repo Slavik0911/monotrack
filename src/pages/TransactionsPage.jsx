@@ -142,7 +142,6 @@ export default function TransactionsPage({
   const [category, setCategory] = useState("all");
   const [showAllCategories, setShowAllCategories] = useState(false);
   const [showEditedTransactions, setShowEditedTransactions] = useState(false);
-  const [showHiddenTransactions, setShowHiddenTransactions] = useState(false);
   const [editingTransaction, setEditingTransaction] = useState(null);
   const [filters, setFilters] = useState({
     type: "all",
@@ -169,16 +168,7 @@ export default function TransactionsPage({
         : getRawTransactions(activeData),
     [activeData, allEditedTransactions, showEditedTransactions]
   );
-  const rawTransactions = useMemo(
-    () =>
-      allRawTransactions.filter(
-        (transaction) =>
-          showEditedTransactions ||
-          showHiddenTransactions ||
-          !transaction.__hideFromTransactions
-      ),
-    [allRawTransactions, showEditedTransactions, showHiddenTransactions]
-  );
+  const rawTransactions = allRawTransactions;
   const categoryOptions = useMemo(
     () => buildCategoryOptions(rawTransactions),
     [rawTransactions]
@@ -213,7 +203,6 @@ export default function TransactionsPage({
 
   const handleToggleEditedTransactions = () => {
     resetVisibleFilters();
-    setShowHiddenTransactions(false);
     setShowEditedTransactions((currentValue) => !currentValue);
   };
 
@@ -243,7 +232,6 @@ export default function TransactionsPage({
     clearTransactionEdits();
     setEditingTransaction(null);
     setShowEditedTransactions(false);
-    setShowHiddenTransactions(false);
     resetVisibleFilters();
     onTransactionEditsChange?.();
   };
@@ -271,13 +259,9 @@ export default function TransactionsPage({
             onCategoryChange={setCategory}
             onFiltersChange={setFilters}
             onSearchChange={setSearch}
-            onToggleHiddenTransactions={() =>
-              setShowHiddenTransactions((currentValue) => !currentValue)
-            }
             onToggleCategories={() =>
               setShowAllCategories((currentValue) => !currentValue)
             }
-            showHiddenTransactions={showHiddenTransactions}
           />
           <TransactionEditAccess
             count={allEditedTransactions.length}

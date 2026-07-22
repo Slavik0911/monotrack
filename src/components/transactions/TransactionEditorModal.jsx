@@ -1,4 +1,4 @@
-import { EyeOff, RotateCcw, Save, X } from "lucide-react";
+import { RotateCcw, Save, X } from "lucide-react";
 import { useState } from "react";
 import Dropdown from "../ui/Dropdown";
 import { formatCardMask } from "../../utils/card";
@@ -174,23 +174,6 @@ export default function TransactionEditorModal({
             </span>
           </label>
 
-          <label className="flex items-start gap-3 rounded-2xl border border-[#24262D] bg-[#101116] px-4 py-3">
-            <input
-              className="mt-1 h-4 w-4 accent-[#E4BD67]"
-              defaultChecked={edit.hide_from_transactions === true}
-              name="hide_from_transactions"
-              type="checkbox"
-            />
-            <span>
-              <span className="flex items-center gap-2 text-[13px] font-semibold text-[#F4F1EA]">
-                <EyeOff className="h-4 w-4 text-[#E4BD67]" strokeWidth={1.8} />
-                Сховати з таблиці транзакцій
-              </span>
-              <span className="mt-1 block text-[11px] text-[#777B85]">
-                Її можна буде повернути через режим показу прихованих.
-              </span>
-            </span>
-          </label>
         </div>
 
         <div className="mt-5 flex flex-col-reverse gap-2 sm:flex-row sm:justify-between">
