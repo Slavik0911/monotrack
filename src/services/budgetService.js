@@ -1,4 +1,5 @@
 const STORAGE_KEY = "monotrack.budgets.v1";
+const DEFAULT_ACCOUNT_ID = "all";
 
 function readAllBudgets() {
   if (typeof window === "undefined") {
@@ -30,8 +31,20 @@ function createId() {
   return `budget_${Date.now()}_${Math.random().toString(16).slice(2)}`;
 }
 
-export function getBudgets(month) {
-  return readAllBudgets().filter((budget) => budget.month === month);
+function normalizeAccountId(accountId = DEFAULT_ACCOUNT_ID) {
+  return accountId || DEFAULT_ACCOUNT_ID;
+}
+
+function belongsToAccount(budget, accountId) {
+  const normalizedAccountId = normalizeAccountId(accountId);
+  const budgetAccountId = normalizeAccountId(budget.account_id);
+  return budgetAccountId === normalizedAccountId;
+}
+
+export function getBudgets(month, accountId = DEFAULT_ACCOUNT_ID) {
+  return readAllBudgets().filter(
+    (budget) => budget.month === month && belongsToAccount(budget, accountId)
+  );
 }
 
 export function createBudget(input) {
@@ -41,6 +54,7 @@ export function createBudget(input) {
     created_at: now,
     updated_at: now,
     ...input,
+    account_id: normalizeAccountId(input.account_id),
   };
   const budgets = readAllBudgets();
   writeAllBudgets([...budgets, budget]);
@@ -50,8 +64,12 @@ export function createBudget(input) {
 export function updateBudget(id, input) {
   const budgets = readAllBudgets();
   const now = new Date().toISOString();
+  const normalizedInput = {
+    ...input,
+    account_id: normalizeAccountId(input.account_id),
+  };
   const nextBudgets = budgets.map((budget) =>
-    budget.id === id ? { ...budget, ...input, updated_at: now } : budget
+    budget.id === id ? { ...budget, ...normalizedInput, updated_at: now } : budget
   );
   writeAllBudgets(nextBudgets);
   return nextBudgets.find((budget) => budget.id === id) ?? null;
@@ -62,7 +80,19 @@ export function deleteBudget(id) {
   writeAllBudgets(budgets.filter((budget) => budget.id !== id));
 }
 
-export function replaceMonthBudgets(month, monthBudgets) {
-  const otherBudgets = readAllBudgets().filter((budget) => budget.month !== month);
-  writeAllBudgets([...otherBudgets, ...monthBudgets]);
+export function replaceMonthBudgets(
+  month,
+  monthBudgets,
+  accountId = DEFAULT_ACCOUNT_ID
+) {
+  const normalizedAccountId = normalizeAccountId(accountId);
+  const otherBudgets = readAllBudgets().filter(
+    (budget) => budget.month !== month || !belongsToAccount(budget, normalizedAccountId)
+  );
+  const scopedBudgets = monthBudgets.map((budget) => ({
+    ...budget,
+    account_id: normalizeAccountId(budget.account_id ?? normalizedAccountId),
+  }));
+
+  writeAllBudgets([...otherBudgets, ...scopedBudgets]);
 }

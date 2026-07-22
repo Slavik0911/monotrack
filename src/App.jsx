@@ -91,7 +91,11 @@ export default function App() {
           selectedAccountId={selectedAccountId}
         />
       ) : path === "/budget" ? (
-        <BudgetPage data={data} />
+        <BudgetPage
+          data={data}
+          onSelectAccount={setSelectedAccountId}
+          selectedAccountId={selectedAccountId}
+        />
       ) : (
       <main className="mx-auto flex w-full max-w-[1440px] flex-col gap-6 px-4 pb-10 pt-6 sm:px-6 lg:px-12 xl:px-16">
         <Hero data={activeData} />

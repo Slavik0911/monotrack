@@ -73,7 +73,7 @@ export default function BudgetDistribution({ currency, summary }) {
         ))}
       </div>
       {summary.unallocated < 0 ? (
-        <p className="mt-4 rounded-xl bg-[#351819] px-3 py-2 text-[12px] text-[#FF8A84]">
+        <p className="mt-4 rounded-xl bg-[#2A2119] px-3 py-2 text-[12px] text-[#D8A15D]">
           Заплановано більше, ніж очікуваний дохід.
         </p>
       ) : null}

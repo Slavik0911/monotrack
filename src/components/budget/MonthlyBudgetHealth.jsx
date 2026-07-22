@@ -41,7 +41,7 @@ export default function MonthlyBudgetHealth({
       <p
         className={`mt-5 rounded-2xl px-4 py-3 text-[12px] leading-relaxed ${
           projectedOverspend > 0
-            ? "bg-[#351819] text-[#FF8A84]"
+            ? "bg-[#2A2119] text-[#D8A15D]"
             : "bg-[#12351F] text-[#33D17A]"
         }`}
       >

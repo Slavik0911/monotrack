@@ -135,7 +135,7 @@ export default function BudgetEditorModal({
         </div>
 
         {error ? (
-          <p className="mt-3 rounded-xl bg-[#351819] px-3 py-2 text-[12px] text-[#FF8A84]">
+          <p className="mt-3 rounded-xl bg-[#2A2119] px-3 py-2 text-[12px] text-[#D8A15D]">
             {error}
           </p>
         ) : null}
@@ -143,7 +143,7 @@ export default function BudgetEditorModal({
         <div className="mt-5 flex flex-col-reverse gap-2 sm:flex-row sm:justify-between">
           {budget ? (
             <button
-              className="h-11 rounded-xl px-4 text-[13px] text-[#FF8A84] transition hover:bg-[#351819]"
+              className="h-11 rounded-xl px-4 text-[13px] text-[#D8A15D] transition hover:bg-[#2A2119]"
               type="button"
               onClick={() => {
                 if (window.confirm("Видалити цей бюджет?")) {

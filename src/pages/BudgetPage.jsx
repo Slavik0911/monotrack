@@ -1,5 +1,6 @@
 import { ChevronLeft, ChevronRight, RefreshCcw } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useMemo, useReducer, useState } from "react";
+import AccountSelector from "../components/AccountSelector";
 import BudgetAiAssistant from "../components/budget/BudgetAiAssistant";
 import BudgetDistribution from "../components/budget/BudgetDistribution";
 import BudgetEmptyState from "../components/budget/BudgetEmptyState";
@@ -29,15 +30,31 @@ import {
   getBudgetInsights,
   shiftMonth,
 } from "../utils/budget";
+import {
+  ALL_ACCOUNTS_ID,
+  createScopedAnalytics,
+} from "../utils/analyticsScope";
 import { getCurrency } from "../utils/format";
 
-export default function BudgetPage({ data }) {
+export default function BudgetPage({
+  data,
+  selectedAccountId = ALL_ACCOUNTS_ID,
+  onSelectAccount,
+}) {
   const [month, setMonth] = useState(getCurrentMonthKey);
-  const [budgets, setBudgets] = useState(() => getBudgets(getCurrentMonthKey()));
+  const [, refreshBudgets] = useReducer((value) => value + 1, 0);
   const [editingRow, setEditingRow] = useState(null);
-  const currency = getCurrency(data);
+  const activeData = useMemo(
+    () => createScopedAnalytics(data, selectedAccountId),
+    [data, selectedAccountId]
+  );
+  const currency = getCurrency(activeData);
 
-  const transactions = useMemo(() => getMonthTransactions(data, month), [data, month]);
+  const transactions = useMemo(
+    () => getMonthTransactions(activeData, month),
+    [activeData, month]
+  );
+  const budgets = getBudgets(month, selectedAccountId);
   const income = useMemo(() => calculateMonthlyIncome(transactions), [transactions]);
   const spent = useMemo(() => calculateMonthlyExpenses(transactions), [transactions]);
   const rows = useMemo(
@@ -82,23 +99,32 @@ export default function BudgetPage({ data }) {
   const spentPercent = summary.planned > 0 ? (spent / summary.planned) * 100 : 0;
   const hasTransactions = transactions.length > 0;
 
-  const reloadBudgets = () => setBudgets(getBudgets(month));
+  const reloadBudgets = () => refreshBudgets();
   const handleMonthChange = (offset) => {
     const nextMonth = shiftMonth(month, offset);
     setMonth(nextMonth);
-    setBudgets(getBudgets(nextMonth));
     setEditingRow(null);
   };
 
+  const handleSelectAccount = (accountId) => {
+    setEditingRow(null);
+    onSelectAccount?.(accountId);
+  };
+
   const handleSaveBudget = (input) => {
+    const scopedInput = {
+      ...input,
+      account_id: selectedAccountId,
+    };
+
     if (editingRow?.budget) {
-      updateBudget(editingRow.budget.id, input);
+      updateBudget(editingRow.budget.id, scopedInput);
     } else {
-      const existing = budgets.find((budget) => budget.category === input.category);
+      const existing = budgets.find((budget) => budget.category === scopedInput.category);
       if (existing) {
-        updateBudget(existing.id, input);
+        updateBudget(existing.id, scopedInput);
       } else {
-        createBudget(input);
+        createBudget(scopedInput);
       }
     }
 
@@ -116,8 +142,18 @@ export default function BudgetPage({ data }) {
   };
 
   const handleCreateSuggested = () => {
-    const suggested = createSuggestedBudgets(month, transactions, income);
-    replaceMonthBudgets(month, suggested);
+    const suggested = createSuggestedBudgets(
+      month,
+      transactions,
+      income,
+      selectedAccountId
+    ).map(
+      (budget) => ({
+        ...budget,
+        account_id: selectedAccountId,
+      })
+    );
+    replaceMonthBudgets(month, suggested, selectedAccountId);
     reloadBudgets();
   };
 
@@ -155,6 +191,12 @@ export default function BudgetPage({ data }) {
           </button>
         </div>
       </section>
+
+      <AccountSelector
+        data={data}
+        onSelectAccount={handleSelectAccount}
+        selectedAccountId={selectedAccountId}
+      />
 
       <BudgetSummaryCards currency={currency} summary={summary} />
 

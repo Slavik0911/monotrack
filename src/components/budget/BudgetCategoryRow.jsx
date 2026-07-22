@@ -3,8 +3,8 @@ import { formatMoney, formatPercent } from "../../utils/format";
 
 const toneClasses = {
   danger: {
-    bar: "bg-[#FF5F57]",
-    badge: "bg-[#351819] text-[#FF8A84]",
+    bar: "bg-[#B9824A]",
+    badge: "bg-[#2A2119] text-[#D8A15D]",
   },
   gold: {
     bar: "bg-[#E4BD67]",
@@ -88,7 +88,7 @@ export default function BudgetCategoryRow({
           <Edit3 className="h-4 w-4" strokeWidth={1.8} />
         </button>
         <button
-          className="flex h-8 w-8 items-center justify-center rounded-lg text-[#8B8F98] transition hover:bg-[#351819] hover:text-[#FF8A84] disabled:cursor-not-allowed disabled:opacity-40"
+          className="flex h-8 w-8 items-center justify-center rounded-lg text-[#8B8F98] transition hover:bg-[#2A2119] hover:text-[#D8A15D] disabled:cursor-not-allowed disabled:opacity-40"
           type="button"
           onClick={() => hasBudget && onDelete(row)}
           disabled={!hasBudget}
@@ -105,7 +105,7 @@ function BudgetMobileMetric({ danger = false, label, value }) {
   return (
     <div className="flex items-center justify-between gap-3 lg:block">
       <span className="text-[11px] text-[#6F737D] lg:hidden">{label}</span>
-      <span className={`text-[12px] font-medium ${danger ? "text-[#FF8A84]" : "text-[#D7D9DE]"}`}>
+      <span className={`text-[12px] font-medium ${danger ? "text-[#D8A15D]" : "text-[#D7D9DE]"}`}>
         {value}
       </span>
     </div>

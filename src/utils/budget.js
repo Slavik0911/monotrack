@@ -321,7 +321,12 @@ export function buildBudgetRows(budgets, transactions, income) {
     });
 }
 
-export function createSuggestedBudgets(month, transactions, income) {
+function createBudgetIdPart(value) {
+  return String(value ?? "all").replace(/[^a-zA-Z0-9_-]/g, "_");
+}
+
+export function createSuggestedBudgets(month, transactions, income, accountId = "all") {
+  const accountPart = createBudgetIdPart(accountId);
   const actualByCategory = groupTransactionsByBudgetCategory(transactions);
   const entries = Object.entries(actualByCategory)
     .filter(([, amount]) => amount > 0)
@@ -332,7 +337,7 @@ export function createSuggestedBudgets(month, transactions, income) {
   const expenseBudgets = entries.map(([category, amount]) => ({
     category,
     created_at: now,
-    id: `suggested_${month}_${category}`,
+    id: `suggested_${month}_${accountPart}_${category}`,
     month,
     type: "fixed",
     updated_at: now,
@@ -345,7 +350,7 @@ export function createSuggestedBudgets(month, transactions, income) {
     {
       category: "savings",
       created_at: now,
-      id: `suggested_${month}_savings`,
+      id: `suggested_${month}_${accountPart}_savings`,
       month,
       type: "fixed",
       updated_at: now,

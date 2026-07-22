@@ -24,7 +24,7 @@ const cards = [
     key: "remaining",
     label: "Залишок",
     Icon: PiggyBank,
-    tone: "text-[#33D17A]",
+    tone: "remaining",
   },
 ];
 
@@ -66,6 +66,12 @@ export default function BudgetSummaryCards({ currency, summary }) {
       {cards.map(({ Icon, key, label, tone }) => {
         const value = values[key];
         const barWidth = Math.max(0, Math.min(100, value.percent ?? 0));
+        const toneClass =
+          tone === "remaining"
+            ? value.amount < 0
+              ? "text-[#D8A15D]"
+              : "text-[#33D17A]"
+            : tone;
 
         return (
           <article
@@ -77,7 +83,7 @@ export default function BudgetSummaryCards({ currency, summary }) {
                 <p className="text-[11px] font-medium uppercase tracking-[0.16em] text-[#777B85]">
                   {label}
                 </p>
-                <p className={`mt-3 text-[25px] font-semibold ${tone}`}>
+                <p className={`mt-3 text-[25px] font-semibold ${toneClass}`}>
                   {formatMoney(value.amount, currency)}
                 </p>
               </div>
