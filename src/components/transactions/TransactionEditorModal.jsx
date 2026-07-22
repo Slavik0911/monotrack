@@ -80,7 +80,6 @@ export default function TransactionEditorModal({
     onSave({
       account_id: selectedAccountId !== originalAccountId ? selectedAccountId : "",
       exclude_from_budget: form.get("exclude_from_budget") === "on",
-      hide_from_transactions: form.get("hide_from_transactions") === "on",
       title: title && title !== originalDescription ? title : "",
     });
   };

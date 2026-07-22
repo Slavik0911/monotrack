@@ -1,7 +1,6 @@
 import {
   ArrowLeftRight,
   ArrowUpRight,
-  EyeOff,
   PencilLine,
 } from "lucide-react";
 import { formatMoney } from "../../utils/format";
@@ -69,12 +68,6 @@ export default function TransactionRow({ currency, onEdit, transaction }) {
             {transaction.__excludeFromBudget ? (
               <span className="rounded-full bg-[#211D16] px-2 py-0.5 text-[10px] font-semibold text-[#E4BD67]">
                 поза бюджетом
-              </span>
-            ) : null}
-            {transaction.__hideFromTransactions ? (
-              <span className="inline-flex items-center gap-1 rounded-full bg-[#1B1D23] px-2 py-0.5 text-[10px] font-semibold text-[#8B8F98]">
-                <EyeOff className="h-3 w-3" strokeWidth={1.8} />
-                сховано з головної
               </span>
             ) : null}
           </div>

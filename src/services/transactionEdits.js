@@ -64,7 +64,6 @@ function normalizeEdit(edit) {
   return {
     account_id: edit.account_id || "",
     exclude_from_budget: edit.exclude_from_budget === true,
-    hide_from_transactions: edit.hide_from_transactions === true,
     title: String(edit.title ?? "").trim(),
     updated_at: new Date().toISOString(),
   };
@@ -74,8 +73,7 @@ function hasMeaningfulEdit(edit) {
   return (
     edit.title ||
     edit.account_id ||
-    edit.exclude_from_budget ||
-    edit.hide_from_transactions
+    edit.exclude_from_budget
   );
 }
 
@@ -146,7 +144,6 @@ function applyEditToTransaction(transaction, accountsById, edits) {
   }
 
   nextTransaction.__excludeFromBudget = edit.exclude_from_budget === true;
-  nextTransaction.__hideFromTransactions = edit.hide_from_transactions === true;
 
   return nextTransaction;
 }

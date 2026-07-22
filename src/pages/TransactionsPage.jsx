@@ -155,10 +155,10 @@ export default function TransactionsPage({
   const currency = getCurrency(activeData);
   const allEditedTransactions = useMemo(
     () =>
-      getRawTransactions(data).filter(
+      getRawTransactions(activeData).filter(
         (transaction) => transaction.__hasLocalEdit
       ),
-    [data]
+    [activeData]
   );
   const allRawTransactions = useMemo(
     () =>
