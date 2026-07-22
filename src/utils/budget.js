@@ -160,7 +160,11 @@ export function getMonthTransactions(data, monthKey) {
 
 export function calculateMonthlyIncome(transactions) {
   return transactions.reduce((sum, transaction) => {
-    if (isTransferTransaction(transaction) || !isIncomeTransaction(transaction)) {
+    if (
+      transaction?.__excludeFromBudget ||
+      isTransferTransaction(transaction) ||
+      !isIncomeTransaction(transaction)
+    ) {
       return sum;
     }
 
@@ -170,7 +174,11 @@ export function calculateMonthlyIncome(transactions) {
 
 export function calculateMonthlyExpenses(transactions) {
   return transactions.reduce((sum, transaction) => {
-    if (isTransferTransaction(transaction) || isIncomeTransaction(transaction)) {
+    if (
+      transaction?.__excludeFromBudget ||
+      isTransferTransaction(transaction) ||
+      isIncomeTransaction(transaction)
+    ) {
       return sum;
     }
 
@@ -180,7 +188,11 @@ export function calculateMonthlyExpenses(transactions) {
 
 export function groupTransactionsByBudgetCategory(transactions) {
   return transactions.reduce((groups, transaction) => {
-    if (isTransferTransaction(transaction) || isIncomeTransaction(transaction)) {
+    if (
+      transaction?.__excludeFromBudget ||
+      isTransferTransaction(transaction) ||
+      isIncomeTransaction(transaction)
+    ) {
       return groups;
     }
 

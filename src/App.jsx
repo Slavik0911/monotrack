@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useReducer, useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ChartCard from "./components/ChartCard";
@@ -14,6 +14,7 @@ import {
   ALL_ACCOUNTS_ID,
   createScopedAnalytics,
 } from "./utils/analyticsScope";
+import { applyTransactionEdits } from "./services/transactionEdits";
 
 const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
 
@@ -39,9 +40,14 @@ export default function App() {
   const { data, error, loading } = useAnalytics();
   const [path, setPath] = useState(getAppPath);
   const [selectedAccountId, setSelectedAccountId] = useState(ALL_ACCOUNTS_ID);
+  const [, refreshTransactionEdits] = useReducer(
+    (value) => value + 1,
+    0
+  );
+  const dataWithTransactionEdits = applyTransactionEdits(data);
   const activeData = useMemo(
-    () => createScopedAnalytics(data, selectedAccountId),
-    [data, selectedAccountId]
+    () => createScopedAnalytics(dataWithTransactionEdits, selectedAccountId),
+    [dataWithTransactionEdits, selectedAccountId]
   );
   const chartData = useMemo(() => createChartData(activeData), [activeData]);
   const currency = getCurrency(activeData);
@@ -86,13 +92,14 @@ export default function App() {
         </main>
       ) : path === "/transactions" ? (
         <TransactionsPage
-          data={data}
+          data={dataWithTransactionEdits}
+          onTransactionEditsChange={refreshTransactionEdits}
           onSelectAccount={setSelectedAccountId}
           selectedAccountId={selectedAccountId}
         />
       ) : path === "/budget" ? (
         <BudgetPage
-          data={data}
+          data={dataWithTransactionEdits}
           onSelectAccount={setSelectedAccountId}
           selectedAccountId={selectedAccountId}
         />
@@ -101,7 +108,7 @@ export default function App() {
         <Hero data={activeData} />
 
         <AccountSelector
-          data={data}
+          data={dataWithTransactionEdits}
           onSelectAccount={setSelectedAccountId}
           selectedAccountId={selectedAccountId}
         />

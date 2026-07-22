@@ -3,8 +3,14 @@ import AccountSelector from "../components/AccountSelector";
 import PageTitle from "../components/PageTitle";
 import AiFinanceAssistant from "../components/transactions/AiFinanceAssistant";
 import TransactionFilters from "../components/transactions/TransactionFilters";
+import TransactionEditorModal from "../components/transactions/TransactionEditorModal";
 import TransactionList from "../components/transactions/TransactionList";
 import TransactionSummaryCards from "../components/transactions/TransactionSummaryCards";
+import {
+  deleteTransactionEdit,
+  getTransactionKey,
+  saveTransactionEdit,
+} from "../services/transactionEdits";
 import { getCurrency } from "../utils/format";
 import {
   ALL_ACCOUNTS_ID,
@@ -126,12 +132,15 @@ function buildCategoryOptions(transactions) {
 
 export default function TransactionsPage({
   data,
+  onTransactionEditsChange,
   selectedAccountId = ALL_ACCOUNTS_ID,
   onSelectAccount,
 }) {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");
   const [showAllCategories, setShowAllCategories] = useState(false);
+  const [showHiddenTransactions, setShowHiddenTransactions] = useState(false);
+  const [editingTransaction, setEditingTransaction] = useState(null);
   const [filters, setFilters] = useState({
     type: "all",
     minAmount: "",
@@ -143,7 +152,15 @@ export default function TransactionsPage({
     [data, selectedAccountId]
   );
   const currency = getCurrency(activeData);
-  const rawTransactions = useMemo(() => getRawTransactions(activeData), [activeData]);
+  const allRawTransactions = useMemo(() => getRawTransactions(activeData), [activeData]);
+  const rawTransactions = useMemo(
+    () =>
+      allRawTransactions.filter(
+        (transaction) =>
+          showHiddenTransactions || !transaction.__hideFromTransactions
+      ),
+    [allRawTransactions, showHiddenTransactions]
+  );
   const categoryOptions = useMemo(
     () => buildCategoryOptions(rawTransactions),
     [rawTransactions]
@@ -164,6 +181,24 @@ export default function TransactionsPage({
 
     return sortTransactions(filtered, filters.sort);
   }, [rawTransactions, search, selectedCategory, filters]);
+
+  const handleSaveTransactionEdit = (edit) => {
+    const transactionKey =
+      editingTransaction.__transaction_key ?? getTransactionKey(editingTransaction);
+
+    saveTransactionEdit(transactionKey, edit);
+    setEditingTransaction(null);
+    onTransactionEditsChange?.();
+  };
+
+  const handleResetTransactionEdit = () => {
+    const transactionKey =
+      editingTransaction.__transaction_key ?? getTransactionKey(editingTransaction);
+
+    deleteTransactionEdit(transactionKey);
+    setEditingTransaction(null);
+    onTransactionEditsChange?.();
+  };
 
   return (
     <main className="mx-auto flex w-full max-w-[1440px] flex-col gap-6 px-4 pb-10 pt-6 sm:px-6 lg:px-12 xl:px-16">
@@ -188,18 +223,34 @@ export default function TransactionsPage({
             onCategoryChange={setCategory}
             onFiltersChange={setFilters}
             onSearchChange={setSearch}
+            onToggleHiddenTransactions={() =>
+              setShowHiddenTransactions((currentValue) => !currentValue)
+            }
             onToggleCategories={() =>
               setShowAllCategories((currentValue) => !currentValue)
             }
+            showHiddenTransactions={showHiddenTransactions}
           />
           <TransactionList
             currency={currency}
+            onEditTransaction={setEditingTransaction}
             transactions={transactions}
           />
         </div>
 
         <AiFinanceAssistant data={activeData} />
       </section>
+
+      {editingTransaction ? (
+        <TransactionEditorModal
+          accounts={data?.by_account}
+          currency={currency}
+          transaction={editingTransaction}
+          onClose={() => setEditingTransaction(null)}
+          onReset={handleResetTransactionEdit}
+          onSave={handleSaveTransactionEdit}
+        />
+      ) : null}
     </main>
   );
 }

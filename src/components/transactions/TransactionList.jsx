@@ -2,6 +2,7 @@ import TransactionRow from "./TransactionRow";
 
 export default function TransactionList({
   currency,
+  onEditTransaction,
   transactions,
 }) {
   return (
@@ -28,6 +29,7 @@ export default function TransactionList({
             <TransactionRow
               currency={currency}
               key={transaction.id ?? transaction.transaction_id ?? `${transaction.tx_time}-${index}`}
+              onEdit={onEditTransaction}
               transaction={transaction}
             />
           ))}

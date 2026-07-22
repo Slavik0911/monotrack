@@ -158,6 +158,7 @@ function getCategoryLabel(categoryKey, transaction) {
 
 function getDescription(transaction) {
   return (
+    transaction.display_description ??
     transaction.description ??
     transaction.merchant ??
     transaction.name ??
@@ -334,10 +335,13 @@ function getAccountLabel(transaction) {
 
 export default function Transactions({ data, onViewAll }) {
   const allTransactions = getTransactions(data);
-  const transactions = allTransactions.slice(0, 8);
+  const visibleTransactions = allTransactions.filter(
+    (transaction) => !transaction.__hideFromTransactions
+  );
+  const transactions = visibleTransactions.slice(0, 8);
   const currency = getCurrency(data);
   const recordsCount =
-    data?.global?.transactions_count || allTransactions.length || 0;
+    data?.global?.transactions_count || visibleTransactions.length || 0;
 
   return (
     <article className="rounded-[28px] border border-[#1B1D23] bg-[#121318] p-5 sm:p-7">

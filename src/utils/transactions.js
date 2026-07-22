@@ -164,6 +164,7 @@ export function getTransactionCategoryLabel(transaction) {
 
 export function getTransactionDescription(transaction) {
   return (
+    transaction?.display_description ??
     transaction?.merchant ??
     transaction?.merchant_name ??
     transaction?.description ??

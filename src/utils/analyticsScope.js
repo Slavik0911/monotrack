@@ -83,7 +83,7 @@ function getTopCategory(account) {
   return breakdown[0] ?? null;
 }
 
-function getCategoryBreakdown(transactions, totalSpent) {
+function getCategoryBreakdown(transactions, totalSpent, mode = "original") {
   const categories = {};
 
   for (const transaction of transactions) {
@@ -92,7 +92,7 @@ function getCategoryBreakdown(transactions, totalSpent) {
     }
 
     const category = transaction.category ?? "other";
-    const amount = getTransactionAbsAmount(transaction, "original");
+    const amount = getTransactionAbsAmount(transaction, mode);
     categories[category] = (categories[category] || 0) + amount;
   }
 
@@ -107,13 +107,13 @@ function getCategoryBreakdown(transactions, totalSpent) {
     .sort((a, b) => b.amount_original - a.amount_original);
 }
 
-function sumTransactions(transactions, type) {
+function sumTransactions(transactions, type, mode = "original") {
   return transactions.reduce((sum, transaction) => {
     if (transaction.is_transfer || transaction.type !== type) {
       return sum;
     }
 
-    return sum + getTransactionAbsAmount(transaction, "original");
+    return sum + getTransactionAbsAmount(transaction, mode);
   }, 0);
 }
 
@@ -130,24 +130,35 @@ export function createScopedAnalytics(data, selectedAccountId) {
     return data;
   }
 
-  const transactions = asArray(data.transactions).filter(
+  const sourceTransactions = asArray(data.transactions).length > 0
+    ? asArray(data.transactions)
+    : asArray(data.global?.transactions);
+  const transactions = sourceTransactions.filter(
     (transaction) => transaction.account_id === account.account_id
   );
   const usesOriginalCurrency = Boolean(account.account_currency);
+  const amountMode = usesOriginalCurrency ? "original" : "converted";
+  const shouldRecalculateFromTransactions = data.__hasTransactionEdits === true;
   const chartData = getDailyExpenseChart(
     transactions,
-    usesOriginalCurrency ? "original" : "converted"
+    amountMode
   );
   const currency = account.account_currency ?? data.report_base_currency;
-  const income = usesOriginalCurrency
-    ? toNumber(account.total_income_original, sumTransactions(transactions, "income"))
-    : toNumber(account.total_income_converted);
-  const spent = usesOriginalCurrency
-    ? toNumber(account.total_spent_original, sumTransactions(transactions, "expense"))
-    : toNumber(account.total_spent_converted);
-  const breakdown = usesOriginalCurrency
-    ? account.breakdown_original ?? getCategoryBreakdown(transactions, spent)
-    : asArray(account.breakdown);
+  const income = shouldRecalculateFromTransactions
+    ? sumTransactions(transactions, "income", amountMode)
+    : usesOriginalCurrency
+      ? toNumber(account.total_income_original, sumTransactions(transactions, "income"))
+      : toNumber(account.total_income_converted);
+  const spent = shouldRecalculateFromTransactions
+    ? sumTransactions(transactions, "expense", amountMode)
+    : usesOriginalCurrency
+      ? toNumber(account.total_spent_original, sumTransactions(transactions, "expense"))
+      : toNumber(account.total_spent_converted);
+  const breakdown = shouldRecalculateFromTransactions
+    ? getCategoryBreakdown(transactions, spent, amountMode)
+    : usesOriginalCurrency
+      ? account.breakdown_original ?? getCategoryBreakdown(transactions, spent)
+      : asArray(account.breakdown);
   const topCategory = breakdown[0] ?? getTopCategory(account);
 
   return {

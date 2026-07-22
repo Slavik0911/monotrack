@@ -1,6 +1,8 @@
 import {
   ArrowLeftRight,
   ArrowUpRight,
+  EyeOff,
+  PencilLine,
 } from "lucide-react";
 import { formatMoney } from "../../utils/format";
 import {
@@ -20,7 +22,7 @@ function getInitial(text) {
   return String(text || "О").trim().charAt(0).toUpperCase();
 }
 
-export default function TransactionRow({ currency, transaction }) {
+export default function TransactionRow({ currency, onEdit, transaction }) {
   const description = getTransactionDescription(transaction);
   const category = getTransactionCategoryLabel(transaction);
   const subtitle = getTransactionSubtitle(transaction) || category;
@@ -41,7 +43,11 @@ export default function TransactionRow({ currency, transaction }) {
   const Icon = isTransfer ? ArrowLeftRight : isIncome ? ArrowUpRight : null;
 
   return (
-    <li className="grid grid-cols-1 gap-3 border-b border-[#1B1D23] py-4 last:border-b-0 md:grid-cols-[minmax(0,1.7fr)_minmax(130px,0.8fr)_minmax(110px,0.7fr)_minmax(130px,0.7fr)] md:items-center">
+    <li
+      className={`grid grid-cols-1 gap-3 border-b border-[#1B1D23] py-4 last:border-b-0 md:grid-cols-[minmax(0,1.7fr)_minmax(130px,0.8fr)_minmax(110px,0.7fr)_minmax(130px,0.7fr)_40px] md:items-center ${
+        transaction.__hideFromTransactions ? "opacity-60" : ""
+      }`}
+    >
       <div className="flex min-w-0 items-center gap-4">
         <div
           className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full ${
@@ -62,7 +68,20 @@ export default function TransactionRow({ currency, transaction }) {
           <p className="truncate text-[13px] font-semibold text-[#F4F1EA]">
             {description}
           </p>
-          <p className="mt-1 truncate text-[11px] text-[#777B85]">{subtitle}</p>
+          <div className="mt-1 flex min-w-0 flex-wrap items-center gap-2">
+            <p className="truncate text-[11px] text-[#777B85]">{subtitle}</p>
+            {transaction.__excludeFromBudget ? (
+              <span className="rounded-full bg-[#211D16] px-2 py-0.5 text-[10px] font-semibold text-[#E4BD67]">
+                поза бюджетом
+              </span>
+            ) : null}
+            {transaction.__hideFromTransactions ? (
+              <span className="inline-flex items-center gap-1 rounded-full bg-[#1B1D23] px-2 py-0.5 text-[10px] font-semibold text-[#8B8F98]">
+                <EyeOff className="h-3 w-3" strokeWidth={1.8} />
+                приховано
+              </span>
+            ) : null}
+          </div>
         </div>
       </div>
 
@@ -89,6 +108,17 @@ export default function TransactionRow({ currency, transaction }) {
         <p className="mt-1 text-[11px] text-[#6F737D]">
           {formatTransactionDateTime(transaction)}
         </p>
+      </div>
+
+      <div className="flex justify-end">
+        <button
+          aria-label="Редагувати транзакцію"
+          className="flex h-9 w-9 items-center justify-center rounded-xl text-[#8B8F98] transition hover:bg-[#1A1B20] hover:text-[#E4BD67]"
+          type="button"
+          onClick={() => onEdit?.(transaction)}
+        >
+          <PencilLine className="h-4 w-4" strokeWidth={1.8} />
+        </button>
       </div>
     </li>
   );
