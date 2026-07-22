@@ -2,7 +2,6 @@ import { useMemo, useState } from "react";
 import AccountSelector from "../components/AccountSelector";
 import PageTitle from "../components/PageTitle";
 import AiFinanceAssistant from "../components/transactions/AiFinanceAssistant";
-import TransactionEditAccess from "../components/transactions/TransactionEditAccess";
 import TransactionFilters from "../components/transactions/TransactionFilters";
 import TransactionEditorModal from "../components/transactions/TransactionEditorModal";
 import TransactionList from "../components/transactions/TransactionList";
@@ -253,21 +252,19 @@ export default function TransactionsPage({
           <TransactionFilters
             category={selectedCategory}
             categoryOptions={categoryOptions}
+            editedCount={allEditedTransactions.length}
             filters={filters}
             search={search}
             showAllCategories={showAllCategories}
+            showEditedTransactions={showEditedTransactions}
             onCategoryChange={setCategory}
             onFiltersChange={setFilters}
+            onResetTransactionEdits={handleResetAllTransactionEdits}
             onSearchChange={setSearch}
             onToggleCategories={() =>
               setShowAllCategories((currentValue) => !currentValue)
             }
-          />
-          <TransactionEditAccess
-            count={allEditedTransactions.length}
-            visible={showEditedTransactions}
-            onResetAll={handleResetAllTransactionEdits}
-            onToggle={handleToggleEditedTransactions}
+            onToggleEditedTransactions={handleToggleEditedTransactions}
           />
           <TransactionList
             currency={currency}

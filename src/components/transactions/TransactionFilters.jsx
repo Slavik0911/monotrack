@@ -2,6 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import {
   ChevronDown,
   ChevronUp,
+  Eye,
+  EyeOff,
+  RotateCcw,
   Search,
   SlidersHorizontal,
 } from "lucide-react";
@@ -36,12 +39,16 @@ function getPrimaryCategoryOptions(options, activeCategory) {
 export default function TransactionFilters({
   category,
   categoryOptions,
+  editedCount = 0,
   filters,
   showAllCategories,
+  showEditedTransactions = false,
   onCategoryChange,
   onFiltersChange,
+  onResetTransactionEdits,
   onSearchChange,
   onToggleCategories,
+  onToggleEditedTransactions,
   search,
 }) {
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -163,6 +170,59 @@ export default function TransactionFilters({
               value={filters.sort}
               onChange={(sort) => onFiltersChange({ ...filters, sort })}
             />
+
+            {editedCount > 0 ? (
+              <div className="mt-4 border-t border-[#1B1D23] pt-4">
+                <div className="flex items-center justify-between gap-3">
+                  <div className="min-w-0">
+                    <p className="text-[12px] font-semibold text-[#F4F1EA]">
+                      Локальні правки
+                    </p>
+                    <p className="mt-1 text-[11px] text-[#777B85]">
+                      {editedCount} змінених операцій
+                    </p>
+                  </div>
+
+                  <div className="flex shrink-0 items-center gap-1">
+                    <button
+                      aria-label={
+                        showEditedTransactions
+                          ? "Показати звичайний список"
+                          : "Показати змінені операції"
+                      }
+                      className={`flex h-9 w-9 items-center justify-center rounded-xl border transition ${
+                        showEditedTransactions
+                          ? "border-[#E4BD67] bg-[#211D16] text-[#E4BD67]"
+                          : "border-[#24262D] bg-[#1A1B20] text-[#8B8F98] hover:border-[#E4BD67] hover:text-[#F4F1EA]"
+                      }`}
+                      title={
+                        showEditedTransactions
+                          ? "Показати звичайний список"
+                          : "Показати змінені операції"
+                      }
+                      type="button"
+                      onClick={onToggleEditedTransactions}
+                    >
+                      {showEditedTransactions ? (
+                        <Eye className="h-4 w-4" strokeWidth={1.8} />
+                      ) : (
+                        <EyeOff className="h-4 w-4" strokeWidth={1.8} />
+                      )}
+                    </button>
+
+                    <button
+                      aria-label="Скинути всі локальні правки"
+                      className="flex h-9 w-9 items-center justify-center rounded-xl border border-[#24262D] bg-[#1A1B20] text-[#777B85] transition hover:border-[#D8A15D] hover:text-[#D8A15D]"
+                      title="Скинути всі локальні правки"
+                      type="button"
+                      onClick={onResetTransactionEdits}
+                    >
+                      <RotateCcw className="h-4 w-4" strokeWidth={1.8} />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ) : null}
 
           </div>
           ) : null}
