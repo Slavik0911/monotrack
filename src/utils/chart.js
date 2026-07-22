@@ -1,4 +1,11 @@
 import { getCategoryLabel } from "./categoryDisplay";
+import {
+  getRawTransactions,
+  getSignedAmount,
+  getTransactionDate,
+  isIncomeTransaction,
+  isTransferTransaction,
+} from "./transactions";
 
 function normalizePoint(point, index) {
   const amount =
@@ -14,7 +21,50 @@ function normalizePoint(point, index) {
   };
 }
 
+function shouldUseOriginalAmounts(data) {
+  return Boolean(data?.selected_account?.account_currency);
+}
+
+function createEditedTransactionChartData(data) {
+  const mode = shouldUseOriginalAmounts(data) ? "original" : "converted";
+  const days = new Map();
+
+  getRawTransactions(data).forEach((transaction) => {
+    if (
+      transaction?.__excludeFromBudget ||
+      isTransferTransaction(transaction) ||
+      isIncomeTransaction(transaction)
+    ) {
+      return;
+    }
+
+    const date = getTransactionDate(transaction);
+    if (!date) {
+      return;
+    }
+
+    const dateKey = date.toISOString().slice(0, 10);
+    const amount = Math.abs(getSignedAmount(transaction, mode));
+    days.set(dateKey, (days.get(dateKey) ?? 0) + amount);
+  });
+
+  return Array.from(days.entries())
+    .sort(([left], [right]) => left.localeCompare(right))
+    .map(([dateKey, amount]) => {
+      const date = new Date(dateKey);
+
+      return {
+        amount: Number(amount.toFixed(2)),
+        label: String(date.getDate()),
+      };
+    });
+}
+
 export function createChartData(data) {
+  if (data?.__hasTransactionEdits) {
+    return createEditedTransactionChartData(data);
+  }
+
   const timeSeries =
     data?.chartData ??
     data?.global?.chartData ??

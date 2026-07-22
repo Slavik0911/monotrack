@@ -1,6 +1,13 @@
 import { useState } from "react";
 import { formatMoney, getCurrency } from "../utils/format";
 import { getCategoryLabel } from "../utils/categoryDisplay";
+import {
+  getRawTransactions,
+  getSignedAmount,
+  getTransactionCategory,
+  isIncomeTransaction,
+  isTransferTransaction,
+} from "../utils/transactions";
 
 function clampPercent(value) {
   const percent = Number(value ?? 0);
@@ -33,9 +40,47 @@ function getAccentOpacity(percent, range) {
   return 0.28 + relative * 0.72;
 }
 
+function shouldUseOriginalAmounts(data) {
+  return Boolean(data?.selected_account?.account_currency);
+}
+
+function createEditedBreakdown(data) {
+  const mode = shouldUseOriginalAmounts(data) ? "original" : "converted";
+  const categories = new Map();
+
+  getRawTransactions(data).forEach((transaction) => {
+    if (
+      transaction?.__excludeFromBudget ||
+      isTransferTransaction(transaction) ||
+      isIncomeTransaction(transaction)
+    ) {
+      return;
+    }
+
+    const category = getTransactionCategory(transaction);
+    const amount = Math.abs(getSignedAmount(transaction, mode));
+    categories.set(category, (categories.get(category) ?? 0) + amount);
+  });
+
+  const total = Array.from(categories.values()).reduce(
+    (sum, amount) => sum + amount,
+    0
+  );
+
+  return Array.from(categories.entries())
+    .map(([category, amount]) => ({
+      amount_converted: Number(amount.toFixed(2)),
+      category,
+      percent: total > 0 ? Number(((amount / total) * 100).toFixed(2)) : 0,
+    }))
+    .sort((left, right) => right.amount_converted - left.amount_converted);
+}
+
 export default function Categories({ data }) {
   const [showAll, setShowAll] = useState(false);
-  const categories = data?.global?.breakdown || [];
+  const categories = data?.__hasTransactionEdits
+    ? createEditedBreakdown(data)
+    : data?.global?.breakdown || [];
   const currency = getCurrency(data);
   const visibleCategories = showAll ? categories : categories.slice(0, 3);
   const canToggle = categories.length > 3;

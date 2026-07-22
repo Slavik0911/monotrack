@@ -158,10 +158,11 @@ export default function TransactionEditorModal({
             />
             <span>
               <span className="block text-[13px] font-semibold text-[#F4F1EA]">
-                Не враховувати в бюджеті
+                Не враховувати в бюджеті і графіках
               </span>
               <span className="mt-1 block text-[11px] text-[#777B85]">
-                Операція лишиться в таблиці, але не попадатиме в бюджетні суми.
+                Операція лишиться в таблиці, але не попадатиме в бюджет,
+                графік і категорії.
               </span>
             </span>
           </label>

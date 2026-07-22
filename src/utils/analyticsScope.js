@@ -47,7 +47,11 @@ function getDailyExpenseChart(transactions, mode = "converted") {
   const days = {};
 
   for (const transaction of transactions) {
-    if (transaction.is_transfer || transaction.type !== "expense") {
+    if (
+      transaction.__excludeFromBudget ||
+      transaction.is_transfer ||
+      transaction.type !== "expense"
+    ) {
       continue;
     }
 
@@ -87,7 +91,11 @@ function getCategoryBreakdown(transactions, totalSpent, mode = "original") {
   const categories = {};
 
   for (const transaction of transactions) {
-    if (transaction.is_transfer || transaction.type !== "expense") {
+    if (
+      transaction.__excludeFromBudget ||
+      transaction.is_transfer ||
+      transaction.type !== "expense"
+    ) {
       continue;
     }
 
@@ -109,7 +117,7 @@ function getCategoryBreakdown(transactions, totalSpent, mode = "original") {
 
 function sumTransactions(transactions, type, mode = "original") {
   return transactions.reduce((sum, transaction) => {
-    if (transaction.is_transfer || transaction.type !== type) {
+    if (transaction.__excludeFromBudget || transaction.is_transfer || transaction.type !== type) {
       return sum;
     }
 
@@ -187,14 +195,22 @@ export function createScopedAnalytics(data, selectedAccountId) {
         ? account.net_flow_original ?? account.net_flow_converted ?? income - spent
         : account.net_flow_converted ?? income - spent,
       transactions_count: account.transactions_count ?? transactions.length,
-      expenses_count:
-        account.expenses_count ??
-        transactions.filter((transaction) => transaction.type === "expense")
-          .length,
-      income_count:
-        account.income_count ??
-        transactions.filter((transaction) => transaction.type === "income")
-          .length,
+      expenses_count: shouldRecalculateFromTransactions
+        ? transactions.filter(
+          (transaction) =>
+            !transaction.__excludeFromBudget && transaction.type === "expense"
+        ).length
+        : account.expenses_count ??
+          transactions.filter((transaction) => transaction.type === "expense")
+            .length,
+      income_count: shouldRecalculateFromTransactions
+        ? transactions.filter(
+          (transaction) =>
+            !transaction.__excludeFromBudget && transaction.type === "income"
+        ).length
+        : account.income_count ??
+          transactions.filter((transaction) => transaction.type === "income")
+            .length,
       transfer_count:
         account.transfer_count ??
         transactions.filter(
