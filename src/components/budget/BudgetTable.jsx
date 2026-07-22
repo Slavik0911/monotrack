@@ -27,14 +27,14 @@ export default function BudgetTable({
         </button>
       </div>
 
-      <div className="hidden grid-cols-[minmax(170px,1.25fr)_110px_110px_110px_minmax(140px,1fr)_128px_74px] border-b border-[#1B1D23] px-4 py-3 text-[10px] font-medium uppercase tracking-[0.12em] text-[#6F737D] lg:grid">
+      <div className="hidden grid-cols-[minmax(170px,1.25fr)_110px_110px_110px_minmax(140px,1fr)_128px_96px] border-b border-[#1B1D23] px-4 py-3 text-[10px] font-medium uppercase tracking-[0.12em] text-[#6F737D] lg:grid">
         <span>Категорія</span>
         <span>Заплановано</span>
         <span>Витрачено</span>
         <span>Залишилось</span>
         <span>Прогрес</span>
         <span>Статус</span>
-        <span className="text-right">Дії</span>
+        <span className="pr-3 text-right">Дії</span>
       </div>
 
       {rows.length > 0 ? (

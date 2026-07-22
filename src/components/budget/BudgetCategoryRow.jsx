@@ -35,7 +35,7 @@ export default function BudgetCategoryRow({
   const hasBudget = Boolean(row.budget);
 
   return (
-    <div className="grid grid-cols-1 gap-3 border-b border-[#1B1D23] px-4 py-4 last:border-b-0 lg:grid-cols-[minmax(170px,1.25fr)_110px_110px_110px_minmax(140px,1fr)_128px_74px] lg:items-center">
+    <div className="grid grid-cols-1 gap-3 border-b border-[#1B1D23] px-4 py-4 last:border-b-0 lg:grid-cols-[minmax(170px,1.25fr)_110px_110px_110px_minmax(140px,1fr)_128px_96px] lg:items-center">
       <div className="flex min-w-0 items-center gap-3">
         <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#1A1B20] text-[16px]">
           {row.category.icon}
@@ -78,7 +78,7 @@ export default function BudgetCategoryRow({
         </span>
       </div>
 
-      <div className="flex items-center gap-2 lg:justify-end">
+      <div className="flex items-center gap-2 lg:justify-end lg:pr-3">
         <button
           className="flex h-8 w-8 items-center justify-center rounded-lg text-[#8B8F98] transition hover:bg-[#1A1B20] hover:text-[#F4F1EA]"
           type="button"
