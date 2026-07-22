@@ -1,9 +1,14 @@
 import { X } from "lucide-react";
 import { useMemo, useState } from "react";
+import Dropdown from "../ui/Dropdown";
 import { budgetCategories, calculatePlannedAmount } from "../../utils/budget";
 import { formatMoney } from "../../utils/format";
 
 const editableCategories = budgetCategories.filter((category) => category.id !== "other");
+const categoryOptions = editableCategories.map((category) => ({
+  label: `${category.icon} ${category.label}`,
+  value: category.id,
+}));
 
 export default function BudgetEditorModal({
   budget,
@@ -71,20 +76,15 @@ export default function BudgetEditorModal({
           </button>
         </div>
 
-        <label className="mt-5 block text-[12px] font-semibold text-[#F4F1EA]">
-          Категорія
-          <select
-            className="mt-2 h-11 w-full rounded-xl border border-[#24262D] bg-[#1A1B20] px-3 text-[13px] text-[#F4F1EA] outline-none"
+        <div className="mt-5">
+          <p className="text-[12px] font-semibold text-[#F4F1EA]">Категорія</p>
+          <Dropdown
+            className="mt-2"
+            options={categoryOptions}
             value={category}
-            onChange={(event) => setCategory(event.target.value)}
-          >
-            {editableCategories.map((item) => (
-              <option key={item.id} value={item.id}>
-                {item.icon} {item.label}
-              </option>
-            ))}
-          </select>
-        </label>
+            onChange={setCategory}
+          />
+        </div>
 
         <div className="mt-4">
           <p className="text-[12px] font-semibold text-[#F4F1EA]">Тип бюджету</p>

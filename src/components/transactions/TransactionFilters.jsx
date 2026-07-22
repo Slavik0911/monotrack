@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import {
-  Check,
   ChevronDown,
   ChevronUp,
   EyeOff,
   Search,
   SlidersHorizontal,
 } from "lucide-react";
+import Dropdown from "../ui/Dropdown";
 import CategoryChip from "./CategoryChip";
 
 const COMPACT_CATEGORY_LIMIT = 6;
@@ -32,74 +32,6 @@ function getPrimaryCategoryOptions(options, activeCategory) {
   }
 
   return [...compactOptions.slice(0, -1), activeOption];
-}
-
-function SortDropdown({ onChange, value }) {
-  const [open, setOpen] = useState(false);
-  const containerRef = useRef(null);
-  const selectedOption =
-    sortOptions.find((option) => option.value === value) ?? sortOptions[0];
-
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (!containerRef.current?.contains(event.target)) {
-        setOpen(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
-
-  return (
-    <div className="relative mt-3" ref={containerRef}>
-      <button
-        aria-expanded={open}
-        className={`flex h-10 w-full items-center justify-between rounded-xl border px-3 text-left text-[12px] transition ${
-          open
-            ? "border-[#E4BD67] bg-[#1A1B20] text-[#F4F1EA]"
-            : "border-[#24262D] bg-[#1A1B20] text-[#D7D9DE] hover:border-[#3A3D45] hover:text-[#F4F1EA]"
-        }`}
-        type="button"
-        onClick={() => setOpen((current) => !current)}
-      >
-        <span>{selectedOption.label}</span>
-        <ChevronDown
-          className={`h-4 w-4 text-[#E4BD67] transition ${
-            open ? "rotate-180" : ""
-          }`}
-          strokeWidth={1.8}
-        />
-      </button>
-
-      {open ? (
-        <div className="absolute left-0 right-0 top-12 z-50 overflow-hidden rounded-2xl border border-[#24262D] bg-[#101116] p-1">
-          {sortOptions.map((option) => {
-            const active = option.value === value;
-
-            return (
-              <button
-                className={`flex h-10 w-full items-center justify-between rounded-xl px-3 text-left text-[12px] transition ${
-                  active
-                    ? "bg-[#211D16] font-semibold text-[#E4BD67]"
-                    : "text-[#9EA3AF] hover:bg-[#1A1B20] hover:text-[#F4F1EA]"
-                }`}
-                key={option.value}
-                type="button"
-                onClick={() => {
-                  onChange(option.value);
-                  setOpen(false);
-                }}
-              >
-                <span>{option.label}</span>
-                {active ? <Check className="h-4 w-4" strokeWidth={1.8} /> : null}
-              </button>
-            );
-          })}
-        </div>
-      ) : null}
-    </div>
-  );
 }
 
 export default function TransactionFilters({
@@ -228,7 +160,9 @@ export default function TransactionFilters({
             <p className="mt-4 text-[12px] font-semibold text-[#F4F1EA]">
               Сортування
             </p>
-            <SortDropdown
+            <Dropdown
+              className="mt-3"
+              options={sortOptions}
               value={filters.sort}
               onChange={(sort) => onFiltersChange({ ...filters, sort })}
             />

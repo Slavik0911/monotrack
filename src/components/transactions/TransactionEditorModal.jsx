@@ -1,4 +1,6 @@
 import { EyeOff, RotateCcw, Save, X } from "lucide-react";
+import { useState } from "react";
+import Dropdown from "../ui/Dropdown";
 import { formatCardMask } from "../../utils/card";
 import { formatMoney } from "../../utils/format";
 import {
@@ -52,7 +54,13 @@ export default function TransactionEditorModal({
   const originalAccountId = String(
     transaction?.original_account_id ?? transaction?.account_id ?? ""
   );
-  const selectedAccountId = String(edit.account_id || transaction?.account_id || "");
+  const [selectedAccountId, setSelectedAccountId] = useState(() =>
+    String(edit.account_id || transaction?.account_id || "")
+  );
+  const accountOptions = asArray(accounts).map((account) => ({
+    label: getAccountLabel(account, currency),
+    value: account.account_id,
+  }));
   const shouldUseOriginal = shouldUseOriginalTransactionMoney(transaction);
   const transactionCurrency = getTransactionCurrency(
     transaction,
@@ -68,10 +76,9 @@ export default function TransactionEditorModal({
     event.preventDefault();
     const form = new FormData(event.currentTarget);
     const title = String(form.get("title") ?? "").trim();
-    const accountId = String(form.get("account_id") ?? "");
 
     onSave({
-      account_id: accountId !== originalAccountId ? accountId : "",
+      account_id: selectedAccountId !== originalAccountId ? selectedAccountId : "",
       exclude_from_budget: form.get("exclude_from_budget") === "on",
       hide_from_transactions: form.get("hide_from_transactions") === "on",
       title: title && title !== originalDescription ? title : "",
@@ -128,20 +135,18 @@ export default function TransactionEditorModal({
           />
         </label>
 
-        <label className="mt-4 block text-[12px] font-semibold text-[#F4F1EA]">
-          Зарахувати на картку
-          <select
-            className="mt-2 h-11 w-full rounded-xl border border-[#24262D] bg-[#1A1B20] px-3 text-[13px] text-[#F4F1EA] outline-none"
-            defaultValue={selectedAccountId}
-            name="account_id"
-          >
-            {asArray(accounts).map((account) => (
-              <option key={account.account_id} value={account.account_id}>
-                {getAccountLabel(account, currency)}
-              </option>
-            ))}
-          </select>
-        </label>
+        <div className="mt-4">
+          <p className="text-[12px] font-semibold text-[#F4F1EA]">
+            Зарахувати на картку
+          </p>
+          <Dropdown
+            className="mt-2"
+            menuClassName="max-h-[220px]"
+            options={accountOptions}
+            value={selectedAccountId}
+            onChange={setSelectedAccountId}
+          />
+        </div>
 
         <div className="mt-5 space-y-2">
           <label className="flex items-start gap-3 rounded-2xl border border-[#24262D] bg-[#101116] px-4 py-3">
